@@ -1,12 +1,27 @@
-/* Estilos gerais */
-html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden; /* Evita rolagem horizontal */
+:root {
+  --primary-color: #961914;
+  --dark-bg: #333;
+  --hover-bg: #444;
 }
 
+/* Reset básico */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Container e Logo */
 .container {
   display: flex;
   flex-direction: column;
@@ -22,13 +37,11 @@ html {
   text-decoration: none;
 }
 
-/* Menu desktop */
+/* Menu Desktop */
 .nav-desktop ul {
   display: flex;
   gap: 1rem;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-desktop ul li {
@@ -36,59 +49,59 @@ html {
 }
 
 .nav-desktop ul li a {
-  color: #961914;
+  color: var(--primary-color);
   font-family: "Lora", serif;
   text-decoration: none;
   font-size: 1.5rem;
+  position: relative;
 }
 
 .nav-desktop ul li a::after {
   content: "";
-  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: #961914;
+  background-color: var(--primary-color);
   transition: width 0.3s ease;
-  margin: 0 auto;
 }
 
 .nav-desktop ul li a:hover::after {
   width: 100%;
 }
 
-/* Menu mobile */
+/* Menu Mobile */
 .nav-mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #333;
+  background-color: var(--dark-bg);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: auto; /* Ajusta a altura para não ocupar toda a tela */
-  max-height: 80vh; /* Limita a altura máxima do menu */
+  max-height: 80vh;
   padding: 2rem 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
   z-index: 99;
-  overflow-y: auto; /* Permite rolagem se o conteúdo for maior que a altura */
+  overflow-y: auto;
 }
 
 .nav-mobile.active {
-  transform: translateY(0); /* Faz o menu descer suavemente */
+  transform: translateY(0);
 }
 
 .nav-mobile ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-mobile ul li {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid var(--hover-bg);
 }
 
 .nav-mobile ul li a {
@@ -100,22 +113,21 @@ html {
 }
 
 .nav-mobile ul li a:hover {
-  background-color: #444;
+  background-color: var(--hover-bg);
 }
 
-/* Botão de fechar dentro do menu */
 .menu-close {
   font-size: 1rem;
   background: none;
   border: none;
   color: #fff;
   cursor: pointer;
-  align-self: flex-end; /* Posiciona o botão no canto superior esquerdo */
+  align-self: flex-end;
   margin-bottom: 1rem;
-  margin-right: 4rem; /* Move o botão um pouco para a esquerda */
+  margin-right: 4rem;
 }
 
-/* Efeito de zoom suave no background */
+/* Efeito de Zoom no Background */
 @keyframes zoomBackground {
   0% {
     background-size: 100%;
@@ -129,10 +141,8 @@ html {
 }
 
 .Home {
-  background: url("./assets/background-home.webp");
+  background: url("./assets/background-home.webp") no-repeat center bottom;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
   width: 100%;
   height: 100vh;
   animation: zoomBackground 10s infinite ease-in-out;
@@ -140,63 +150,60 @@ html {
   z-index: 1;
 }
 
+/* Seção de Títulos */
 .titles {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 4rem;
-  width: 100%;
   text-align: center;
 }
 
 .title {
   font-size: 3rem;
   color: #fff;
-  font-family: "Cormorant Garamond", serif;
   line-height: 1.2;
 }
 
 .subtitle {
   font-size: 2rem;
   color: #fff;
-  font-family: "Cormorant Garamond", serif;
   line-height: 1.2;
 }
 
 .paragraph {
   color: #fff;
-  font-family: "Cormorant Garamond", serif;
   font-size: 1.5rem;
   line-height: 1.2;
 }
 
+/* Seção About */
 .about {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Responsividade */
+/* Responsividade para Mobile */
 @media (max-width: 768px) {
   .logo {
-    width: 10rem; /* Diminui o tamanho da logo no mobile */
-    margin: 0 auto; /* Centraliza a logo horizontalmente */
-    display: block; /* Garante que a logo seja tratada como um bloco */
+    width: 10rem;
+    margin: 0 auto;
+    display: block;
   }
 
   .menu-toggle {
-    display: block; /* Exibe o botão do menu mobile */
+    display: block;
   }
 
   .nav-desktop {
-    display: none; /* Esconde o menu desktop no mobile */
+    display: none;
   }
 
   .title {
     font-size: 1.6rem;
     margin-bottom: 1rem;
-    text-align: center;
     max-width: 90%;
     line-height: 1.4rem;
   }
@@ -204,42 +211,24 @@ html {
   .subtitle {
     font-size: 1.2rem;
     margin-bottom: 0.8rem;
-    text-align: center;
     max-width: 90%;
     line-height: 1rem;
   }
 
   .paragraph {
     font-size: 1rem;
-    line-height: 1.4;
     margin-bottom: 1.5rem;
     max-width: 80%;
-    text-align: center;
   }
 
   .titles {
     padding: 0;
-    gap: 0;
-    text-align: center;
   }
 
   .Home {
-    background-size: cover;
     background-position: center top;
     height: auto;
-    min-height: 30vh; /* Garante que a seção ocupe pelo menos a altura da tela */
-    padding: 2rem 0;
-    padding-bottom: 9rem;
-  }
-
-  .title,
-  .subtitle,
-  .paragraph {
-    text-align: center;
-    max-width: 90%;
-  }
-
-  .cursor {
-    display: none !important; /* Garante que o cursor não seja exibido */
+    min-height: 30vh;
+    padding: 2rem 0 9rem;
   }
 }
