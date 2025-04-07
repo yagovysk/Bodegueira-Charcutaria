@@ -132,6 +132,31 @@
 
 /* Responsividade para Mobile */
 @media (max-width: 768px) {
+  /* Centralização e Redimensionamento da Logo */
+  .logo {
+    width: 10rem;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Exibe apenas o botão de menu mobile e oculta o menu desktop */
+  .menu-toggle {
+    display: block;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    z-index: 1;
+    /* Garante renderização suave (uso do transform acelera com GPU) */
+    will-change: opacity, transform;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  /* Ajustes para Textos e Espaçamentos */
   .title {
     font-size: 1.6rem;
     margin-bottom: 1rem;
@@ -166,6 +191,7 @@
   /* Ajustes para a Seção .Home */
   .Home {
     background-position: center top;
+    height: auto;
     padding: 2rem 0 9rem;
     height: 27.2vh;
     animation: none !important;
