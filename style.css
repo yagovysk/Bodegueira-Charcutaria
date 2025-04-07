@@ -137,7 +137,6 @@
 /* Seção About */
 .about {
   display: flex;
-  align-items: center;
   justify-content: center;
   background-image: url("./assets/background-about.webp");
   background-size: cover;
@@ -194,12 +193,14 @@
     margin-bottom: 1.5rem;
     max-width: 80%;
     text-align: center;
+    background-color: #000000b6;
+    border-radius: 10px;
+    padding: 0.2rem;
   }
 
   .titles {
     padding: 0;
     gap: 0;
-    background-color: #00000091;
   }
 
   /* Ajustes para a Seção .Home */
@@ -234,5 +235,9 @@
 
   .nav-mobile.active {
     transform: translateY(0);
+  }
+
+  .about {
+    height: 30vh;
   }
 }
