@@ -11,10 +11,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap"
+      as="style"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+      media="print"
+      onload="this.media='all'"
+    />
     <title>Bodegueira Charcutaria & Cia - Brasília DF</title>
     <style>
       body {
@@ -78,6 +88,6 @@
         <h2>Sobre Nós</h2>
       </section>
     </main>
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
   </body>
 </html>
