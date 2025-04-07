@@ -101,18 +101,7 @@
         src: url(https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnM.ttf)
           format("truetype");
       }
-      :root {
-        --primary-color: #961914;
-        --dark-bg: #333;
-        --hover-bg: #444;
-      }
-      *,
-      ::after,
-      ::before {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+
       body,
       html {
         width: 100%;
@@ -120,136 +109,7 @@
         overflow-x: hidden;
         font-family: "Cormorant Garamond", serif;
       }
-      .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 100%;
-      }
-      .logo {
-        width: 20rem;
-        font-weight: 700;
-        text-decoration: none;
-      }
-      .nav-mobile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--dark-bg);
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        max-height: 80vh;
-        padding: 2rem 0;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transform: translateY(-100%);
-        z-index: 99;
-        overflow-y: auto;
-      }
-      .nav-mobile ul {
-        list-style: none;
-      }
-      .nav-mobile ul li {
-        border-bottom: 1px solid var(--hover-bg);
-      }
-      .nav-mobile ul li a {
-        display: block;
-        padding: 10px;
-        color: #fff;
-        text-decoration: none;
-        text-align: center;
-      }
-      .menu-close {
-        font-size: 1rem;
-        background: 0 0;
-        border: none;
-        color: #fff;
-        align-self: flex-end;
-        margin-bottom: 1rem;
-        margin-right: 4rem;
-      }
-      @keyframes zoomBackground {
-        0% {
-          background-size: 100%;
-        }
-        50% {
-          background-size: 105%;
-        }
-        100% {
-          background-size: 100%;
-        }
-      }
-      .Home {
-        background: url("assets/background-home.webp") center bottom no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-        animation: 10s ease-in-out infinite zoomBackground;
-        position: relative;
-        z-index: 1;
-      }
-      .titles {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 4rem;
-        text-align: center;
-      }
-      .title {
-        font-size: 3rem;
-        color: #fff;
-        line-height: 1.2;
-      }
-      .subtitle {
-        font-size: 2rem;
-        color: #fff;
-        line-height: 1.2;
-      }
-      .paragraph {
-        color: #fff;
-        font-size: 1.5rem;
-        line-height: 1.2;
-      }
-      @media (max-width: 768px) {
-        .logo {
-          width: 10rem;
-          margin: 0 auto;
-          display: block;
-        }
-        .menu-toggle {
-          display: block;
-        }
-        .title {
-          font-size: 1.6rem;
-          margin-bottom: 1rem;
-          max-width: 90%;
-          line-height: 1.4rem;
-        }
-        .subtitle {
-          font-size: 1.2rem;
-          margin-bottom: 0.8rem;
-          max-width: 90%;
-          line-height: 1rem;
-        }
-        .paragraph {
-          font-size: 1rem;
-          margin-bottom: 1.5rem;
-          max-width: 80%;
-        }
-        .titles {
-          padding: 0;
-        }
-        .Home {
-          background-position: center top;
-          height: auto;
-          padding: 2rem 0 9rem;
-        }
-      }
+
       body {
         margin: 0;
         font-family: "Cormorant Garamond", serif;
