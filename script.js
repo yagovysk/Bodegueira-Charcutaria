@@ -26,13 +26,13 @@ function typeWriter(elementId, text, speed, callback) {
 document.addEventListener("DOMContentLoaded", () => {
   typeWriter(
     "typewriter-h1",
-    "Bem-vindo a Bodegueira & Charcutaria",
+    "Bem-vindo a Bodegueira Charcutaria & Cia",
     100,
     () => {
       typeWriter("typewriter-h2", "A melhor do Distrito Federal!", 100, () => {
         typeWriter(
           "typewriter-p",
-          "Os melhores produtos que uma bodegueira pode oferecer, não percam nossas melhores ofertas!",
+          "Os melhores produtos que uma bodegaria pode oferecer, não percam nossas melhores ofertas!",
           100
         );
       });
