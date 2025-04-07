@@ -211,7 +211,7 @@ html {
 
   .paragraph {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.4;
     margin-bottom: 1.5rem;
     max-width: 80%;
     text-align: center;
@@ -229,7 +229,7 @@ html {
     height: auto;
     min-height: 30vh; /* Garante que a seção ocupe pelo menos a altura da tela */
     padding: 2rem 0;
-    padding-bottom: 7rem;
+    padding-bottom: 9rem;
   }
 
   .title,
