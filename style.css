@@ -228,7 +228,7 @@ body {
   .Home {
     background-position: center top;
     height: auto;
-    min-height: 30vh;
+
     padding: 2rem 0 9rem;
   }
 }
