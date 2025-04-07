@@ -2,10 +2,58 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <!-- Meta viewport para responsividade -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
+
+    <!-- Meta tags essenciais para SEO -->
+    <title>
+      Bodegueira Charcutaria & Cia - Brasília DF | Produtos, Sobre e Contato
+    </title>
+    <meta
+      name="description"
+      content="Bem-vindo à Bodegueira Charcutaria & Cia em Brasília DF! Conheça nossos produtos, história, e ofertas exclusivas. Experimente o melhor da charcutaria conosco."
+    />
+    <meta
+      name="keywords"
+      content="Bodegueira, Charcutaria, Brasília, Produtos, Comida, Ofertas"
+    />
+    <link rel="canonical" href="https://bodegueira-charcutaria-vicente-pires.netlify.app/" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="Bodegueira Charcutaria & Cia - Brasília DF"
+    />
+    <meta
+      property="og:description"
+      content="Conheça os melhores produtos e ofertas da Bodegueira Charcutaria & Cia em Brasília DF."
+    />
+    <meta
+      property="og:image"
+      content="https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/logo-bodegueira.webp"
+    />
+    <meta property="og:url" content="https://bodegueira-charcutaria-vicente-pires.netlify.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Bodegueira Charcutaria & Cia - Brasília DF"
+    />
+    <meta
+      name="twitter:description"
+      content="Descubra os melhores produtos da Bodegueira Charcutaria & Cia em Brasília DF."
+    />
+    <meta
+      name="twitter:image"
+      content="https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/logo-bodegueira.webp"
+    />
+
     <link
       rel="shortcut icon"
       href="./assets/logo-bodegueira.webp"
@@ -24,6 +72,33 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Dados Estruturados (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Bodegueira Charcutaria & Cia",
+        "image": "https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/logo-bodegueira.webp",
+        "url": "https://bodegueira-charcutaria-vicente-pires.netlify.app/",
+        "telephone": "+55 61 XXXX-XXXX",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Vicente Pires Feira do Produtor",
+          "addressLocality": "Brasília",
+          "addressRegion": "DF",
+          "postalCode": "72006-253",
+          "addressCountry": "BR"
+        },
+        "priceRange": "$$",
+        "servesCuisine": ["Charcutaria", "Salgados"],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "reviewCount": "152"
+        }
+      }
+    </script>
 
     <!-- CSS Crítico Inline (Desktop e Mobile) -->
     <style>
@@ -70,7 +145,6 @@
 
       /* Logo e Menu Desktop */
       .logo {
-        /* Dimensões padrão para desktop */
         width: 15rem;
       }
 
@@ -104,7 +178,6 @@
           display: block;
         }
 
-        /* Exibe botão de Menu Mobile */
         .menu-toggle {
           display: block;
           font-size: 2rem;
@@ -113,16 +186,13 @@
           color: var(--primary-color);
           cursor: pointer;
           z-index: 11;
-          /* Garante renderização suave via GPU */
           will-change: opacity, transform;
         }
 
-        /* Oculta Menu Desktop em Mobile */
         .nav-desktop {
           display: none;
         }
 
-        /* Menu Mobile com transição suave */
         .nav-mobile {
           display: flex;
           flex-direction: column;
@@ -174,7 +244,6 @@
           background-color: var(--hover-bg);
         }
 
-        /* Botão de fechar do Menu Mobile - posicionado à direita */
         .menu-close {
           display: block;
           font-size: 2rem;
@@ -198,8 +267,6 @@
     <noscript>
       <link rel="stylesheet" href="./style.css" />
     </noscript>
-
-    <title>Bodegueira Charcutaria & Cia - Brasília DF</title>
   </head>
   <body>
     <header class="menu" role="banner">
