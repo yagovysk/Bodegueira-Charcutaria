@@ -211,6 +211,7 @@ body {
     height: auto;
     padding: 2rem 0 9rem;
     height: 27.2vh;
+    animation: none !important;
   }
 
   /* Menu Mobile com Transformação GPU-ACELERADA */
