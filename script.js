@@ -27,18 +27,25 @@ function typeWriter(elementId, text, speed, callback) {
 }
 
 // Função para alternar o menu mobile
-function setupMobileMenu() {
+document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.querySelector(".menu-toggle");
+  const menuClose = document.querySelector(".menu-close");
   const navMobile = document.querySelector(".nav-mobile");
 
-  if (menuToggle && navMobile) {
+  if (menuToggle && menuClose && navMobile) {
+    // Abre o menu ao clicar no botão de menu
     menuToggle.addEventListener("click", () => {
-      navMobile.classList.toggle("active");
+      navMobile.classList.add("active");
+    });
+
+    // Fecha o menu ao clicar no botão "X"
+    menuClose.addEventListener("click", () => {
+      navMobile.classList.remove("active");
     });
   } else {
-    console.warn("Menu mobile ou botão de alternância não encontrado.");
+    console.warn("Menu mobile ou botões de alternância não encontrados.");
   }
-}
+});
 
 // Inicializa o efeito de digitação e o menu mobile
 document.addEventListener("DOMContentLoaded", () => {

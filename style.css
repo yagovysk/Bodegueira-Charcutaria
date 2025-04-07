@@ -57,24 +57,28 @@ html {
 }
 
 /* Menu mobile */
-.menu-toggle {
-  display: none;
-  font-size: 1.5rem;
-  background: none;
-  border: none;
-  color: #fff;
-  cursor: pointer;
+.nav-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto; /* Ajusta a altura para não ocupar toda a tela */
+  max-height: 80vh; /* Limita a altura máxima do menu */
+  padding: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 99;
+  overflow-y: auto; /* Permite rolagem se o conteúdo for maior que a altura */
 }
 
-.nav-mobile {
-  display: none;
-  flex-direction: column;
-  background-color: #333;
-  position: absolute;
-  top: 60px;
-  right: 20px;
-  width: 200px;
-  border: 1px solid #444;
+.nav-mobile.active {
+  transform: translateY(0); /* Faz o menu descer suavemente */
 }
 
 .nav-mobile ul {
@@ -92,10 +96,23 @@ html {
   padding: 10px;
   color: #fff;
   text-decoration: none;
+  text-align: center;
 }
 
 .nav-mobile ul li a:hover {
   background-color: #444;
+}
+
+/* Botão de fechar dentro do menu */
+.menu-close {
+  font-size: 1rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  align-self: flex-end; /* Posiciona o botão no canto superior esquerdo */
+  margin-bottom: 1rem;
+  margin-right: 4rem; /* Move o botão um pouco para a esquerda */
 }
 
 /* Efeito de zoom suave no background */
@@ -162,16 +179,18 @@ html {
 
 /* Responsividade */
 @media (max-width: 768px) {
-  .nav-desktop {
-    display: none;
+  .logo {
+    width: 10rem; /* Diminui o tamanho da logo no mobile */
+    margin: 0 auto; /* Centraliza a logo horizontalmente */
+    display: block; /* Garante que a logo seja tratada como um bloco */
   }
 
   .menu-toggle {
-    display: block;
+    display: block; /* Exibe o botão do menu mobile */
   }
 
-  .nav-mobile.active {
-    display: flex;
+  .nav-desktop {
+    display: none; /* Esconde o menu desktop no mobile */
   }
 
   .title {
@@ -209,7 +228,7 @@ html {
     background-position: center top;
     height: auto;
     min-height: 30vh; /* Garante que a seção ocupe pelo menos a altura da tela */
-    padding: 2rem 1rem;
+    padding: 2rem 0;
     padding-bottom: 7rem;
   }
 

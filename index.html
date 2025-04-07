@@ -44,28 +44,34 @@
         width: 100%;
         z-index: 10;
       }
+      @media (max-width: 768px) {
+        .menu {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+          padding: 1rem 0;
+        }
+      }
     </style>
   </head>
   <body>
     <header class="menu">
       <div class="container">
-        <a href="#"
-          ><img
+        <a href="#">
+          <img
             class="logo"
             src="./assets/logo-bodegueira.png"
             alt="Logo"
             loading="lazy"
-        /></a>
-        <nav class="nav-desktop">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#products">Produtos</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
-        </nav>
-        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+          />
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menu">
+          ☰
+          <!-- Ícone do menu -->
+        </button>
         <nav class="nav-mobile">
+          <button class="menu-close" aria-label="Fechar menu">✕</button>
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">Sobre</a></li>
