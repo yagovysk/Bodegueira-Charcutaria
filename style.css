@@ -151,59 +151,70 @@ body {
 
 /* Responsividade para Mobile */
 @media (max-width: 768px) {
+  /* Centralização e Redimensionamento da Logo */
   .logo {
     width: 10rem;
     margin: 0 auto;
     display: block;
   }
 
+  /* Exibe apenas o botão de menu mobile e oculta o menu desktop */
   .menu-toggle {
-    display: block; /* Exibe o botão do menu mobile no mobile */
+    display: block;
     font-size: 2rem;
     background: none;
     border: none;
     color: var(--primary-color);
     cursor: pointer;
     z-index: 1;
+    /* Garante renderização suave (uso do transform acelera com GPU) */
+    will-change: opacity, transform;
   }
 
   .nav-desktop {
-    display: none; /* Oculta no mobile */
+    display: none;
   }
 
+  /* Ajustes para Textos e Espaçamentos */
   .title {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     max-width: 90%;
-    line-height: 1.4rem;
+    line-height: 1.4;
+    text-align: center;
   }
 
   .subtitle {
     font-size: 1.2rem;
     margin-bottom: 0.8rem;
     max-width: 90%;
-    line-height: 1rem;
+    line-height: 1;
+    text-align: center;
   }
 
   .paragraph {
     font-size: 1rem;
     margin-bottom: 1.5rem;
     max-width: 80%;
+    text-align: center;
   }
 
   .titles {
     padding: 0;
+    gap: 0;
+    background-color: #00000091;
   }
 
+  /* Ajustes para a Seção .Home */
   .Home {
     background-position: center top;
     height: auto;
-
     padding: 2rem 0 9rem;
   }
 
+  /* Menu Mobile com Transformação GPU-ACELERADA */
   .nav-mobile {
-    display: flex; /* Exibe o menu mobile no mobile */
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -219,6 +230,7 @@ body {
     transition: transform 0.3s ease-in-out;
     z-index: 99;
     overflow-y: auto;
+    will-change: transform; /* Otimização para transição */
   }
 
   .nav-mobile.active {
