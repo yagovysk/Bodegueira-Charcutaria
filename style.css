@@ -24,7 +24,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
   width: 100%;
 }
 
@@ -54,9 +53,7 @@ body {
   font-size: 1.5rem;
 }
 
-/* Adiciona animação de linha ao hover nos itens do menu */
-.nav-desktop ul li a::after,
-.nav-mobile ul li a::after {
+.nav-desktop ul li a::after {
   content: "";
   display: block;
   width: 0;
@@ -66,8 +63,7 @@ body {
   margin: 0 auto;
 }
 
-.nav-desktop ul li a:hover::after,
-.nav-mobile ul li a:hover::after {
+.nav-desktop ul li a:hover::after {
   width: 100%;
 }
 
@@ -116,53 +112,63 @@ body {
 /* Efeito de zoom suave no background */
 @keyframes zoomBackground {
   0% {
-    background-size: 100%; /* Tamanho inicial */
+    background-size: 100%;
   }
   50% {
-    background-size: 105%; /* Zoom */
+    background-size: 105%;
   }
   100% {
-    background-size: 100%; /* Volta ao tamanho inicial */
+    background-size: 100%;
   }
 }
 
 .Home {
   background: url("./assets/background-home.png");
-  background-size: cover; /* Ajusta o background para cobrir toda a área */
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom; /* Move a imagem para cima */
-  width: 100%; /* Garante que ocupa 100% da largura */
-  height: 100vh; /* Garante que ocupa 100% da altura da viewport */
+  background-position: center bottom;
+  width: 100%;
+  height: 100vh;
   animation: zoomBackground 10s infinite ease-in-out;
   position: relative;
   z-index: 1;
-  margin: 0; /* Remove margens */
-  padding: 0; /* Remove paddings */
 }
 
 .titles {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-top: 4rem;
+  width: 100%;
+  text-align: center;
 }
 
 .title {
   font-size: 3rem;
   color: #fff;
   font-family: "Cormorant Garamond", serif;
-  line-height: 0;
+  line-height: 1.2;
 }
 
 .subtitle {
   font-size: 2rem;
   color: #fff;
   font-family: "Cormorant Garamond", serif;
-  line-height: 0;
+  line-height: 1.2;
 }
 
 .paragraph {
   color: #fff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Responsividade */
@@ -177,5 +183,56 @@ body {
 
   .nav-mobile.active {
     display: flex;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    max-width: 90%;
+    line-height: 1.4rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    max-width: 90%;
+    line-height: 1rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    max-width: 80%;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+  }
+
+  .titles {
+    padding: 0;
+    gap: 0;
+    text-align: center;
+  }
+
+  .Home {
+    background-size: cover;
+    background-position: center top;
+    height: auto;
+    min-height: 30vh; /* Garante que a seção ocupe pelo menos a altura da tela */
+    padding: 2rem 1rem;
+    padding-bottom: 7rem;
+  }
+
+  .title,
+  .subtitle,
+  .paragraph {
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .cursor {
+    display: none !important; /* Garante que o cursor não seja exibido */
   }
 }
