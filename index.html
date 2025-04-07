@@ -58,6 +58,39 @@
         width: 100%;
         margin: 0 auto;
       }
+
+      .menu {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: var(--primary-color);
+        padding: 10px 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+      }
+
+      /* Estilos críticos para telas mobile */
+      @media (max-width: 768px) {
+        .logo {
+          width: 10rem;
+          margin: 0 auto;
+          display: block;
+        }
+        .menu-toggle {
+          display: block;
+          font-size: 2rem;
+          background: none;
+          border: none;
+          color: var(--primary-color);
+          cursor: pointer;
+          z-index: 1;
+          will-change: opacity, transform;
+        }
+        .nav-desktop {
+          display: none;
+        }
+      }
     </style>
 
     <!-- CSS não crítico carregado de forma não bloqueante -->
@@ -74,20 +107,32 @@
     <title>Bodegueira Charcutaria & Cia - Brasília DF</title>
   </head>
   <body>
-    <header class="menu">
+    <header class="menu" role="banner">
       <div class="container">
-        <a href="#">
+        <a href="#" aria-label="Página Inicial">
           <img
             class="logo"
             src="./assets/logo-bodegueira.webp"
-            alt="Logo"
+            alt="Logo da Bodegueira Charcutaria & Cia"
             loading="lazy"
           />
         </a>
         <!-- Botão do Menu Mobile -->
-        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        <button
+          class="menu-toggle"
+          aria-label="Abrir menu"
+          aria-controls="mobile-navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
         <!-- Menu Mobile -->
-        <nav class="nav-mobile">
+        <nav
+          class="nav-mobile"
+          id="mobile-navigation"
+          role="navigation"
+          aria-label="Menu Mobile"
+        >
           <button class="menu-close" aria-label="Fechar menu">✕</button>
           <ul>
             <li><a href="#home">Home</a></li>
@@ -97,7 +142,7 @@
           </ul>
         </nav>
         <!-- Menu Desktop -->
-        <nav class="nav-desktop">
+        <nav class="nav-desktop" role="navigation" aria-label="Menu Principal">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">Sobre</a></li>
@@ -107,15 +152,15 @@
         </nav>
       </div>
     </header>
-    <main>
-      <section class="Home">
+    <main role="main">
+      <section class="Home" id="home">
         <article class="titles">
           <h1 class="title"><span id="typewriter-h1"></span></h1>
           <h2 class="subtitle"><span id="typewriter-h2"></span></h2>
           <p class="paragraph"><span id="typewriter-p"></span></p>
         </article>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <h2>Sobre Nós</h2>
       </section>
     </main>
