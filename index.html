@@ -337,18 +337,49 @@
               alt="Foto da bodegaria mostrando seus produtos (queijo, salames e geleias) e atendentes em ação."
             />
             <p class="paragraph-about">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Deleniti, maiores? Impedit maiores voluptas dolorem aut, amet
-              totam sunt. Quos porro perspiciatis ratione praesentium
-              consequatur hic illo aliquam facilis ex eveniet.
+              A Bodegueira é mais do que um simples empório especializado em
+              charcutaria, queijos e doces. A Bodegueira tem alma, a minha alma!
+              Procuro através dela trazer para Brasília produtos nacionais de
+              excelência em gastronomia.
+              <br />
+              Quero mostrar a todos como nosso país é rico na produção e na
+              preparação de produtos deliciosos, num ramo em que antes só os
+              importados tinham valor. <br />
+              Eu sou Cláudia Milagres, amo cozinhar e já fui dona de um bistrô
+              mega charmoso, onde eu servia pratos diferenciados de minha
+              autoria. <br />
+              Depois, por mais alguns anos, me dediquei a fazer brigadeiros
+              gourmet e bolos especiais. <br />
+              Volto agora renovada e com mais garra e experiência para fazer
+              esse novo projeto voar longe! Fico feliz em tratar com respeito e
+              carinho os meus clientes, oferecendo a eles o melhor. Desejo que
+              confiem na minha seleção de delícias. <br />
+              A Bodegueira é para todos!
             </p>
           </div>
         </article>
-        <a href="">Veja nossos produtos!</a>
+        <a class="about-button" href="">Veja nossos produtos!</a>
       </section>
       <section class="products" id="products">
         <h3>Confira Nossos Produtos</h3>
-        <div class="container-products"></div>
+        <div class="categories">
+          <!-- Dropdown de Categorias -->
+          <button class="dropdown-button">Selecione uma Categoria</button>
+          <ul class="dropdown-menu">
+            <li data-category="DoceDeLeite">Doce de leite</li>
+            <li data-category="Licores">Licores</li>
+            <li data-category="Torrones">Torrones</li>
+          </ul>
+        </div>
+
+        <!-- Carrossel de Produtos -->
+        <div class="carousel-container">
+          <div class="carousel">
+            <!-- Os cards de produtos serão inseridos dinamicamente aqui -->
+          </div>
+          <button class="carousel-prev">❮</button>
+          <button class="carousel-next">❯</button>
+        </div>
       </section>
     </main>
     <script src="./script.js" defer></script>
