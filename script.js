@@ -18,42 +18,77 @@ function typeWriter(elementId, text, speed, callback) {
         i++;
         lastTime = currentTime;
       } else {
-        if (callback) {
-          setTimeout(callback, 1000);
-        }
+        if (callback) setTimeout(callback, 1000);
         return;
       }
     }
     requestAnimationFrame(type);
   }
+
   requestAnimationFrame(type);
 }
 
-// Configuração do menu mobile e inicialização
+// Carrinho de compras
 const cart = [];
 
+// Toast de feedback
 function showMessage(msg) {
   const toast = document.createElement("div");
   toast.textContent = msg;
-  toast.style.position = "fixed";
-  toast.style.bottom = "2rem";
-  toast.style.left = "50%";
-  toast.style.transform = "translateX(-50%)";
-  toast.style.background = "#333";
-  toast.style.color = "#fff";
-  toast.style.padding = "0.75rem 1.5rem";
-  toast.style.borderRadius = "10px";
-  toast.style.boxShadow = "0 2px 10px rgba(0, 0, 0, 0.2)";
-  toast.style.zIndex = "9999";
-  toast.style.opacity = "0";
-  toast.style.transition = "opacity 0.3s ease";
-  document.body.appendChild(toast);
+  Object.assign(toast.style, {
+    position: "fixed",
+    bottom: "2rem",
+    left: "50%",
+    transform: "translateX(-50%)",
+    background: "#333",
+    color: "#fff",
+    padding: "0.75rem 1.5rem",
+    borderRadius: "10px",
+    boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
+    zIndex: "9999",
+    opacity: "0",
+    transition: "opacity 0.3s ease",
+  });
 
+  document.body.appendChild(toast);
   setTimeout(() => (toast.style.opacity = "1"), 10);
   setTimeout(() => {
     toast.style.opacity = "0";
     setTimeout(() => toast.remove(), 300);
   }, 2000);
+}
+
+function updateCart() {
+  const cartItemsContainer = document.getElementById("cart-items");
+  const cartTotalEl = document.getElementById("cart-total");
+  const modalCartItems = document.getElementById("modal-cart-items");
+  const modalCartTotal = document.getElementById("modal-cart-total");
+  const cartCountEl = document.getElementById("cart-count");
+
+  if (cartItemsContainer) cartItemsContainer.innerHTML = "";
+  if (modalCartItems) modalCartItems.innerHTML = "";
+
+  let total = 0;
+  let quantity = 0;
+
+  cart.forEach((product) => {
+    total += product.price * product.quantity;
+    quantity += product.quantity;
+
+    const li = document.createElement("li");
+    li.textContent = `${product.name} x ${product.quantity} - R$ ${(
+      product.price * product.quantity
+    ).toFixed(2)}`;
+
+    if (modalCartItems) modalCartItems.appendChild(li);
+    if (cartItemsContainer) cartItemsContainer.appendChild(li.cloneNode(true));
+  });
+
+  if (cartTotalEl) cartTotalEl.textContent = total.toFixed(2);
+  if (modalCartTotal) modalCartTotal.textContent = total.toFixed(2);
+  if (cartCountEl) cartCountEl.textContent = quantity;
+
+  localStorage.setItem("cart", JSON.stringify(cart));
 }
 
 function addToCart(product) {
@@ -71,46 +106,24 @@ function removeFromCart(name) {
   const index = cart.findIndex((p) => p.name === name);
   if (index !== -1) {
     cart.splice(index, 1);
+    updateCart();
   }
-  updateCart();
-}
-
-function updateCart() {
-  const cartItemsContainer = document.getElementById("cart-items");
-  const cartTotalEl = document.getElementById("cart-total");
-  cartItemsContainer.innerHTML = "";
-  let total = 0;
-
-  cart.forEach((product) => {
-    total += product.price * product.quantity;
-
-    const li = document.createElement("li");
-    li.innerHTML = `
-      ${product.name} x ${product.quantity} - R$ ${(
-      product.price * product.quantity
-    ).toFixed(2)}
-      <button onclick="removeFromCart('${product.name}')">🗑️</button>
-    `;
-    cartItemsContainer.appendChild(li);
-  });
-
-  cartTotalEl.textContent = total.toFixed(2);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Menu Mobile
   const menuToggle = document.querySelector(".menu-toggle");
   const menuClose = document.querySelector(".menu-close");
   const navMobile = document.querySelector(".nav-mobile");
 
-  if (menuToggle && menuClose && navMobile) {
-    menuToggle.addEventListener("click", () =>
-      navMobile.classList.add("active")
-    );
-    menuClose.addEventListener("click", () =>
-      navMobile.classList.remove("active")
-    );
-  }
+  menuToggle?.addEventListener("click", () =>
+    navMobile?.classList.add("active")
+  );
+  menuClose?.addEventListener("click", () =>
+    navMobile?.classList.remove("active")
+  );
 
+  // Digitação
   typeWriter(
     "typewriter-h1",
     "Bem-vindo a Bodegueira Charcutaria & Cia",
@@ -126,6 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   );
 
+  // Produtos por categoria
   const categories = {
     DoceDeLeite: [
       {
@@ -136,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Doce de Leite de Ovelha 260g",
-        description: "Nosso campeão de vendas!.",
+        description: "Nosso campeão de vendas!",
         image: "./assets/produtos/DoceDeLeiteDeOvelha/doce-ovelha-260.webp",
         price: 19.9,
       },
@@ -182,12 +196,12 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentIndex = 0;
   let currentCategory = [];
 
-  dropdownButton.addEventListener("click", () => {
+  dropdownButton?.addEventListener("click", () => {
     dropdownMenu.style.display =
       dropdownMenu.style.display === "block" ? "none" : "block";
   });
 
-  dropdownMenu.addEventListener("click", (e) => {
+  dropdownMenu?.addEventListener("click", (e) => {
     if (e.target.tagName === "LI") {
       const category = e.target.dataset.category;
       currentCategory = categories[category];
@@ -210,35 +224,52 @@ document.addEventListener("DOMContentLoaded", () => {
         <p><strong>R$ ${product.price.toFixed(2)}</strong></p>
         <button>Adicionar ao Carrinho</button>
       `;
-      card.querySelector("button").addEventListener("click", () => {
-        addToCart(product);
-      });
+      card
+        .querySelector("button")
+        .addEventListener("click", () => addToCart(product));
       carousel.appendChild(card);
     });
     updateCarousel();
   }
 
   function updateCarousel() {
-    const offset = currentIndex * -310; // Largura do card + margem
+    const cardWidth = carousel.querySelector(".card")?.offsetWidth || 310;
+    const offset = currentIndex * -cardWidth;
     carousel.style.transform = `translateX(${offset}px)`;
   }
 
-  prevButton.addEventListener("click", () => {
+  prevButton?.addEventListener("click", () => {
     if (currentIndex > 0) {
       currentIndex--;
       updateCarousel();
     }
   });
 
-  nextButton.addEventListener("click", () => {
+  nextButton?.addEventListener("click", () => {
     if (currentIndex < currentCategory.length - 1) {
       currentIndex++;
       updateCarousel();
     }
   });
 
-  const checkoutButton = document.getElementById("checkout-button");
-  checkoutButton.addEventListener("click", () => {
+  // Modal do carrinho
+  // Abrir o modal
+  const cartIcon = document.getElementById("cart-icon");
+  const cartModal = document.getElementById("cart-modal");
+  const modalCheckoutButton = document.getElementById("modal-checkout-button");
+  const closeCartModal = document.getElementById("close-cart-modal");
+  const clearCartButton = document.getElementById("clear-cart-button");
+
+  cartIcon?.addEventListener("click", () => {
+    cartModal?.classList.remove("hidden"); // Remove a classe 'hidden' para exibir o modal
+  });
+
+  // Fechar o modal
+  closeCartModal?.addEventListener("click", () => {
+    cartModal?.classList.add("hidden"); // Adiciona a classe 'hidden' para esconder o modal
+  });
+
+  modalCheckoutButton?.addEventListener("click", () => {
     if (cart.length === 0) {
       alert("Seu carrinho está vazio!");
       return;
@@ -256,7 +287,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const encodedMsg = encodeURIComponent(msg);
     const phone = "5561XXXXXXXX";
-    const url = `https://wa.me/${phone}?text=${encodedMsg}`;
-    window.open(url, "_blank");
+    window.open(`https://wa.me/${phone}?text=${encodedMsg}`, "_blank");
   });
+
+  clearCartButton?.addEventListener("click", () => {
+    cart.length = 0; // Esvazia o array sem reatribuir
+    updateCart();
+    showMessage("Carrinho esvaziado com sucesso!");
+  });
+
+  // Carrega carrinho salvo do localStorage
+  const savedCart = localStorage.getItem("cart");
+  if (savedCart) {
+    cart.push(...JSON.parse(savedCart));
+    updateCart();
+  }
 });

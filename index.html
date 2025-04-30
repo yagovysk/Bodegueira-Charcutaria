@@ -320,6 +320,37 @@
         </nav>
       </div>
     </header>
+    <div id="cart-icon-wrapper">
+      <button id="cart-icon" aria-label="Ver carrinho">
+        🛒 <span id="cart-count">0</span>
+      </button>
+    </div>
+
+    <div
+      id="cart-modal"
+      class="hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="cart-modal-title"
+    >
+      <div class="cart-modal-content">
+        <h3>🛒 Seu Carrinho</h3>
+        <ul id="modal-cart-items"></ul>
+        <p>
+          <strong>Total:</strong> R$ <span id="modal-cart-total">0.00</span>
+        </p>
+        <button id="modal-checkout-button">Finalizar no WhatsApp</button>
+        <button
+          id="close-cart-modal"
+          aria-label="Fechar modal"
+          class="fechar-modal"
+        >
+          Fechar
+        </button>
+        <button id="clear-cart-button">🗑️ Esvaziar Carrinho</button>
+      </div>
+    </div>
+
     <main role="main">
       <section class="Home" id="home">
         <article class="titles">
@@ -358,7 +389,7 @@
             </p>
           </div>
         </article>
-        <a class="about-button" href="">Veja nossos produtos!</a>
+        <a class="about-button" href="#products">Veja nossos produtos!</a>
       </section>
       <section class="products" id="products">
         <h3>Confira Nossos Produtos</h3>
@@ -377,12 +408,6 @@
           <button class="carousel-prev">❮</button>
           <button class="carousel-next">❯</button>
         </div>
-      </section>
-      <section class="cart" id="cart">
-        <h3>🛒 Carrinho de Compras</h3>
-        <ul id="cart-items"></ul>
-        <p><strong>Total:</strong> R$ <span id="cart-total">0.00</span></p>
-        <button id="checkout-button">Finalizar no WhatsApp</button>
       </section>
     </main>
     <script src="./script.js" defer></script>
