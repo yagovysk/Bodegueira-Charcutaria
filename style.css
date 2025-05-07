@@ -333,6 +333,12 @@ body {
   font-size: 1.2rem;
 }
 
+.dropdown-button:hover {
+  background-color: var(--primary-color-light);
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -353,6 +359,7 @@ body {
   padding: 10px;
   cursor: pointer;
   text-align: center;
+  font-family: "Lora", serif;
 }
 
 .dropdown-menu li:hover {
@@ -377,6 +384,8 @@ body {
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #fff;
   width: 20rem;
   border-radius: 10px;
@@ -396,20 +405,35 @@ body {
 .card h4 {
   font-size: 1.1rem;
   margin: 0.5rem 0;
+  font-family: "Lora", serif;
 }
 
 .card p {
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .card button {
   padding: 0.5rem;
   background: var(--primary-color);
   border: none;
+  border-radius: 10px !important;
   color: white;
   border-radius: var(--radius);
   cursor: pointer;
+  width: 15rem;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.card button:hover {
+  background: var(--primary-color-light);
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+.card p strong {
+  font-family: "Cormorant Garamond", serif; /* para o preço */
 }
 
 /* Botões do Carrossel */
@@ -430,6 +454,12 @@ body {
 
 .carousel-prev {
   left: 10px;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background-color: var(--primary-color-light);
+  transition: 0.3s ease;
 }
 
 .carousel-next {
