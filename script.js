@@ -275,6 +275,235 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
     ],
+    BrazilianFlavor: [
+      {
+        name: "Bisnaga Cebola Roxa Caramelizada",
+        description: "A melhor.",
+        image:
+          "./assets/produtos/BrazilianFlavor/flavor-cebola-roxa-caramelizada.webp",
+        price: 29.9,
+      },
+      {
+        name: "Bisnaga Geleia de frutas vermelhas zero",
+        description: "A melhor geleia.",
+        image:
+          "./assets/produtos/BrazilianFlavor/geleia-flavor-frutas-vermelhas-zero.webp",
+        price: 29.9,
+      },
+      {
+        name: "Bisnaga Geleia de goiaba com pimenta amazônica",
+        description: "A melhor geleia.",
+        image:
+          "./assets/produtos/BrazilianFlavor/geleia-flavor-goiaba-com-pimenta-amazonia.webp",
+        price: 29.9,
+      },
+      {
+        name: "Bisnaga Geleia laranja com vinho e cravo",
+        description: "A melhor geleia.",
+        image:
+          "./assets/produtos/BrazilianFlavor/geleia-flavor-laranja-com-vinho-cravo.webp",
+        price: 29.9,
+      },
+      {
+        name: "Bisnaga Geleia de morango com baunilha",
+        description: "A melhor geleia.",
+        image:
+          "./assets/produtos/BrazilianFlavor/geleia-flavor-morango-com-baunilha.webp",
+        price: 29.9,
+      },
+      {
+        name: "Bisnaga Geleia de morango zero adição de açúcar",
+        description: "A melhor geleia.",
+        image:
+          "./assets/produtos/BrazilianFlavor/geleia-flavor-morango-sem-adicao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Bisnaga Mel silvestre",
+        description: "O melhor mel.",
+        image: "./assets/produtos/BrazilianFlavor/mel-flavor-silvestre.webp",
+        price: 29.9,
+      },
+    ],
+    CanaDaTerra: [
+      {
+        name: "Cachaça Cana da Terra",
+        description: "3 madeiras.",
+        image: "./assets/produtos/CanaDaTerra/cana-da-terra-3-madeiras.webp",
+        price: 29.9,
+      },
+    ],
+    CasaBianchi: [
+      {
+        name: "Doce de leite de ovelha 160g",
+        description: "O melhor doce de leite.",
+        image: "./assets/produtos/CasaBianchi/doce-ovelha-160.webp",
+        price: 29.9,
+      },
+      {
+        name: "Doce de leite de ovelha 260g",
+        description: "O melhor doce de leite.",
+        image: "./assets/produtos/CasaBianchi/doce-ovelha-260.webp",
+        price: 29.9,
+      },
+      {
+        name: "Doce de leite de ovelha 660g",
+        description: "O melhor doce de leite.",
+        image: "./assets/produtos/CasaBianchi/doce-ovelha-660.webp",
+        price: 29.9,
+      },
+      {
+        name: "Licor de doce de leite com pistache 250ml",
+        description: "O melhor doce de licor.",
+        image: "./assets/produtos/CasaBianchi/licor-com-pistache-250ml.webp",
+        price: 29.9,
+      },
+      {
+        name: "Licor creme de doce de leite de ovelha 250ml",
+        description: "O melhor doce de leite.",
+        image:
+          "./assets/produtos/CasaBianchi/licor-creme-doce-ovelha-250ml.webp",
+        price: 29.9,
+      },
+    ],
+    ChefNBoss: [
+      {
+        name: "Barbecue com bacon",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/barbecue-bacon.webp",
+        price: 29.9,
+      },
+      {
+        name: "Barbecue mineiro com café",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/barbecue-mineiro-cafe.webp",
+        price: 29.9,
+      },
+      {
+        name: "Barbecue mineiro com goiabada",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/barbecue-mineiro-com-goiabada.webp",
+        price: 29.9,
+      },
+      {
+        name: "Barbecue com pimenta biquinho",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/barbecue-pimenta-biquinho.webp",
+        price: 29.9,
+      },
+      {
+        name: "Berry Christmas",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/berry-christmas.webp",
+        price: 29.9,
+      },
+      {
+        name: "Chutney",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/chutney.webp",
+        price: 29.9,
+      },
+      {
+        name: "Creme agridoce",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/creme-agridoce.webp",
+        price: 29.9,
+      },
+      {
+        name: "Fumaça Líquida",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/fumaca-liquida.webp",
+        price: 29.9,
+      },
+      {
+        name: "Jalapeño com pimenta especial",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/jalapeno-pimentinha-especial.webp",
+        price: 29.9,
+      },
+      {
+        name: "Molho inglês defumado",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/molho-ingles-defumado.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mostarda Tropical",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/mostarda-tropical.webp",
+        price: 29.9,
+      },
+      {
+        name: "Pimentinha com limão",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/pimentinha-com-limao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salsa Argentina",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/salsa-argentina.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salsa Muerte",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/salsa-muerte.webp",
+        price: 29.9,
+      },
+    ],
+    ColdSmoke: [
+      {
+        name: "Sal marinho defumado",
+        description: "O melhor bacon.",
+        image: "./assets/produtos/ColdSmoke/sal-marinho-defumado.webp",
+        price: 29.9,
+      },
+    ],
+    DietHouse: [
+      {
+        name: "Doce de Abóbora com côco",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-abobora-com-coco.webp",
+        price: 29.9,
+      },
+      {
+        name: "Doce de Figo",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-figo.webp",
+        price: 29.9,
+      },
+      {
+        name: "Doce de goiaba",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-goiaba.webp",
+        price: 29.9,
+      },
+      {
+        name: "Goiabada",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-goiabada.webp",
+        price: 29.9,
+      },
+      {
+        name: "Doce de Mamão",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-mamao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Doce de Manga",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-manga.webp",
+        price: 29.9,
+      },
+      {
+        name: "Doce de Pêssego",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-pessego.webp",
+        price: 29.9,
+      },
+    ],
   };
 
   const dropdownMenu = document.querySelector(".dropdown-menu");
