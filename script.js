@@ -141,48 +141,138 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Produtos por categoria
   const categories = {
-    DoceDeLeite: [
+    AlhoNegro: [
       {
-        name: "Doce de Leite de Ovelha 160g",
+        name: "Geleia de Alho Negro",
         description: "Nosso campeão de vendas!",
-        image: "./assets/produtos/DoceDeLeiteDeOvelha/doce-ovelha-160.webp",
+        image: "./assets/produtos/AlhoNegro/geleia-de-alho-negro.webp",
         price: 14.9,
       },
       {
-        name: "Doce de Leite de Ovelha 260g",
+        name: "Molho de alho Negro 160g",
         description: "Nosso campeão de vendas!",
-        image: "./assets/produtos/DoceDeLeiteDeOvelha/doce-ovelha-260.webp",
+        image: "./assets/produtos/AlhoNegro/molho-alho-negro-160g.webp",
         price: 19.9,
       },
-    ],
-    Licores: [
       {
-        name: "Licor de Doce de leite de ovelha com Pistache 250ml",
-        description:
-          "O melhor sabor de licor com doce de leite de ovelha e pistache.",
-        image: "./assets/produtos/Licor/licor-com-pistache-250ml.webp",
+        name: "Molho de alho Negro 80g",
+        description: "O melhot molho.",
+        image: "./assets/produtos/AlhoNegro/molho-de-alho-negro.webp",
         price: 29.9,
       },
       {
-        name: "Licor de Creme de Doce de Leite de Ovelha 250ml",
-        description:
-          "O melhor sabor de licor creme de doce de leite de ovelha.",
-        image: "./assets/produtos/licor/licor-creme-doce-ovelha-250ml.webp",
+        name: "Pasta de alho Negro 80g",
+        description: "O melhor sabor.",
+        image: "./assets/produtos/AlhoNegro/pasta-alho-negro.webp",
+        price: 28.9,
+      },
+      {
+        name: "Pesto de alho Negro 80g",
+        description: "O melhor sabor.",
+        image: "./assets/produtos/AlhoNegro/pesto-alho-negro.webp",
+        price: 28.9,
+      },
+      {
+        name: "Sal de umami de alho Negro 100g",
+        description: "O melhor sabor.",
+        image: "./assets/produtos/AlhoNegro/sal-de-umami.webp",
+        price: 28.9,
+      },
+      {
+        name: "Sal grosso de alho Negro",
+        description: "O melhor sabor.",
+        image: "./assets/produtos/AlhoNegro/sal-grosso-de-alho-negro.webp",
+        price: 28.9,
+      },
+      {
+        name: "Vinagre de alho Negro",
+        description: "O melhor sabor.",
+        image: "./assets/produtos/AlhoNegro/vinagre-alho-negro.webp",
         price: 28.9,
       },
     ],
-    Torrones: [
+    Amaze: [
       {
-        name: "Torrone Figo com Amendoas",
-        description: "O melhor torrone está aqui de figo com amendoas.",
-        image: "./assets/produtos/Torrones/torrone-amendoas.webp",
+        name: "Mel Black Forest 50g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-black-forest-50g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mel Black Forest 200g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-black-forest-200g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mel Cacau 70% 200g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-cacau-70-200g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mel Cacau com laranja 200g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-cacau-com-laranja-200g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mel Citrus 200g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-citrus-200g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mel Orange Blossom 50g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-orange-blossom-50g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mel Orange Blossom 200g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-orange-blossom-200g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mel White blossom 50g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-white-blossom-50g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mel White Blossom 200g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Amaze/mel-amaze-white-blossom-200g.webp",
+        price: 29.9,
+      },
+    ],
+    AowsMininu: [
+      {
+        name: "Bananinha",
+        description: "A melhor bananinha.",
+        image: "./assets/produtos/AowsMininu/bananinha.webp",
         price: 17.9,
       },
       {
-        name: "Torrone com",
-        description: "Torrone clássico com cream cheese.",
-        image: "./assets/bolo-red-velvet.jpg",
-        price: 16.5,
+        name: "Caipirinha",
+        description: "A melhor caipirinha.",
+        image: "./assets/produtos/AowsMininu/caipirinha.webp",
+        price: 17.9,
+      },
+    ],
+    Ayslla: [
+      {
+        name: "Coco defumado com mel",
+        description: "O melhor doce.",
+        image: "./assets/produtos/Ayslla/coco-defumado-com-mel.webp",
+        price: 29.9,
+      },
+      {
+        name: "Laranja desidratada com mel",
+        description: "O melhor doce.",
+        image: "./assets/produtos/Ayslla/laranja-desidratada-com-mel.webp",
+        price: 29.9,
       },
     ],
   };
@@ -209,8 +299,40 @@ document.addEventListener("DOMContentLoaded", () => {
       loadProducts();
       dropdownMenu.style.display = "none";
       dropdownButton.textContent = e.target.textContent;
+
+      document.querySelector(".carousel-arrows")?.classList.remove("hidden");
     }
   });
+
+  let carouselInterval;
+
+  function resetCarouselLoopTemporariamente() {
+    clearInterval(carouselInterval);
+    setTimeout(startCarouselLoop, 1000); // reinicia o loop após 1s
+  }
+
+  function startCarouselLoop() {
+    if (window.innerWidth > 768 && currentCategory.length > 0) {
+      clearInterval(carouselInterval);
+
+      const card = carousel.querySelector(".card");
+      const container = document.querySelector(".carousel-container");
+
+      if (!card || !container) return;
+
+      const cardWidth = card.offsetWidth + 16;
+      const totalCards = currentCategory.length;
+
+      const maxIndex = totalCards - 1;
+
+      carouselInterval = setInterval(() => {
+        currentIndex = currentIndex >= maxIndex ? 0 : currentIndex + 1;
+        updateCarousel();
+      }, 3000);
+    } else {
+      clearInterval(carouselInterval);
+    }
+  }
 
   function loadProducts() {
     carousel.innerHTML = "";
@@ -218,25 +340,59 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = document.createElement("div");
       card.classList.add("card");
       card.innerHTML = `
-        <img src="${product.image}" alt="${product.name}" />
-        <h4>${product.name}</h4>
-        <p>${product.description}</p>
-        <p><strong>R$ ${product.price.toFixed(2)}</strong></p>
-        <button>Adicionar ao Carrinho</button>
-      `;
+      <img src="${product.image}" alt="${product.name}" />
+      <h4>${product.name}</h4>
+      <p>${product.description}</p>
+      <p><strong>R$ ${product.price.toFixed(2)}</strong></p>
+      <button>Adicionar ao Carrinho</button>
+    `;
       card
         .querySelector("button")
         .addEventListener("click", () => addToCart(product));
       carousel.appendChild(card);
     });
     updateCarousel();
+    enableMobileScroll();
+    startCarouselLoop(); // 👈 CHAME AQUI
   }
 
-  function updateCarousel() {
-    const cardWidth = carousel.querySelector(".card")?.offsetWidth || 310;
-    const offset = currentIndex * -cardWidth;
-    carousel.style.transform = `translateX(${offset}px)`;
+  function enableMobileScroll() {
+    if (window.innerWidth <= 768) {
+      carousel.style.overflowX = "auto";
+      carousel.style.scrollSnapType = "x mandatory";
+      carousel.style.scrollBehavior = "smooth";
+      carousel.style.transform = "none";
+    } else {
+      carousel.style.overflowX = "hidden";
+    }
   }
+
+  loadProducts();
+  enableMobileScroll();
+
+  function updateCarousel() {
+    const card = carousel.querySelector(".card");
+    if (!card || window.innerWidth <= 768) return;
+
+    const offset = currentIndex * card.offsetWidth;
+    carousel.scrollTo({ left: offset, behavior: "smooth" });
+  }
+
+  prevButton?.addEventListener("click", () => {
+    resetCarouselLoopTemporariamente();
+
+    currentIndex =
+      currentIndex > 0 ? currentIndex - 1 : currentCategory.length - 1;
+    updateCarousel();
+  });
+
+  nextButton?.addEventListener("click", () => {
+    resetCarouselLoopTemporariamente();
+
+    currentIndex =
+      currentIndex < currentCategory.length - 1 ? currentIndex + 1 : 0;
+    updateCarousel();
+  });
 
   prevButton?.addEventListener("click", () => {
     if (currentIndex > 0) {
@@ -246,8 +402,15 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   nextButton?.addEventListener("click", () => {
-    if (currentIndex < currentCategory.length - 1) {
+    const card = carousel.querySelector(".card");
+    const totalCards = currentCategory.length;
+    if (!card) return;
+
+    if (currentIndex < totalCards - 1) {
       currentIndex++;
+      updateCarousel();
+    } else {
+      currentIndex = 0;
       updateCarousel();
     }
   });
@@ -302,4 +465,9 @@ document.addEventListener("DOMContentLoaded", () => {
     cart.push(...JSON.parse(savedCart));
     updateCart();
   }
+
+  window.addEventListener("resize", () => {
+    enableMobileScroll();
+    startCarouselLoop();
+  });
 });
