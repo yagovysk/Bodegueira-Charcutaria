@@ -324,6 +324,9 @@ body {
 }
 
 .dropdown-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   background-color: var(--primary-color);
   color: #fff;
   padding: 10px 20px;
@@ -333,6 +336,16 @@ body {
   font-size: 1.2rem;
 }
 
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+/* Gira a seta para cima quando o menu está visível */
+.dropdown-button.open .arrow-icon {
+  transform: rotate(180deg);
+}
+
 .dropdown-button:hover {
   background-color: var(--primary-color-light);
   transform: scale(1.05);
@@ -340,10 +353,11 @@ body {
 }
 
 .dropdown-menu {
-  display: none;
+  display: block; /* mudamos de "none" para "block" para manter a altura controlada */
   position: absolute;
-  height: 60vh;
-  overflow-y: scroll;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
@@ -355,6 +369,13 @@ body {
   margin: 0;
   width: 200px;
   z-index: 10;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.dropdown-menu.show {
+  max-height: 400px;
+  overflow-y: scroll;
+  opacity: 1;
 }
 
 .dropdown-menu li {
@@ -362,6 +383,18 @@ body {
   cursor: pointer;
   text-align: center;
   font-family: "Lora", serif;
+}
+
+.li-arrow {
+  transition: transform 0.3s ease;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+/* Quando o item estiver ativo (selecionado) */
+.dropdown-menu li.active .li-arrow {
+  transform: rotate(90deg);
+  color: #fff;
 }
 
 .dropdown-menu li:hover {
@@ -473,6 +506,13 @@ body {
 
 .carousel-arrows.hidden {
   display: none;
+}
+
+.dropdown-menu li.active {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Responsividade para Mobile */

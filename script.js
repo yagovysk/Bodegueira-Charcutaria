@@ -725,6 +725,157 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
     ],
+    ImperioGourmet: [
+      {
+        name: "Salaminho Italiano com Azeitona",
+        description: "O melhor salaminho.",
+        image:
+          "./assets/produtos/ImperioGourmet/salaminho-italiano-com-azeitona.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salaminho Italiano com Pimenta",
+        description: "O melhor salaminho.",
+        image:
+          "./assets/produtos/ImperioGourmet/salaminho-italianp-com-pimenta.webp",
+        price: 29.9,
+      },
+    ],
+    Jatiboca: [
+      {
+        name: "Bala de Goiabada",
+        description: "A melhor Bala.",
+        image: "./assets/produtos/Jatiboca/bala-goiabada.webp",
+        price: 29.9,
+      },
+    ],
+    Lapetisse: [
+      {
+        name: "Grissini Alho e Salsa",
+        description: "O melhor biscoito.",
+        image: "./assets/produtos/L'apetisse/grissini-alho-salsa.webp",
+        price: 29.9,
+      },
+      {
+        name: "Grissini tradicional",
+        description: "O melhor biscoito.",
+        image: "./assets/produtos/L'apetisse/grissini-tradicional.webp",
+        price: 29.9,
+      },
+    ],
+    LaPopote: [
+      {
+        name: "Patê de Figado de Pato com geleia de Goiaba",
+        description: "O melhor patê.",
+        image:
+          "./assets/produtos/LaPopote/pate-de-figado-com-geleia-de-goiaba.webp",
+        price: 29.9,
+      },
+      {
+        name: "Patê de Figado de Pato com geleia de Cebola",
+        description: "O melhor patê.",
+        image:
+          "./assets/produtos/LaPopote/pate-de-figado-de-pato-com-geleia-de-cebola.webp",
+        price: 29.9,
+      },
+      {
+        name: "Patê de Figado de Pato",
+        description: "O melhor patê.",
+        image: "./assets/produtos/LaPopote/pate-de-figado-pato.webp",
+        price: 29.9,
+      },
+      {
+        name: "Patê de Ovas de Tainha",
+        description: "O melhor patê.",
+        image: "./assets/produtos/LaPopote/pate-de-ovas-de-tainha.webp",
+        price: 29.9,
+      },
+      {
+        name: "Patê de Pato",
+        description: "O melhor patê.",
+        image: "./assets/produtos/LaPopote/pate-de-pato.webp",
+        price: 29.9,
+      },
+      {
+        name: "Patê de Porco",
+        description: "O melhor patê.",
+        image: "./assets/produtos/LaPopote/pate-de-porco.webp",
+        price: 29.9,
+      },
+    ],
+    LetsCook: [
+      {
+        name: "Geleia de Amora com Hortelã",
+        description: "A melhor Geleia.",
+        image: "./assets/produtos/LetsCook/lets-cook-amora-com-hortela.webp",
+        price: 29.9,
+      },
+      {
+        name: "Geleia de Frutas Amarelas",
+        description: "A melhor Geleia.",
+        image: "./assets/produtos/LetsCook/lets-cook-frutas-amarelas.webp",
+        price: 29.9,
+      },
+      {
+        name: "Melado de Cana Balsamico",
+        description: "O melhor melado.",
+        image:
+          "./assets/produtos/LetsCook/lets-cook-melado-de-cana-balsamico.webp",
+        price: 29.9,
+      },
+      {
+        name: "Geleia de Morango com Manjericão",
+        description: "A melhor Geleia.",
+        image:
+          "./assets/produtos/LetsCook/lets-cook-morango-com-manjericao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Geleia de Pimenta Defumada",
+        description: "A melhor Geleia.",
+        image: "./assets/produtos/LetsCook/lets-cook-pimenta-defumada.webp",
+        price: 29.9,
+      },
+      {
+        name: "Geleia Tamara com Laranja",
+        description: "A melhor Geleia.",
+        image: "./assets/produtos/LetsCook/lets-cook-tamara-com-laranja.webp",
+        price: 29.9,
+      },
+      {
+        name: "Geleia de Tomate com Manjericão",
+        description: "A melhor Geleia.",
+        image:
+          "./assets/produtos/LetsCook/lets-cook-tomate-com-manjericao.webp",
+        price: 29.9,
+      },
+    ],
+    ManteigariaNacional: [
+      {
+        name: "Manteiga Ghee com Alecrim",
+        description: "A melhor manteiga.",
+        image: "./assets/produtos/ManteigariaNacional/manteiga-ghee-alecrim.webp",
+        price: 29.9,
+      },
+       {
+        name: "Manteiga Ghee com Noz Moscada e Pimenta Seca",
+        description: "A melhor manteiga.",
+        image: "./assets/produtos/ManteigariaNacional/manteiga-ghee-noz-moscada-pimenta-seca.webp",
+        price: 29.9,
+      },
+       {
+        name: "Manteiga Ghee com Tamara",
+        description: "A melhor manteiga.",
+        image: "./assets/produtos/ManteigariaNacional/manteiga-ghee-tamara.webp",
+        price: 29.9,
+      },
+       {
+        name: "Manteiga Ghee",
+        description: "A melhor manteiga.",
+        image: "./assets/produtos/ManteigariaNacional/manteiga-ghee.webp",
+        price: 29.9,
+      },
+    ],
   };
 
   const dropdownMenu = document.querySelector(".dropdown-menu");
@@ -737,18 +888,29 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentCategory = [];
 
   dropdownButton?.addEventListener("click", () => {
-    dropdownMenu.style.display =
-      dropdownMenu.style.display === "block" ? "none" : "block";
+    const isOpen = dropdownMenu.classList.toggle("show");
+    dropdownButton.classList.toggle("open", isOpen); // ← ativa classe `.open`
   });
 
   dropdownMenu?.addEventListener("click", (e) => {
-    if (e.target.tagName === "LI") {
-      const category = e.target.dataset.category;
+    const target = e.target.closest("li");
+    if (target) {
+      const category = target.dataset.category;
       currentCategory = categories[category];
       currentIndex = 0;
       loadProducts();
-      dropdownMenu.style.display = "none";
-      dropdownButton.textContent = e.target.textContent;
+      dropdownMenu.classList.remove("show");
+      dropdownButton.classList.remove("open");
+
+      // Marca a li clicada como ativa
+      document
+        .querySelectorAll(".dropdown-menu li")
+        .forEach((li) => li.classList.remove("active"));
+      target.classList.add("active");
+
+      // Atualiza texto do botão, mantendo a seta
+      dropdownButton.childNodes[0].textContent =
+        target.textContent.trim().replace("›", "") + " ";
 
       document.querySelector(".carousel-arrows")?.classList.remove("hidden");
     }
