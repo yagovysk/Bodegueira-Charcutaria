@@ -342,6 +342,8 @@ body {
 .dropdown-menu {
   display: none;
   position: absolute;
+  height: 60vh;
+  overflow-y: scroll;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);

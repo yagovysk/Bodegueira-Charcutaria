@@ -146,37 +146,37 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Geleia de Alho Negro",
         description: "Nosso campeão de vendas!",
         image: "./assets/produtos/AlhoNegro/geleia-de-alho-negro.webp",
-        price: 14.9,
+        price: 54.0,
       },
       {
         name: "Molho de alho Negro 160g",
         description: "Nosso campeão de vendas!",
         image: "./assets/produtos/AlhoNegro/molho-alho-negro-160g.webp",
-        price: 19.9,
+        price: 54.0,
       },
       {
         name: "Molho de alho Negro 80g",
         description: "O melhot molho.",
         image: "./assets/produtos/AlhoNegro/molho-de-alho-negro.webp",
-        price: 29.9,
+        price: 26.0,
       },
       {
         name: "Pasta de alho Negro 80g",
         description: "O melhor sabor.",
         image: "./assets/produtos/AlhoNegro/pasta-alho-negro.webp",
-        price: 28.9,
+        price: 48.0,
       },
       {
-        name: "Pesto de alho Negro 80g",
+        name: "Pesto de alho Negro 140g",
         description: "O melhor sabor.",
         image: "./assets/produtos/AlhoNegro/pesto-alho-negro.webp",
-        price: 28.9,
+        price: 56.0,
       },
       {
         name: "Sal de umami de alho Negro 100g",
         description: "O melhor sabor.",
         image: "./assets/produtos/AlhoNegro/sal-de-umami.webp",
-        price: 28.9,
+        price: 18.0,
       },
       {
         name: "Sal grosso de alho Negro",
@@ -501,6 +501,227 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Doce de Pêssego",
         description: "O melhor doce.",
         image: "./assets/produtos/DietHouse/diet-house-pessego.webp",
+        price: 29.9,
+      },
+    ],
+    DocesFazendaDeMinas: [
+      {
+        name: "Ambrosia 420g",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DocesFazendaDeMinas/ambrosia-420g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Ambrosia sem adição de açúcar 430g",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/DocesFazendaDeMinas/ambrosia-sem-adicao-430g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Bananada sem adição de açúcar",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DocesFazendaDeMinas/bananada-sem-adicao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Cocada sem adição de açúcar",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DocesFazendaDeMinas/cocada-sem-adicao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Fondant de leite sem adição de açúcar e sem lactose",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/DocesFazendaDeMinas/fondant-de-leite-sem-adicao-sem-lactose.webp",
+        price: 29.9,
+      },
+      {
+        name: "Jam cascão sem adição de açúcar",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/DocesFazendaDeMinas/jam-cascao-sem-adicao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Pé de moça sem adição de açúcar",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/DocesFazendaDeMinas/pe-de-moca-sem-adicao.webp",
+        price: 29.9,
+      },
+    ],
+    EmporioLessa: [
+      {
+        name: "Doce de leite com raspas de limão 400g",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/EmporioLessa/doce-de-leite-raspas-limao-400g.webp",
+        price: 29.9,
+      },
+      {
+        name: "Molho de rapadura",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/EmporioLessa/emporio-lessa-molho-de-rapadura.webp",
+        price: 29.9,
+      },
+    ],
+    FamilleChaulet: [
+      {
+        name: "Salame Colonial",
+        description: "O melhor salame.",
+        image: "./assets/produtos/FamilleChaulet/salame-colonial.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salame com queijo",
+        description: "O melhor salame.",
+        image: "./assets/produtos/FamilleChaulet/salame-com-queijo.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salame de avestruz",
+        description: "O melhor salame.",
+        image: "./assets/produtos/FamilleChaulet/salame-de-avestruz.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salame de Carne Bovina",
+        description: "O melhor salame.",
+        image: "./assets/produtos/FamilleChaulet/salame-de-carne-bovina.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salame de Javali",
+        description: "O melhor salame.",
+        image: "./assets/produtos/FamilleChaulet/salame-de-javali.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salame Gaúcho",
+        description: "O melhor salame.",
+        image: "./assets/produtos/FamilleChaulet/salame-gaucho.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salame tipo alemão",
+        description: "O melhor salame.",
+        image: "./assets/produtos/FamilleChaulet/salame-tipo-alemao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Salame tipo argentino",
+        description: "O melhor salame.",
+        image: "./assets/produtos/FamilleChaulet/salame-tipo-argentino.webp",
+        price: 29.9,
+      },
+    ],
+    Frentano: [
+      {
+        name: "Pesto de azeitona preta",
+        description: "O melhor pesto.",
+        image:
+          "./assets/produtos/Frentano/frentano-pesto-de-azeitona-preta.webp",
+        price: 29.9,
+      },
+      {
+        name: "Sardella",
+        description: "A melhor sardella.",
+        image: "./assets/produtos/Frentano/frentano-sardella.webp",
+        price: 29.9,
+      },
+    ],
+    IlCuoco: [
+      {
+        name: "Risotto de Abóbora sache",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-abobora-sache.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Alho Poró sache",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-alho-poro-sache.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Alla Carbonara pote",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-alla-carbonara.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Alla milanese sache",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-alla-milanese-sache.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto Alla Napoletana sache",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-alla-napoletana-sache.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto Alla Napoletana Pote",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-alla-napoletana.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto Alle Funghi pote",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-alle-funghi.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Alle Verdure sache",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-alle-verdure-sache.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Beterraba sache",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-beterraba-sache.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Damasco com Amêndoas",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-damasco-com-amendoas.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Funghi sache",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-funghi-sache.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Limão Siciliano pote",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-limao-siciliano.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Maçã e Castanhas pote",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-maca-e-castanhas.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto de Pera e Nozes pote",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-pera-e-nozes.webp",
+        price: 29.9,
+      },
+      {
+        name: "Risotto Limão Siciliano sache",
+        description: "O melhor risotto.",
+        image: "./assets/produtos/IlCuoco/risotto-siciliano-sache.webp",
         price: 29.9,
       },
     ],
