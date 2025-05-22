@@ -529,6 +529,7 @@ body {
 .footer-content {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -539,6 +540,20 @@ body {
   font-size: 1.5rem;
   text-align: center;
   font-family: "Lora", serif;
+}
+
+.footer-content img {
+  width: 35rem;
+  border-radius: 10px;
+}
+
+.footer-content a {
+  display: flex;
+  transition: 0.3s ease;
+}
+
+.footer-content a:hover {
+  transform: scale(1.05);
 }
 
 .footer-content p {
