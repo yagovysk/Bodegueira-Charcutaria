@@ -107,7 +107,7 @@ body {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  z-index: 100;
+  z-index: 10;
 }
 
 #cart-icon {
@@ -708,6 +708,7 @@ body {
     cursor: pointer;
     align-self: flex-end;
     margin: 0 1rem 1rem 0;
+    z-index: 100;
   }
 
   /* Ajuste Opcional para Seção About em Mobile */
@@ -777,8 +778,13 @@ body {
     scroll-snap-align: start;
   }
 
+  #cart-icon-wrapper {
+    left: 1rem;
+  }
+
   .cart {
     padding: 0.5rem;
+    z-index: 1;
   }
 
   .cart ul li {
@@ -789,5 +795,13 @@ body {
 
   .card img {
     height: 140px;
+  }
+
+  .categories {
+    padding: 0 1rem;
+  }
+
+  .footer-content img {
+    width: 22rem;
   }
 }
