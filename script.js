@@ -1842,7 +1842,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .toFixed(2)}`;
 
     const encodedMsg = encodeURIComponent(msg);
-    const phone = "5561XXXXXXXX";
+    const phone = "5561981894200";
     window.open(`https://wa.me/${phone}?text=${encodedMsg}`, "_blank");
   });
 
