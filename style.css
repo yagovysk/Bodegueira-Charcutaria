@@ -521,9 +521,17 @@ body {
   box-shadow: 0 -2px 20px #462323;
   display: flex;
   gap: 0;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0;
+}
+
+.footer p {
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .footer-content {
