@@ -306,19 +306,19 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Doce de leite de ovelha 160g",
         description: "O melhor doce de leite.",
         image: "./assets/produtos/CasaBianchi/doce-ovelha-160.webp",
-        price: 33.0,
+        price: 35.0,
       },
       {
         name: "Doce de leite de ovelha 260g",
         description: "O melhor doce de leite.",
         image: "./assets/produtos/CasaBianchi/doce-ovelha-260.webp",
-        price: 44.0,
+        price: 46.0,
       },
       {
         name: "Doce de leite de ovelha 660g",
         description: "O melhor doce de leite.",
         image: "./assets/produtos/CasaBianchi/doce-ovelha-660.webp",
-        price: 83.0,
+        price: 85.0,
       },
       {
         name: "Doce de leite com raspas de limão 400g",
@@ -386,8 +386,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Doce de Leite com café 400g",
         description: "O melhor doce.",
-        image:
-          "./assets/produtos/ReceitaCaipira/doce-de-leite-cafe-400g.webp",
+        image: "./assets/produtos/ReceitaCaipira/doce-de-leite-cafe-400g.webp",
         price: 29.9,
       },
       {
@@ -1097,14 +1096,14 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Licor de doce de leite com pistache 250ml",
         description: "O melhor doce de licor.",
         image: "./assets/produtos/CasaBianchi/licor-com-pistache-250ml.webp",
-        price: 59.0,
+        price: 69.0,
       },
       {
         name: "Licor creme de doce de leite de ovelha 250ml",
         description: "O melhor doce de leite.",
         image:
           "./assets/produtos/CasaBianchi/licor-creme-doce-ovelha-250ml.webp",
-        price: 29.9,
+        price: 54.0,
       },
       {
         name: "Bananinha",
@@ -1241,18 +1240,18 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Queijos: [
       {
-        name: "Queijo com Goiabada Pequeno",
+        name: "Queijo provolone desidratado com goiabada 215g",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/SagradoQueijo/queijo-com-goiabada-pequeno.webp",
-        price: 29.9,
+        price: 38.0,
       },
       {
-        name: "Queijo com Goiabada Grande",
+        name: "Queijo provolone desidratado com goiabada 350g",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/SagradoQueijo/queijo-com-goiabada-grande.webp",
-        price: 29.9,
+        price: 53.0,
       },
     ],
     Manteigas: [
@@ -1669,8 +1668,15 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentCategory = [];
 
   dropdownButton?.addEventListener("click", () => {
-    const isOpen = dropdownMenu.classList.toggle("show");
-    dropdownButton.classList.toggle("open", isOpen); // ← ativa classe `.open`
+    const isOpen = dropdownMenu.classList.contains("show");
+
+    if (isOpen) {
+      dropdownMenu.classList.remove("show");
+      dropdownButton.classList.remove("open");
+    } else {
+      dropdownMenu.classList.add("show");
+      dropdownButton.classList.add("open");
+    }
   });
 
   dropdownMenu?.addEventListener("click", (e) => {

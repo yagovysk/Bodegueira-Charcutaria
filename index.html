@@ -311,11 +311,6 @@
             <li><a href="#about">Sobre</a></li>
             <li><a href="#products">Produtos</a></li>
             <li><a href="#footer">Como nos achar</a></li>
-            <div id="cart-icon-wrapper">
-              <button id="cart-icon" aria-label="Ver carrinho">
-              🛒 <span id="cart-count">0</span>
-              </button>
-            </div>
           </ul>
         </nav>
         <!-- Menu Desktop -->
@@ -404,12 +399,12 @@
         <h3>Confira Nossos Produtos</h3>
 
         <div class="categories">
-          <button class="dropdown-button">
+          <button class="dropdown-button open">
             Conheça as melhores marcas dos nossos produtos
             <span class="arrow-icon">▼</span>
           </button>
 
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu show">
             <li data-category="AlhoNegro">
               Alho Negro <span class="li-arrow">›</span>
             </li>
@@ -467,22 +462,49 @@
         </div>
       </section>
       <footer id="footer" class="footer">
+        <div class="social-links">
+          <h4 class="title-footer">Nossas Redes sociais</h4>
+          <div class="social-content">
+            <a href="mailto:bodegueira.charcutariadf@gmail.com" aria-label="Enviar e-mail">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M2 4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4zm2 0v.01L12 13 20 4.01V4H4zm16 2.243L13.06 14.2a1 1 0 0 1-1.12 0L4 6.243V20h16V6.243z"/>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/bodegueiradf/?hl=pt-br" target="_blank" aria-label="Instagram Bodegueira Charcutaria">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm8.75 2.25a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-1.5 0v-.01a.75.75 0 0 1 .75-.75zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
         <article class="footer-content">
           <h4>Nossa Localização</h4>
           <a href="https://www.google.com/maps/place/Feira+do+Produtor+de+Vicente+Pires/@-15.813116,-48.015425,19.75z/data=!4m6!3m5!1s0x935a32337b765cdd:0x157113a959aae8d8!8m2!3d-15.8129879!4d-48.015312!16s%2Fg%2F1ptxlb_js?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
             <img src="./assets/maps-feira.webp" alt="Imagem do google maps da localização da feira do produtor Vicente Pires" />
           </a>
           <p>
-            St. Hab. Vicente Pires 04 A - Taguatinga, Brasília - DF, 72006-253
+            St. Hab. Vicente Pires 04 A - Feira do Produtor, Taguatinga, Brasília - DF, 72006-253
           </p>
         </article>
         <div class="footer-content">
-          <h4>Entre em contato conosco</h4>
-          <p>(61) 98189-4200</p>
+          <h4>Nossos Horários de Funcionamento</h4>
+          <p>De quinta à domingo das 8:00h às 15:00h</p>
+          <p>Ceasa  aos sábados das 5:30h às 12:00h</p>
         </div>
-        <p>&copy; Todos os direitos reservados a Bodegueira Charcutaria & Cia.</p>
+        <p class="copy">&copy; Todos os direitos reservados a Bodegueira Charcutaria & Cia.</p>
       </footer>
     </main>
     <script src="./script.js" defer></script>
+    <a
+    href="https://wa.me/5561981894200"
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Conversar no WhatsApp"
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="28" viewBox="0 0 24 24" width="28">
+      <path d="M0 0h24v24H0z" fill="none"/>
+      <path d="M12 2C6.48 2 2 6.48 2 12c0 1.93.51 3.74 1.39 5.31L2 22l4.72-1.38C8.29 21.49 10.1 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm.11 17.5c-1.82 0-3.58-.55-5.06-1.57l-.36-.23-2.8.82.84-2.73-.25-.4C3.97 14.46 3.5 13.27 3.5 12c0-4.68 3.82-8.5 8.5-8.5S20.5 7.32 20.5 12s-3.82 8.5-8.39 8.5zM16.7 14.45c-.25-.13-1.47-.73-1.7-.81-.23-.08-.4-.13-.56.13s-.65.81-.8.98c-.15.17-.3.19-.55.06-.25-.13-1.06-.39-2.02-1.25-.75-.66-1.25-1.47-1.4-1.72-.15-.25-.02-.38.11-.5.11-.11.25-.3.37-.45.12-.15.15-.25.23-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.77-1.83-.2-.48-.4-.42-.55-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.66.31-.23.25-.86.84-.86 2.05s.89 2.38 1.01 2.55c.13.17 1.75 2.67 4.25 3.74.59.25 1.05.4 1.41.51.59.19 1.12.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.18-.48-.31z"/>
+    </svg>
+  </a>
   </body>
 </html>
