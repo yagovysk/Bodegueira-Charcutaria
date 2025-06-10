@@ -303,7 +303,7 @@ body {
   justify-content: center;
   background-image: url("./assets/background-products.webp");
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   gap: 2rem;
   padding: 2rem 0;
 }
@@ -862,4 +862,44 @@ body {
   .footer-content img {
     width: 22rem;
   }
+}
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  gap: 0.5rem;
+  max-width: 600px;
+  padding: 0 1rem;
+}
+
+#product-search {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  outline: none;
+}
+
+#search-button {
+  padding: 0.3rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+#search-button:hover {
+  background-color: var(--primary-color-light);
+  transform: scale(1.05);
+}
+
+.lupa-icon {
+  fill: #fff;
+  width: 2rem;
+  height: 2rem;
 }

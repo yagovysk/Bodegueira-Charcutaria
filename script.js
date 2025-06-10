@@ -2694,4 +2694,51 @@ document.addEventListener("DOMContentLoaded", () => {
     enableMobileScroll();
     startCarouselLoop();
   });
+
+  const searchInput = document.getElementById("product-search");
+  const searchButton = document.getElementById("search-button");
+
+  searchButton?.addEventListener("click", () => {
+    const query = searchInput.value.trim().toLowerCase();
+
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+    const dropdownButton = document.querySelector(".dropdown-button");
+    const arrowIcon = document.querySelector(".arrow-icon");
+
+    if (dropdownMenu?.classList.contains("show")) {
+      dropdownMenu.classList.remove("show");
+    }
+
+    if (dropdownButton?.classList.contains("open")) {
+      dropdownButton.classList.remove("open");
+    }
+
+    if (arrowIcon) {
+      arrowIcon.textContent = "▼"; // seta para baixo
+    }
+
+    if (!query) {
+      loadProducts(); // Exibe todos
+      return;
+    }
+
+    const allProducts = Object.values(categories).flat();
+    const results = allProducts.filter((product) =>
+      product.name.toLowerCase().includes(query)
+    );
+
+    if (results.length === 0) {
+      showMessage("Nenhum produto encontrado.");
+    }
+
+    currentCategory = results;
+    currentIndex = 0;
+    loadProducts();
+  });
+
+  searchInput?.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      searchButton.click(); // Isso aciona o clique e já fecha o dropdown
+    }
+  });
 });
