@@ -300,6 +300,18 @@ document.addEventListener("DOMContentLoaded", () => {
         image: "./assets/produtos/MelDoCerrado/mel-silvestre.webp",
         price: 29.9,
       },
+      {
+        name: "Ayslla Laranja desidratada com mel",
+        description: "O melhor doce.",
+        image: "./assets/produtos/Ayslla/laranja-desidratada-com-mel.webp",
+        price: 29.9,
+      },
+      {
+        name: "Ayslla Coco defumado com mel",
+        description: "O melhor doce.",
+        image: "./assets/produtos/Ayslla/coco-defumado-com-mel.webp",
+        price: 29.9,
+      },
     ],
     DoceDeLeite: [
       {
@@ -402,6 +414,27 @@ document.addEventListener("DOMContentLoaded", () => {
         image:
           "./assets/produtos/ReceitaCaipira/doce-de-leite-com-coco-400g.webp",
         price: 29.9,
+      },
+      {
+        name: "Pingo de Leite com amendoim Dona Lazara Saquinho 150g",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-com-amendoim-saquinhos-150g.webp",
+        price: 29.8,
+      },
+      {
+        name: "Pingo de Leite com amendoim Dona Lazara",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-com-amendoim.webp",
+        price: 29.8,
+      },
+      {
+        name: "Pingo de Leite Dona Lazara Saquinho 150g",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-saquinhos-150g.webp",
+        price: 29.8,
       },
     ],
     Cafe: [
@@ -619,18 +652,60 @@ document.addEventListener("DOMContentLoaded", () => {
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-tipo-sopressa-defumado.webp",
         price: 53.0,
       },
+      {
+        name: "ColdSmoke Pepperoni Picante",
+        description: "O melhor pepperoni.",
+        image: "./assets/produtos/ColdSmoke/pepperoni-picante.webp",
+        price: 29.9,
+      },
+      {
+        name: "ColdSmoke Pepperoni Picante",
+        description: "A melhor pulled pork.",
+        image: "./assets/produtos/ColdSmoke/pulled-pork.webp",
+        price: 29.9,
+      },
+      {
+        name: "ColdSmoke Salsicha Frank Furter",
+        description: "A melhor salsicha.",
+        image: "./assets/produtos/ColdSmoke/salsicha-frank-furter.webp",
+        price: 29.9,
+      },
+      {
+        name: "ColdSmoke Torresmo de Rolo",
+        description: "O melhor torresmo.",
+        image: "./assets/produtos/ColdSmoke/torresmo-de-rolo.webp",
+        price: 29.9,
+      },
+      {
+        name: "Olho Linguiça Blumenau",
+        description: "A melhor linguiça.",
+        image: "./assets/produtos/Olho/linguica-blumenau.webp",
+        price: 29.9,
+      },
+      {
+        name: "Olho Linguiça Húngara",
+        description: "A melhor linguiça.",
+        image: "./assets/produtos/Olho/linguica-hungara.webp",
+        price: 29.9,
+      },
+      {
+        name: "Olho Salame Tipo italiano",
+        description: "A melhor linguiça.",
+        image: "./assets/produtos/Olho/salame-tipo-italiano.webp",
+        price: 29.9,
+      },
+      {
+        name: "Mayer Calabresa Seca",
+        description: "A melhor calabresa.",
+        image: "./assets/produtos/Mayer/calabresa-seca.webp",
+        price: 29.9,
+      },
     ],
     Geleias: [
       {
         name: "LetsCook Geleia de Amora com Hortelã",
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-amora-com-hortela.webp",
-        price: 29.9,
-      },
-      {
-        name: "LetsCook Geleia de Frutas Amarelas",
-        description: "A melhor Geleia.",
-        image: "./assets/produtos/LetsCook/lets-cook-frutas-amarelas.webp",
         price: 29.9,
       },
       {
@@ -641,7 +716,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
-        name: "LetsCook Geleia de Morango cgm Manjericão",
+        name: "LetsCook Geleia de Morango com Manjericão",
         description: "A melhor Geleia.",
         image:
           "./assets/produtos/LetsCook/lets-cook-morango-com-manjericao.webp",
@@ -651,12 +726,6 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "LetsCook Geleia de Pimenta Defumada",
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-pimenta-defumada.webp",
-        price: 29.9,
-      },
-      {
-        name: "LetsCook Geleia Tamara com Laranja",
-        description: "A melhor Geleia.",
-        image: "./assets/produtos/LetsCook/lets-cook-tamara-com-laranja.webp",
         price: 29.9,
       },
       {
@@ -790,12 +859,6 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Tabuleiro Da Chef Geleia de Mangaba e Pimenta da Tereza",
         description: "A melhor geleia.",
         image: "./assets/produtos/TabuleiroDaChef/mangaba-e-pimenta.webp",
-        price: 29.9,
-      },
-      {
-        name: "Tabuleiro Da Chef Geleia de Pimenta da Tereza",
-        description: "A melhor geleia.",
-        image: "./assets/produtos/TabuleiroDaChef/pimenta-de-tereza.webp",
         price: 29.9,
       },
       {
@@ -954,6 +1017,48 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
+        name: "DietHouse Doce de Abóbora com côco",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-abobora-com-coco.webp",
+        price: 29.9,
+      },
+      {
+        name: "DietHouse Doce de Figo",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-figo.webp",
+        price: 29.9,
+      },
+      {
+        name: "DietHouse Doce de goiaba",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-goiaba.webp",
+        price: 29.9,
+      },
+      {
+        name: "DietHouse Goiabada",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-goiabada.webp",
+        price: 29.9,
+      },
+      {
+        name: "DietHouse Doce de Mamão",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-mamao.webp",
+        price: 29.9,
+      },
+      {
+        name: "DietHouse Doce de Manga",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-manga.webp",
+        price: 29.9,
+      },
+      {
+        name: "DietHouse Doce de Pêssego",
+        description: "O melhor doce.",
+        image: "./assets/produtos/DietHouse/diet-house-pessego.webp",
+        price: 29.9,
+      },
+      {
         name: "Puro&Leve Geleia de Uva Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-uva-sem-adicao.webp",
@@ -1044,6 +1149,18 @@ document.addEventListener("DOMContentLoaded", () => {
           "./assets/produtos/BrazilianFlavor/geleia-flavor-frutas-vermelhas-zero.webp",
         price: 31.0,
       },
+      {
+        name: "LetsCook Geleia de Frutas Amarelas",
+        description: "A melhor Geleia.",
+        image: "./assets/produtos/LetsCook/lets-cook-frutas-amarelas.webp",
+        price: 29.9,
+      },
+      {
+        name: "LetsCook Geleia Tamara com Laranja",
+        description: "A melhor Geleia.",
+        image: "./assets/produtos/LetsCook/lets-cook-tamara-com-laranja.webp",
+        price: 29.9,
+      },
     ],
     Torrones: [
       {
@@ -1129,51 +1246,9 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Doces: [
       {
-        name: "DietHouse Doce de Abóbora com côco",
-        description: "O melhor doce.",
-        image: "./assets/produtos/DietHouse/diet-house-abobora-com-coco.webp",
-        price: 29.9,
-      },
-      {
-        name: "DietHouse Doce de Figo",
-        description: "O melhor doce.",
-        image: "./assets/produtos/DietHouse/diet-house-figo.webp",
-        price: 29.9,
-      },
-      {
-        name: "DietHouse Doce de goiaba",
-        description: "O melhor doce.",
-        image: "./assets/produtos/DietHouse/diet-house-goiaba.webp",
-        price: 29.9,
-      },
-      {
-        name: "DietHouse Goiabada",
-        description: "O melhor doce.",
-        image: "./assets/produtos/DietHouse/diet-house-goiabada.webp",
-        price: 29.9,
-      },
-      {
         name: "Jatiboca Bala de Goiabada",
         description: "A melhor Bala.",
         image: "./assets/produtos/Jatiboca/bala-goiabada.webp",
-        price: 29.9,
-      },
-      {
-        name: "DietHouse Doce de Mamão",
-        description: "O melhor doce.",
-        image: "./assets/produtos/DietHouse/diet-house-mamao.webp",
-        price: 29.9,
-      },
-      {
-        name: "DietHouse Doce de Manga",
-        description: "O melhor doce.",
-        image: "./assets/produtos/DietHouse/diet-house-manga.webp",
-        price: 29.9,
-      },
-      {
-        name: "DietHouse Doce de Pêssego",
-        description: "O melhor doce.",
-        image: "./assets/produtos/DietHouse/diet-house-pessego.webp",
         price: 29.9,
       },
       {
@@ -1181,12 +1256,6 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "A melhor.",
         image:
           "./assets/produtos/BrazilianFlavor/flavor-cebola-roxa-caramelizada.webp",
-        price: 29.9,
-      },
-      {
-        name: "Ayslla Laranja desidratada com mel",
-        description: "O melhor doce.",
-        image: "./assets/produtos/Ayslla/laranja-desidratada-com-mel.webp",
         price: 29.9,
       },
       {
@@ -1241,12 +1310,6 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.8,
       },
       {
-        name: "Ayslla Coco defumado com mel",
-        description: "O melhor doce.",
-        image: "./assets/produtos/Ayslla/coco-defumado-com-mel.webp",
-        price: 29.9,
-      },
-      {
         name: "Doce de Café Dona Lazara saquinho 150g",
         description: "O melhor doce.",
         image:
@@ -1273,27 +1336,6 @@ document.addEventListener("DOMContentLoaded", () => {
         image:
           "./assets/produtos/ProdutosDonaLazara/goiabada-redonda-500g.webp",
         price: 29.9,
-      },
-      {
-        name: "Pingo de Leite com amendoim Dona Lazara Saquinho 150g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-com-amendoim-saquinhos-150g.webp",
-        price: 29.8,
-      },
-      {
-        name: "Pingo de Leite com amendoim Dona Lazara",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-com-amendoim.webp",
-        price: 29.8,
-      },
-      {
-        name: "Pingo de Leite Dona Lazara Saquinho 150g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-saquinhos-150g.webp",
-        price: 29.8,
       },
       {
         name: "Receita Caipira Bananada da Roça 400g",
@@ -1326,26 +1368,6 @@ document.addEventListener("DOMContentLoaded", () => {
         image:
           "./assets/produtos/TabuleiroDaChef/cocada-de-tereza-tradicional.webp",
         price: 33.4,
-      },
-      {
-        name: "Amêndoa do cacao Caramelizada 130g",
-        description: "O melhor chocolate.",
-        image:
-          "./assets/produtos/ChocolateDoCacao/amendoa-do-cacao-caramelizada-130g.webp",
-        price: 53.0,
-      },
-      {
-        name: "Nibs do cacao Caramelizado 150g",
-        description: "O melhor chocolate.",
-        image:
-          "./assets/produtos/ChocolateDoCacao/nibs-do-cacao-caramelizado-150g.webp",
-        price: 53.0,
-      },
-      {
-        name: "Melaço do Cacao 240g",
-        description: "O melhor chocolate.",
-        image: "./assets/produtos/ChocolateDoCacao/melaco-do-cacao-240g.webp",
-        price: 53.0,
       },
     ],
     BebidasAlcoolicas: [
@@ -1489,12 +1511,6 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 30.0,
       },
       {
-        name: "Mayer Calabresa Seca",
-        description: "A melhor calabresa.",
-        image: "./assets/produtos/Mayer/calabresa-seca.webp",
-        price: 29.9,
-      },
-      {
         name: "Mayer Salame de Cordeiro",
         description: "Valor por peso, consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-de-cordeiro.webp",
@@ -1523,54 +1539,6 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Cacian Charcutaria Salame tipo Friolano",
         description: "O melhor salame.",
         image: "./assets/produtos/CacianCharcutaria/salame-tipo-friolano.webp",
-        price: 29.9,
-      },
-      {
-        name: "ColdSmoke Pepperoni Picante",
-        description: "O melhor pepperoni.",
-        image: "./assets/produtos/ColdSmoke/pepperoni-picante.webp",
-        price: 29.9,
-      },
-      {
-        name: "ColdSmoke Pepperoni Picante",
-        description: "A melhor pulled pork.",
-        image: "./assets/produtos/ColdSmoke/pulled-pork.webp",
-        price: 29.9,
-      },
-      {
-        name: "ColdSmoke Salsicha Frank Furter",
-        description: "A melhor salsicha.",
-        image: "./assets/produtos/ColdSmoke/salsicha-frank-furter.webp",
-        price: 29.9,
-      },
-      {
-        name: "ColdSmoke Torresmo de Rolo",
-        description: "O melhor torresmo.",
-        image: "./assets/produtos/ColdSmoke/torresmo-de-rolo.webp",
-        price: 29.9,
-      },
-      {
-        name: "ColdSmoke Lombo Canadense com Provolone",
-        description: "O melhor lombo.",
-        image: "./assets/produtos/ColdSmoke/lombo-canadense-com-provolone.webp",
-        price: 29.9,
-      },
-      {
-        name: "Olho Linguiça Blumenau",
-        description: "A melhor linguiça.",
-        image: "./assets/produtos/Olho/linguica-blumenau.webp",
-        price: 29.9,
-      },
-      {
-        name: "Olho Linguiça Húngara",
-        description: "A melhor linguiça.",
-        image: "./assets/produtos/Olho/linguica-hungara.webp",
-        price: 29.9,
-      },
-      {
-        name: "Olho Salame Tipo italiano",
-        description: "A melhor linguiça.",
-        image: "./assets/produtos/Olho/salame-tipo-italiano.webp",
         price: 29.9,
       },
     ],
@@ -1952,6 +1920,32 @@ document.addEventListener("DOMContentLoaded", () => {
           "./assets/produtos/ChocolateDoCacao/chocolate-intenso-70%-85g.webp",
         price: 53.0,
       },
+      {
+        name: "Amêndoa do cacao Caramelizada 130g",
+        description: "O melhor chocolate.",
+        image:
+          "./assets/produtos/ChocolateDoCacao/amendoa-do-cacao-caramelizada-130g.webp",
+        price: 53.0,
+      },
+      {
+        name: "Nibs do cacao Caramelizado 150g",
+        description: "O melhor chocolate.",
+        image:
+          "./assets/produtos/ChocolateDoCacao/nibs-do-cacao-caramelizado-150g.webp",
+        price: 53.0,
+      },
+      {
+        name: "Melaço do Cacao 240g",
+        description: "O melhor chocolate.",
+        image: "./assets/produtos/ChocolateDoCacao/melaco-do-cacao-240g.webp",
+        price: 53.0,
+      },
+      {
+        name: "Geleia do cacao 240g",
+        description: "A melhor geleia.",
+        image: "./assets/produtos/ChocolateDoCacao/geleia-do-cacao-240g.webp",
+        price: 53.0,
+      },
     ],
     Manteigas: [
       {
@@ -2009,19 +2003,6 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Temperos: [
       {
-        name: "Frentano Pesto de azeitona preta",
-        description: "O melhor pesto.",
-        image:
-          "./assets/produtos/Frentano/frentano-pesto-de-azeitona-preta.webp",
-        price: 29.9,
-      },
-      {
-        name: "Frentano Sardella",
-        description: "A melhor sardella.",
-        image: "./assets/produtos/Frentano/frentano-sardella.webp",
-        price: 29.9,
-      },
-      {
         name: "Tabuleiro Da Chef Tempero da Tereza Arrozinho",
         description: "A melhor farofa.",
         image:
@@ -2071,6 +2052,12 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 24.2,
       },
       {
+        name: "Tabuleiro Da Chef Pimenta da Tereza",
+        description: "A melhor geleia.",
+        image: "./assets/produtos/TabuleiroDaChef/pimenta-de-tereza.webp",
+        price: 29.9,
+      },
+      {
         name: "ColdSmoke Sal marinho defumado",
         description: "O melhor bacon.",
         image: "./assets/produtos/ColdSmoke/sal-marinho-defumado.webp",
@@ -2080,6 +2067,12 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "ChefNBoss Fumaça Líquida",
         description: "O melhor molho.",
         image: "./assets/produtos/ChefNBoss/fumaca-liquida.webp",
+        price: 29.9,
+      },
+      {
+        name: "ChefNBoss Jalapeño com pimenta especial",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/jalapeno-pimentinha-especial.webp",
         price: 29.9,
       },
       {
@@ -2298,12 +2291,6 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
-        name: "ChefNBoss Jalapeño com pimenta especial",
-        description: "O melhor molho.",
-        image: "./assets/produtos/ChefNBoss/jalapeno-pimentinha-especial.webp",
-        price: 29.9,
-      },
-      {
         name: "ChefNBoss Molho inglês defumado",
         description: "O melhor molho.",
         image: "./assets/produtos/ChefNBoss/molho-ingles-defumado.webp",
@@ -2354,40 +2341,15 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
-        name: "Ayslla Pesto de manjericão crocante com amêndoas defumadas 213g",
-        description: "O melhor defumado.",
-        image:
-          "./assets/produtos/Ayslla/pesto-manjericao-crocante-com-amendoas-defumadas-213g.webp",
-        price: 29.9,
-      },
-      {
         name: "L'apetisse Tomate Defumado 350g",
         description: "O melhor defumado.",
         image: "./assets/produtos/Ayslla/tomate-defumado-350g.webp",
         price: 29.9,
       },
       {
-        name: "L'apetisse Antepasto de pimenta",
-        description: "O melhor antepasto.",
-        image: "./assets/produtos/L'apetisse/antepasto-de-pimenta.webp",
-        price: 29.9,
-      },
-      {
-        name: "L'apetisse Beringela Filetada",
+        name: "L'apetisse Berinjela Filetada",
         description: "A melhor beringela.",
         image: "./assets/produtos/L'apetisse/berinjela-filetada.webp",
-        price: 29.9,
-      },
-      {
-        name: "L'apetisse Capotana de Abobrinha",
-        description: "A melhor beringela.",
-        image: "./assets/produtos/L'apetisse/capotana-de-abobrinha.webp",
-        price: 29.9,
-      },
-      {
-        name: "L'apetisse Capotana de Berinjela",
-        description: "A melhor beringela.",
-        image: "./assets/produtos/L'apetisse/capotana-de-berinjela.webp",
         price: 29.9,
       },
       {
@@ -2427,6 +2389,46 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor molho.",
         image:
           "./assets/produtos/MilagreDeMinas/mostarda-de-maracuja-220g.webp",
+        price: 29.9,
+      },
+    ],
+    CamponatasAntepastos: [
+      {
+        name: "Frentano Sardella",
+        description: "A melhor sardella.",
+        image: "./assets/produtos/Frentano/frentano-sardella.webp",
+        price: 29.9,
+      },
+      {
+        name: "L'apetisse Antepasto de pimenta",
+        description: "O melhor antepasto.",
+        image: "./assets/produtos/L'apetisse/antepasto-de-pimenta.webp",
+        price: 29.9,
+      },
+      {
+        name: "Frentano Pesto de azeitona preta",
+        description: "O melhor pesto.",
+        image:
+          "./assets/produtos/Frentano/frentano-pesto-de-azeitona-preta.webp",
+        price: 29.9,
+      },
+      {
+        name: "L'apetisse Camponata de Abobrinha",
+        description: "A melhor beringela.",
+        image: "./assets/produtos/L'apetisse/capotana-de-abobrinha.webp",
+        price: 29.9,
+      },
+      {
+        name: "L'apetisse Camponata de Berinjela",
+        description: "A melhor beringela.",
+        image: "./assets/produtos/L'apetisse/capotana-de-berinjela.webp",
+        price: 29.9,
+      },
+      {
+        name: "Ayslla Pesto de manjericão crocante com amêndoas defumadas 213g",
+        description: "O melhor defumado.",
+        image:
+          "./assets/produtos/Ayslla/pesto-manjericao-crocante-com-amendoas-defumadas-213g.webp",
         price: 29.9,
       },
     ],
