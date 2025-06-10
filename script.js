@@ -622,45 +622,45 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Geleias: [
       {
-        name: "Geleia de Amora com Hortelã",
+        name: "LetsCook Geleia de Amora com Hortelã",
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-amora-com-hortela.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Frutas Amarelas",
+        name: "LetsCook Geleia de Frutas Amarelas",
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-frutas-amarelas.webp",
         price: 29.9,
       },
       {
-        name: "Melado de Cana Balsamico",
+        name: "LetsCook Melado de Cana Balsamico",
         description: "O melhor melado.",
         image:
           "./assets/produtos/LetsCook/lets-cook-melado-de-cana-balsamico.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Morango cgm Manjericão",
+        name: "LetsCook Geleia de Morango cgm Manjericão",
         description: "A melhor Geleia.",
         image:
           "./assets/produtos/LetsCook/lets-cook-morango-com-manjericao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Pimenta Defumada",
+        name: "LetsCook Geleia de Pimenta Defumada",
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-pimenta-defumada.webp",
         price: 29.9,
       },
       {
-        name: "Geleia Tamara com Laranja",
+        name: "LetsCook Geleia Tamara com Laranja",
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-tamara-com-laranja.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Tomate com Manjericão",
+        name: "LetsCook Geleia de Tomate com Manjericão",
         description: "A melhor Geleia.",
         image:
           "./assets/produtos/LetsCook/lets-cook-tomate-com-manjericao.webp",
@@ -745,111 +745,111 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 39.0,
       },
       {
-        name: "Geleia Keto de Damasco",
+        name: "Puro&Leve Geleia Keto de Damasco",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-damasco.webp",
         price: 32.0,
       },
       {
-        name: "Geleia Keto de Frutas Vermelhas",
+        name: "Puro&Leve Geleia Keto de Frutas Vermelhas",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-frutas-vermelhas.webp",
         price: 32.0,
       },
       {
-        name: "Geleia Keto Goiaba",
+        name: "Puro&Leve Geleia Keto Goiaba",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-goiaba.webp",
         price: 38.0,
       },
       {
-        name: "Geleia Keto de Manga com Maracujá",
+        name: "Puro&Leve Geleia Keto de Manga com Maracujá",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-manga-maracuja.webp",
         price: 32.0,
       },
       {
-        name: "Geleia Keto de Morango",
+        name: "Puro&Leve Geleia Keto de Morango",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-morango.webp",
         price: 32.0,
       },
       {
-        name: "Geleia da Tereza Goiaba e Pimenta",
+        name: "Tabuleiro Da Chef Geleia da Tereza Goiaba e Pimenta",
         description: "A melhor geleia.",
         image: "./assets/produtos/TabuleiroDaChef/goiaba-e-pimenta.webp",
         price: 29.9,
       },
       {
-        name: "Geleia da Tereza de Jabuticaba com Pimenta",
+        name: "Tabuleiro Da Chef Geleia da Tereza de Jabuticaba com Pimenta",
         description: "A melhor geleia.",
         image: "./assets/produtos/TabuleiroDaChef/jabuticaba-pimenta.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Mangaba e Pimenta da Tereza",
+        name: "Tabuleiro Da Chef Geleia de Mangaba e Pimenta da Tereza",
         description: "A melhor geleia.",
         image: "./assets/produtos/TabuleiroDaChef/mangaba-e-pimenta.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Pimenta da Tereza",
+        name: "Tabuleiro Da Chef Geleia de Pimenta da Tereza",
         description: "A melhor geleia.",
         image: "./assets/produtos/TabuleiroDaChef/pimenta-de-tereza.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Umbu e Pimenta da Tereza",
+        name: "Tabuleiro Da Chef Geleia de Umbu e Pimenta da Tereza",
         description: "A melhor geleia.",
         image: "./assets/produtos/TabuleiroDaChef/umbu-e-pimenta.webp",
         price: 29.9,
       },
       {
-        name: "ZappaGeleia de Abacaxi com Pimenta",
+        name: "ZappaGeleias de Abacaxi com Pimenta",
         description: "A melhor Geleia.",
         image: "./assets/produtos/zappageleias/zappa-abacaxi-com-pimenta.webp",
         price: 38.0,
       },
       {
-        name: "ZappaGeleia de Cebola Stout e Mostarda",
+        name: "ZappaGeleias de Cebola Stout e Mostarda",
         description: "A melhor Geleia.",
         image:
           "./assets/produtos/zappageleias/zappa-cebola-stout-mostarda.webp",
         price: 38.0,
       },
       {
-        name: "ZappaGeleia de Limão Laranja e Manjericão",
+        name: "ZappaGeleias de Limão Laranja e Manjericão",
         description: "A melhor Geleia.",
         image:
           "./assets/produtos/zappageleias/zappa-limao-laranja-manjericao.webp",
         price: 38.0,
       },
       {
-        name: "ZappaGeleia de Maracujá com Pimenta",
+        name: "ZappaGeleias de Maracujá com Pimenta",
         description: "A melhor Geleia.",
         image: "./assets/produtos/zappageleias/zappa-maracuja-com-pimenta.webp",
         price: 38.0,
       },
       {
-        name: "ZappaGeleia de Mexerica Clementina",
+        name: "ZappaGeleias de Mexerica Clementina",
         description: "A melhor Geleia.",
         image: "./assets/produtos/zappageleias/zappa-mexerica-clementina.webp",
         price: 29.9,
       },
       {
-        name: "ZappaGeleia de Morango Cumaru e Amora",
+        name: "ZappaGeleias de Morango Cumaru e Amora",
         description: "A melhor Geleia.",
         image: "./assets/produtos/zappageleias/zappa-morango-cumaru-amora.webp",
         price: 38.0,
       },
       {
-        name: "ZappaGeleia de Pimenta com Mostarda",
+        name: "ZappaGeleias de Pimenta com Mostarda",
         description: "A melhor Geleia.",
         image: "./assets/produtos/zappageleias/zappa-pimenta-com-mostarda.webp",
         price: 38.0,
       },
       {
-        name: "ZappaGeleia Pimenta Defumada 160g",
+        name: "ZappaGeleias Pimenta Defumada 160g",
         description: "A melhor Geleia.",
         image:
           "./assets/produtos/zappageleias/zappa-pimenta-defumada-160g.webp",
@@ -864,168 +864,168 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     GeleiasZero: [
       {
-        name: "Geleia de Cupuaçu Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Cupuaçu Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-cupuacu-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Abacaxi com Pimenta Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Abacaxi com Pimenta Sem adição de Açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/Puro&Leve/geleia-de-abacaxi-com-pimenta-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Ameixa Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Ameixa Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-de-ameixa-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Cereja Negra Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Cereja Negra Sem adição de Açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/Puro&Leve/geleia-de-cereja-neegra-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Damasco Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Damasco Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-de-damasco-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Framboesa Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Framboesa Sem adição de Açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/Puro&Leve/geleia-de-framboesa-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Goiaba Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Goiaba Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-de-goiaba-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de laranja Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de laranja Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-de-laranja-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Morango Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Morango Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-de-morango-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Pimenta Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Pimenta Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-de-pimenta-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Tangerina Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Tangerina Sem adição de Açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/Puro&Leve/geleia-de-tangerina-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Frutas Amarelas Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Frutas Amarelas Sem adição de Açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/Puro&Leve/geleia-de-frutas-amarelas-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Kiwi Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Kiwi Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-kiwi-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Pitaya com Amora e Morango Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Pitaya com Amora e Morango Sem adição de Açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/Puro&Leve/geleia-pitaya-amora-morango-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Uva Sem adição de Açúcar",
+        name: "Puro&Leve Geleia de Uva Sem adição de Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-uva-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Ambrosia sem adição de açúcar 430g",
+        name: "Doces Fazenda De Minas Ambrosia sem adição de açúcar 430g",
         description: "O melhor doce.",
         image:
           "./assets/produtos/DocesFazendaDeMinas/ambrosia-sem-adicao-430g.webp",
         price: 29.9,
       },
       {
-        name: "Bananada sem adição de açúcar",
+        name: "Doces Fazenda De Minas Bananada sem adição de açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/DocesFazendaDeMinas/bananada-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Cocada sem adição de açúcar",
+        name: "Doces Fazenda De Minas Cocada sem adição de açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/DocesFazendaDeMinas/cocada-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Fondant de leite sem adição de açúcar e sem lactose",
+        name: "Doces Fazenda De Minas Fondant de leite sem adição de açúcar e sem lactose",
         description: "O melhor doce.",
         image:
           "./assets/produtos/DocesFazendaDeMinas/fondant-de-leite-sem-adicao-sem-lactose.webp",
         price: 29.9,
       },
       {
-        name: "Jam cascão sem adição de açúcar",
+        name: "Doces Fazenda De Minas Jam cascão sem adição de açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/DocesFazendaDeMinas/jam-cascao-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Goiabada Cascão sem adição de açúcar",
+        name: "Puro&Leve Goiabada Cascão sem adição de açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/goiabada-cascao-zero.webp",
         price: 29.9,
       },
       {
-        name: "Pé de moça sem adição de açúcar",
+        name: "Doces Fazenda De Minas Pé de moça sem adição de açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/DocesFazendaDeMinas/pe-de-moca-sem-adicao.webp",
         price: 29.9,
       },
       {
-        name: "Creme de Avelã Zero Açúcar",
+        name: "Puro&Leve Creme de Avelã Zero Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/creme-de-avela-zero.webp",
         price: 36.0,
       },
       {
-        name: "Creme de Avelã Adoçado com Tâmara Zero Açúcar",
+        name: "Puro&Leve Creme de Avelã Adoçado com Tâmara Zero Açúcar",
         description: "O melhor doce.",
         image:
           "./assets/produtos/Puro&Leve/creme-de-avela-adocado-com-tamara.webp",
         price: 29.9,
       },
       {
-        name: "Figada Zero",
+        name: "Puro&Leve Figada Zero",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/figada-zero.webp",
         price: 29.9,
       },
       {
-        name: "Geleia de Figo Zero",
+        name: "Puro&Leve Geleia de Figo Zero",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-de-figo-zero-adicao.webp",
         price: 29.9,
@@ -1129,49 +1129,49 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Doces: [
       {
-        name: "Doce de Abóbora com côco",
+        name: "DietHouse Doce de Abóbora com côco",
         description: "O melhor doce.",
         image: "./assets/produtos/DietHouse/diet-house-abobora-com-coco.webp",
         price: 29.9,
       },
       {
-        name: "Doce de Figo",
+        name: "DietHouse Doce de Figo",
         description: "O melhor doce.",
         image: "./assets/produtos/DietHouse/diet-house-figo.webp",
         price: 29.9,
       },
       {
-        name: "Doce de goiaba",
+        name: "DietHouse Doce de goiaba",
         description: "O melhor doce.",
         image: "./assets/produtos/DietHouse/diet-house-goiaba.webp",
         price: 29.9,
       },
       {
-        name: "Goiabada",
+        name: "DietHouse Goiabada",
         description: "O melhor doce.",
         image: "./assets/produtos/DietHouse/diet-house-goiabada.webp",
         price: 29.9,
       },
       {
-        name: "Bala de Goiabada",
+        name: "Jatiboca Bala de Goiabada",
         description: "A melhor Bala.",
         image: "./assets/produtos/Jatiboca/bala-goiabada.webp",
         price: 29.9,
       },
       {
-        name: "Doce de Mamão",
+        name: "DietHouse Doce de Mamão",
         description: "O melhor doce.",
         image: "./assets/produtos/DietHouse/diet-house-mamao.webp",
         price: 29.9,
       },
       {
-        name: "Doce de Manga",
+        name: "DietHouse Doce de Manga",
         description: "O melhor doce.",
         image: "./assets/produtos/DietHouse/diet-house-manga.webp",
         price: 29.9,
       },
       {
-        name: "Doce de Pêssego",
+        name: "DietHouse Doce de Pêssego",
         description: "O melhor doce.",
         image: "./assets/produtos/DietHouse/diet-house-pessego.webp",
         price: 29.9,
@@ -1184,37 +1184,37 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
-        name: "Laranja desidratada com mel",
+        name: "Ayslla Laranja desidratada com mel",
         description: "O melhor doce.",
         image: "./assets/produtos/Ayslla/laranja-desidratada-com-mel.webp",
         price: 29.9,
       },
       {
-        name: "Ambrosia 420g",
+        name: "Doces Fazenda De Minas Ambrosia 420g",
         description: "O melhor doce.",
         image: "./assets/produtos/DocesFazendaDeMinas/ambrosia-420g.webp",
         price: 29.9,
       },
       {
-        name: "Caramelo com chocolate e laranja",
+        name: "Olina Caramelo com chocolate e laranja",
         description: "No momento indisponível.",
         image: "./assets/produtos/Olina/olina-caramelo-choco-com-laranja.webp",
         price: 0.0,
       },
       {
-        name: "Caramelo com Mix de castanhas",
+        name: "Olina Caramelo com Mix de castanhas",
         description: "No momento indisponível.",
         image: "./assets/produtos/Olina/olina-caramelo-mix-castanhas.webp",
         price: 0.0,
       },
       {
-        name: "Caramelo Salgado Bourbon",
+        name: "Olina Caramelo Salgado Bourbon",
         description: "No momento indisponível.",
         image: "./assets/produtos/Olina/olina-caramelo-salgado-bourbon.webp",
         price: 0.0,
       },
       {
-        name: "Caramelo Salgado Flor de Sal",
+        name: "Olina Caramelo Salgado Flor de Sal",
         description: "No momento indisponível.",
         image:
           "./assets/produtos/Olina/olina-caramelo-salgado-flor-de-sal.webp",
@@ -1241,7 +1241,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.8,
       },
       {
-        name: "Coco defumado com mel",
+        name: "Ayslla Coco defumado com mel",
         description: "O melhor doce.",
         image: "./assets/produtos/Ayslla/coco-defumado-com-mel.webp",
         price: 29.9,
@@ -1296,13 +1296,13 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.8,
       },
       {
-        name: "Bananada da Roça 400g",
+        name: "Receita Caipira Bananada da Roça 400g",
         description: "O melhor doce.",
         image: "./assets/produtos/ReceitaCaipira/bananada-da-roca.webp",
         price: 29.9,
       },
       {
-        name: "Cocada Mineira Branca 400g",
+        name: "Receita Caipira Cocada Mineira Branca 400g",
         description: "O melhor doce.",
         image:
           "./assets/produtos/ReceitaCaipira/cocada-mineira-branca-400g.webp",
@@ -1315,13 +1315,13 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 44.0,
       },
       {
-        name: "Cocada de Abóbora",
+        name: "Tabuleiro Da Chef Cocada de Abóbora",
         description: "O melhor doce.",
         image: "./assets/produtos/TabuleiroDaChef/cocada-de-abobora.webp",
         price: 33.4,
       },
       {
-        name: "Cocada de Tereza Tradicional",
+        name: "Tabuleiro Da Chef Cocada de Tereza Tradicional",
         description: "O melhor doce.",
         image:
           "./assets/produtos/TabuleiroDaChef/cocada-de-tereza-tradicional.webp",
@@ -1350,62 +1350,62 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     BebidasAlcoolicas: [
       {
-        name: "Licor de doce de leite com pistache 250ml",
+        name: "Casa Bianchi Licor de doce de leite com pistache 250ml",
         description: "O melhor doce de licor.",
         image: "./assets/produtos/CasaBianchi/licor-com-pistache-250ml.webp",
         price: 69.0,
       },
       {
-        name: "Licor creme de doce de leite de ovelha 250ml",
+        name: "Casa Bianchi Licor creme de doce de leite de ovelha 250ml",
         description: "O melhor doce de leite.",
         image:
           "./assets/produtos/CasaBianchi/licor-creme-doce-ovelha-250ml.webp",
         price: 54.0,
       },
       {
-        name: "Bananinha",
+        name: "AowsMininu Bananinha",
         description: "A melhor bananinha.",
         image: "./assets/produtos/AowsMininu/bananinha.webp",
         price: 66.0,
       },
       {
-        name: "Caipirinha",
+        name: "AowsMininu Caipirinha",
         description: "A melhor caipirinha.",
         image: "./assets/produtos/AowsMininu/caipirinha.webp",
         price: 66.0,
       },
       {
-        name: "Cachaça Cana da Terra",
+        name: "Cana Da Terra Cachaça Cana da Terra",
         description: "3 madeiras.",
         image: "./assets/produtos/CanaDaTerra/cana-da-terra-3-madeiras.webp",
         price: 120.0,
       },
       {
-        name: "Cachaça Cana da Terra 700ml",
+        name: "Cana Da Terra Cachaça Cana da Terra 700ml",
         description: "3 madeiras.",
         image: "./assets/produtos/CanaDaTerra/cana-da-terra-700ml.webp",
         price: 120.0,
       },
       {
-        name: "Flor de Moncello da Tereza",
+        name: "Tabuleiro Da Chef Flor de Moncello da Tereza",
         description: "A melhor bebida.",
         image: "./assets/produtos/TabuleiroDaChef/flor-de-mOncello.webp",
         price: 89.9,
       },
       {
-        name: "Licor de Jenipapo da Tereza",
+        name: "Tabuleiro Da Chef Licor de Jenipapo da Tereza",
         description: "A melhor bebida.",
         image: "./assets/produtos/TabuleiroDaChef/licor-de-jenipapo.webp",
         price: 45.9,
       },
       {
-        name: "Licor do Cacao 375ml",
+        name: "Do Cacao Licor do Cacao 375ml",
         description: "O melhor licor.",
         image: "./assets/produtos/ChocolateDoCacao/licor-do-cacao-375ml.webp",
         price: 53.0,
       },
       {
-        name: "Licor do Cacao 750ml",
+        name: "Do Cacao Licor do Cacao 750ml",
         description: "O melhor licor.",
         image: "./assets/produtos/ChocolateDoCacao/licor-do-cacao-750ml.webp",
         price: 53.0,
@@ -1413,162 +1413,162 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Salames: [
       {
-        name: "Salame Colonial",
+        name: "Famille Chaulet Salame Colonial",
         description: "O melhor salame.",
         image: "./assets/produtos/FamilleChaulet/salame-colonial.webp",
         price: 29.9,
       },
       {
-        name: "Salame com queijo",
+        name: "Famille Chaulet Salame com queijo",
         description: "O melhor salame.",
         image: "./assets/produtos/FamilleChaulet/salame-com-queijo.webp",
         price: 29.9,
       },
       {
-        name: "Salame de avestruz",
+        name: "Famille Chaulet Salame de avestruz",
         description: "O melhor salame.",
         image: "./assets/produtos/FamilleChaulet/salame-de-avestruz.webp",
         price: 29.9,
       },
       {
-        name: "Salame de Carne Bovina",
+        name: "Famille Chaulet Salame de Carne Bovina",
         description: "O melhor salame.",
         image: "./assets/produtos/FamilleChaulet/salame-de-carne-bovina.webp",
         price: 29.9,
       },
       {
-        name: "Salame de Javali",
+        name: "Famille Chaulet Salame de Javali",
         description: "O melhor salame.",
         image: "./assets/produtos/FamilleChaulet/salame-de-javali.webp",
         price: 29.9,
       },
       {
-        name: "Salame Gaúcho",
+        name: "Famille Chaulet Salame Gaúcho",
         description: "O melhor salame.",
         image: "./assets/produtos/FamilleChaulet/salame-gaucho.webp",
         price: 29.9,
       },
       {
-        name: "Salame tipo alemão",
+        name: "Famille Chaulet Salame tipo alemão",
         description: "O melhor salame.",
         image: "./assets/produtos/FamilleChaulet/salame-tipo-alemao.webp",
         price: 58.0,
       },
       {
-        name: "Salame tipo argentino",
+        name: "Famille Chaulet Salame tipo argentino",
         description: "O melhor salame.",
         image: "./assets/produtos/FamilleChaulet/salame-tipo-argentino.webp",
         price: 63.0,
       },
       {
-        name: "Lombo Canadense com Provolone",
+        name: "Imperio Gourmet Lombo Canadense com Provolone",
         description: "O melhor lombo.",
         image:
           "./assets/produtos/ImperioGourmet/lombo-canadense-com-provolone.webp",
         price: 29.9,
       },
       {
-        name: "Salaminho tipo Italiano tradicional",
+        name: "Imperio Gourmet Salaminho tipo Italiano tradicional",
         description: "O melhor lombo.",
         image:
           "./assets/produtos/ImperioGourmet/salaminho-tipo-italiano-tradicional.webp",
         price: 29.9,
       },
       {
-        name: "Salaminho Italiano com Azeitona",
+        name: "Imperio Gourmet Salaminho Italiano com Azeitona",
         description: "O melhor salaminho.",
         image:
           "./assets/produtos/ImperioGourmet/salaminho-italiano-com-azeitona.webp",
         price: 30.0,
       },
       {
-        name: "Salaminho Italiano com Pimenta Biquinho",
+        name: "Imperio Gourmet Salaminho Italiano com Pimenta Biquinho",
         description: "O melhor salaminho.",
         image:
           "./assets/produtos/ImperioGourmet/salaminho-italiano-com-pimenta-biquinho.webp",
         price: 30.0,
       },
       {
-        name: "Calabresa Seca",
+        name: "Mayer Calabresa Seca",
         description: "A melhor calabresa.",
         image: "./assets/produtos/Mayer/calabresa-seca.webp",
         price: 29.9,
       },
       {
-        name: "Salame de Cordeiro",
+        name: "Mayer Salame de Cordeiro",
         description: "Valor por peso, consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-de-cordeiro.webp",
         price: 0.0,
       },
       {
-        name: "Embutido de Carne Suína",
+        name: "Salumeria Romani Embutido de Carne Suína",
         description: "Indisponível no momento.",
         image:
           "./assets/produtos/SalumeriaRomani/embutido-de-carne-suina-cracovia.webp",
         price: 0.0,
       },
       {
-        name: "Salame tipo Caciatore",
+        name: "Salumeria Romani Salame tipo Caciatore",
         description: "indisponível no momento.",
         image: "./assets/produtos/SalumeriaRomani/salame-tipo-caciatore.webp",
         price: 0.0,
       },
       {
-        name: "Salame tipo Napolitano",
+        name: "Salumeria Romani Salame tipo Napolitano",
         description: "O melhor salame.",
         image: "./assets/produtos/SalumeriaRomani/salame-tipo-napolitano.webp",
         price: 29.9,
       },
       {
-        name: "Salame tipo Friolano",
+        name: "Cacian Charcutaria Salame tipo Friolano",
         description: "O melhor salame.",
         image: "./assets/produtos/CacianCharcutaria/salame-tipo-friolano.webp",
         price: 29.9,
       },
       {
-        name: "Pepperoni Picante",
+        name: "ColdSmoke Pepperoni Picante",
         description: "O melhor pepperoni.",
         image: "./assets/produtos/ColdSmoke/pepperoni-picante.webp",
         price: 29.9,
       },
       {
-        name: "Pepperoni Picante",
+        name: "ColdSmoke Pepperoni Picante",
         description: "A melhor pulled pork.",
         image: "./assets/produtos/ColdSmoke/pulled-pork.webp",
         price: 29.9,
       },
       {
-        name: "Salsicha Frank Furter",
+        name: "ColdSmoke Salsicha Frank Furter",
         description: "A melhor salsicha.",
         image: "./assets/produtos/ColdSmoke/salsicha-frank-furter.webp",
         price: 29.9,
       },
       {
-        name: "Torresmo de Rolo",
+        name: "ColdSmoke Torresmo de Rolo",
         description: "O melhor torresmo.",
         image: "./assets/produtos/ColdSmoke/torresmo-de-rolo.webp",
         price: 29.9,
       },
       {
-        name: "Lombo Canadense com Provolone",
+        name: "ColdSmoke Lombo Canadense com Provolone",
         description: "O melhor lombo.",
         image: "./assets/produtos/ColdSmoke/lombo-canadense-com-provolone.webp",
         price: 29.9,
       },
       {
-        name: "Linguiça Blumenau",
+        name: "Olho Linguiça Blumenau",
         description: "A melhor linguiça.",
         image: "./assets/produtos/Olho/linguica-blumenau.webp",
         price: 29.9,
       },
       {
-        name: "Linguiça Húngara",
+        name: "Olho Linguiça Húngara",
         description: "A melhor linguiça.",
         image: "./assets/produtos/Olho/linguica-hungara.webp",
         price: 29.9,
       },
       {
-        name: "Salame Tipo italiano",
+        name: "Olho Salame Tipo italiano",
         description: "A melhor linguiça.",
         image: "./assets/produtos/Olho/salame-tipo-italiano.webp",
         price: 29.9,
@@ -1576,126 +1576,126 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Queijos: [
       {
-        name: "Queijo provolone desidratado com goiabada 215g",
+        name: "Sagrado Queijo Queijo provolone desidratado com goiabada 215g",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/SagradoQueijo/queijo-com-goiabada-pequeno.webp",
         price: 38.0,
       },
       {
-        name: "Queijo provolone desidratado com goiabada 350g",
+        name: "Sagrado Queijo Queijo provolone desidratado com goiabada 350g",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/SagradoQueijo/queijo-com-goiabada-grande.webp",
         price: 53.0,
       },
       {
-        name: "Queijo flor do cerrado",
+        name: "Cabríssima Queijo flor do cerrado",
         description: "O melhor queijo.",
         image: "./assets/produtos/Cabrissima/flor-do-cerrado.webp",
         price: 53.0,
       },
       {
-        name: "Queijo tipo boursin com pimenta rosa",
+        name: "Cabríssima Queijo tipo boursin com pimenta rosa",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/Cabrissima/queijo-boursin-com-pimenta-rosa.webp",
         price: 53.0,
       },
       {
-        name: "Queijo tipo boursin com ervas finas",
+        name: "Cabríssima Queijo tipo boursin com ervas finas",
         description: "O melhor queijo.",
         image: "./assets/produtos/Cabrissima/queijo-boursin-ervas-finas.webp",
         price: 53.0,
       },
       {
-        name: "Queijo tipo boursin com chimichurry",
+        name: "Cabríssima Queijo tipo boursin com chimichurry",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/Cabrissima/queijo-boursin-leite-de-cabra-com-chimichurri.webp",
         price: 53.0,
       },
       {
-        name: "Queijo maturado de leite de cabra Brasília",
+        name: "Cabríssima Queijo maturado de leite de cabra Brasília",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/Cabrissima/quejo-maturado-de-leite-de-cabra-brasilia.webp",
         price: 53.0,
       },
       {
-        name: "Queijo tipo boursin de leite de cabra com Za'atar",
+        name: "Cabríssima Queijo tipo boursin de leite de cabra com Za'atar",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/Cabrissima/queijo-tipo-boursin-leite-de-cabra-zaatar.webp",
         price: 53.0,
       },
       {
-        name: "Queijo Autoral",
+        name: "Candeia Queijo Autoral",
         description: "O melhor queijo.",
         image: "./assets/produtos/Candeia/queijo-autoral.webp",
         price: 53.0,
       },
       {
-        name: "Queijo Piegora colonial de leite de ovelha com chimichurri",
+        name: "Casa Bianchi Queijo Piegora colonial de leite de ovelha com chimichurri",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/CasaBianchi/Piegora-queijo-colonial-de-leite-de-ovelha-com-chimichurri.webp",
         price: 53.0,
       },
       {
-        name: "Queijo Palline di Catarina tipo boursin alecrim e pimenta",
+        name: "Casa Bianchi Queijo Palline di Catarina tipo boursin alecrim e pimenta",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/CasaBianchi/queijo-palline-di-catarina-tipo-boursin-alecrim-e-pimenta.webp",
         price: 53.0,
       },
       {
-        name: "Queijo tipo Deta de leite de ovelha",
+        name: "Casa Bianchi Queijo tipo Deta de leite de ovelha",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/CasaBianchi/queijo-tipo-deta-de-leite-de-ovelha.webp",
         price: 53.0,
       },
       {
-        name: "Queijo Celero",
+        name: "Celero Queijo Celero",
         description: "O melhor queijo.",
         image: "./assets/produtos/Celero/queijo-celero.webp",
         price: 53.0,
       },
       {
-        name: "Queijo Autoral",
+        name: "Cremoso Queijo Autoral",
         description: "O melhor queijo.",
         image: "./assets/produtos/Cremoso/queijo-autoral.webp",
         price: 29.9,
       },
       {
-        name: "Queijo O enigma",
+        name: "Fazenda Generosa Queijo O enigma",
         description: "O melhor queijo.",
         image: "./assets/produtos/FazendaGenerosa/o-enigma.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Minas meia cura premium",
+        name: "Fazenda Generosa Queijo Minas meia cura premium",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/FazendaGenerosa/queijo-minas-meia-cura-premium.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Minas Padrão Zé Luiz",
+        name: "Fazenda Generosa Queijo Minas Padrão Zé Luiz",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/FazendaGenerosa/queijo-minas-padra-ze-luiz.webp",
         price: 29.9,
       },
       {
-        name: "Requeijão em Barra",
+        name: "Fazenda Generosa Requeijão em Barra",
         description: "O melhor queijo.",
         image: "./assets/produtos/FazendaGenerosa/requeijao-em-barra.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Mantiqueira de minas 6kg",
+        name: "Goa Queijo Mantiqueira de minas 6kg",
         description: "O melhor queijo.",
         image: "./assets/produtos/Goa/mantiqueira-de-minas-6kg.webp",
         price: 29.9,
@@ -1707,65 +1707,65 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
-        name: "Queijo Serra da Mantiqueira Goa zero lactose",
+        name: "Goa Queijo Serra da Mantiqueira Goa zero lactose",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/Goa/serra-da-mantiqueira-goa-zero-lactose.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Minas Canastra",
+        name: "Irmãos Faria Queijo Minas Canastra",
         description: "O melhor queijo.",
         image: "./assets/produtos/IrmaosFaria/queijo-minas-canastra.webp",
         price: 29.9,
       },
       {
-        name: "Requeijão",
+        name: "Jeito De Mato Requeijão",
         description: "O melhor queijo.",
         image: "./assets/produtos/JeitoDeMato/requeijao.webp",
         price: 29.9,
       },
       {
-        name: "Quejo Coalho com Chimichurry",
+        name: "Ouro Branco Quejo Coalho com Chimichurry",
         description: "O melhor queijo.",
         image: "./assets/produtos/OuroBranco/coalho-com-chimichurry.webp",
         price: 29.9,
       },
       {
-        name: "Quejo Coalho Temperado",
+        name: "Ouro Branco Quejo Coalho Temperado",
         description: "O melhor queijo.",
         image: "./assets/produtos/OuroBranco/coalho-temperado.webp",
         price: 29.9,
       },
       {
-        name: "Quejo Coalho Tradicional",
+        name: "Ouro Branco Quejo Coalho Tradicional",
         description: "O melhor queijo.",
         image: "./assets/produtos/OuroBranco/coalho-tradicional.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Minas Meia Cura Defumado",
+        name: "Paladar De Minas Queijo Minas Meia Cura Defumado",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/PaladarDeMinas/queijo-minas-meia-cura-defumado.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Minas Meia Cura Fracionado",
+        name: "Paladar De Minas Queijo Minas Meia Cura Fracionado",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/PaladarDeMinas/queijo-minas-meia-cura-fracionado.webp",
         price: 29.9,
       },
       {
-        name: "Borbinha Queijo Cremoso",
+        name: "Queijaria Bolderini Borbinha Queijo Cremoso",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/QueijariaBolderini/Borbinha-queijo-cremoso.webp",
         price: 29.9,
       },
       {
-        name: "Malacaxeta Queijo Maturado 30 dias",
+        name: "Queijaria Bolderini Malacaxeta Queijo Maturado 30 dias",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/QueijariaBolderini/malacaxeta-queijo-maturado-30-dias.webp",
@@ -1778,64 +1778,64 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
-        name: "Queijo Minas Artesanal Alba",
+        name: "Santa Clara Queijo Minas Artesanal Alba",
         description: "O melhor queijo.",
         image: "./assets/produtos/SantaClara/queijo-minas-artesanal-alba.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Minas Artesanal Arnaldo",
+        name: "Santa Clara Queijo Minas Artesanal Arnaldo",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/SantaClara/queijo-minas-artesanal-arnaldo.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Minas Artesanal Joaquina",
+        name: "Santa Clara Queijo Minas Artesanal Joaquina",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/SantaClara/queijo-minas-artesanal-joaquina.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Fresco Serra da Abelha",
+        name: "Serra Da Abelha Queijo Fresco Serra da Abelha",
         description: "O melhor queijo.",
         image: "./assets/produtos/SerraDaAbelha/queijo-fresco.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Defumado Serra do Condado",
+        name: "Serra Do Condado Queijo Defumado Serra do Condado",
         description: "O melhor queijo.",
         image: "./assets/produtos/SerraDoCondado/queijo-defumado.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Ovo Negro Serra do Condado",
+        name: "Serra Do Condado Queijo Ovo Negro Serra do Condado",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/SerraDoCondado/queijo-serra-do-condado-ovo-negro.webp",
         price: 29.9,
       },
       {
-        name: "Queijista Cru do Testo Leite Cru",
+        name: "Vermont Queijista Cru do Testo Leite Cru",
         description: "O melhor queijo.",
         image: "./assets/produtos/Vermont/queijo-cru-do-testo-leite-cru.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Maturado",
+        name: "Vermont Queijo Maturado",
         description: "O melhor queijo.",
         image: "./assets/produtos/Vermont/queijo-maturado.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Tipo Brie",
+        name: "Vermont Queijo Tipo Brie",
         description: "O melhor queijo.",
         image: "./assets/produtos/Vermont/queijo-tipo-brie.webp",
         price: 29.9,
       },
       {
-        name: "Queijo Zero Lactose",
+        name: "Vermont Queijo Zero Lactose",
         description: "O melhor queijo.",
         image: "./assets/produtos/Vermont/queijo-zero-lactose.webp",
         price: 29.9,
@@ -1843,110 +1843,110 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Chocolates: [
       {
-        name: "Caixa de chocolate barras do Cacao",
+        name: "Do Cacao Caixa de chocolate barras do Cacao",
         description: "O melhor chocolate.",
         image: "./assets/produtos/ChocolateDoCacao/caixa-do-cacao.webp",
         price: 53.0,
       },
       {
-        name: "Caixa de 10 chocolates do Cacao",
+        name: "Do Cacao Caixa de 10 chocolates do Cacao",
         description: "O melhor chocolate.",
         image: "./assets/produtos/ChocolateDoCacao/caixa-do-cacao-10.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate ao Leite 40% cacau 30g",
+        name: "Do Cacao Chocolate ao Leite 40% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-40%-30g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate ao Leite 40% cacau 85g",
+        name: "Do Cacao Chocolate ao Leite 40% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-40%-85g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate ao Leite com castanha 40% cacau 30g",
+        name: "Do Cacao Chocolate ao Leite com castanha 40% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-com-castanha-40%-30g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate ao Leite com castanha 40% cacau 85g",
+        name: "Do Cacao Chocolate ao Leite com castanha 40% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-com-castanha-40%-85g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate ao Leite com cupuaçu 40% cacau 30g",
+        name: "Do Cacao Chocolate ao Leite com cupuaçu 40% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-com-cupuacu-40%-30g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate ao Leite com cupuaçu 40% cacau 85g",
+        name: "Do Cacao Chocolate ao Leite com cupuaçu 40% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-com-cupuacu-40%-85g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate Branco 35% cacau 30g",
+        name: "Do Cacao Chocolate Branco 35% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-branco-35%-30g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate Branco 35% cacau 85g",
+        name: "Do Cacao Chocolate Branco 35% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-branco-35%-85g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate Branco com amora 35% cacau 30g",
+        name: "Do Cacao Chocolate Branco com amora 35% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-branco-com-amora-35%-30g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate Branco com amora 35% cacau 85g",
+        name: "Do Cacao Chocolate Branco com amora 35% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-branco-com-amora-35%-85g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate com café 40% cacau 30g",
+        name: "Do Cacao Chocolate com café 40% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-com-cafe-40%-30g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate com café 40% cacau 85g",
+        name: "Do Cacao Chocolate com café 40% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-com-cafe-40%-85g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate Intenso 70% cacau 30g",
+        name: "Do Cacao Chocolate Intenso 70% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-intenso-70%-30g.webp",
         price: 53.0,
       },
       {
-        name: "Chocolate Intenso 70% cacau 85g",
+        name: "Do Cacao Chocolate Intenso 70% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-intenso-70%-85g.webp",
@@ -1955,53 +1955,53 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Manteigas: [
       {
-        name: "Manteiga Ghee com Alecrim",
+        name: "Manteigaria Nacional Manteiga Ghee com Alecrim",
         description: "A melhor manteiga.",
         image:
           "./assets/produtos/ManteigariaNacional/manteiga-ghee-alecrim.webp",
         price: 29.9,
       },
       {
-        name: "Manteiga Ghee com Noz Moscada e Pimenta Seca",
+        name: "Manteigaria Nacional Manteiga Ghee com Noz Moscada e Pimenta Seca",
         description: "A melhor manteiga.",
         image:
           "./assets/produtos/ManteigariaNacional/manteiga-ghee-noz-moscada-pimenta-seca.webp",
         price: 29.9,
       },
       {
-        name: "Manteiga Ghee com Tamara",
+        name: "Manteigaria Nacional Manteiga Ghee com Tamara",
         description: "A melhor manteiga.",
         image:
           "./assets/produtos/ManteigariaNacional/manteiga-ghee-tamara.webp",
         price: 29.9,
       },
       {
-        name: "Manteiga Ghee",
+        name: "Manteigaria Nacional Manteiga Ghee",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/manteiga-ghee.webp",
         price: 29.9,
       },
       {
-        name: "Manteiga com flor de sal",
+        name: "Manteigaria Nacional Manteiga com flor de sal",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/flor-de-sal.webp",
         price: 29.9,
       },
       {
-        name: "Manteiga Jatobá",
+        name: "Manteigaria Nacional Manteiga Jatobá",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/manteiga-jatoba.webp",
         price: 29.9,
       },
       {
-        name: "Manteiga Tartufo 90g",
+        name: "Manteigaria Nacional Manteiga Tartufo 90g",
         description: "A melhor manteiga.",
         image:
           "./assets/produtos/ManteigariaNacional/manteiga-tartufo-90g.webp",
         price: 29.9,
       },
       {
-        name: "Manteiga Tartufo",
+        name: "Manteigaria Nacional Manteiga Tartufo",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/manteiga-tartufo.webp",
         price: 29.9,
@@ -2009,62 +2009,62 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Temperos: [
       {
-        name: "Pesto de azeitona preta",
+        name: "Frentano Pesto de azeitona preta",
         description: "O melhor pesto.",
         image:
           "./assets/produtos/Frentano/frentano-pesto-de-azeitona-preta.webp",
         price: 29.9,
       },
       {
-        name: "Sardella",
+        name: "Frentano Sardella",
         description: "A melhor sardella.",
         image: "./assets/produtos/Frentano/frentano-sardella.webp",
         price: 29.9,
       },
       {
-        name: "Tempero da Tereza Arrozinho",
+        name: "Tabuleiro Da Chef Tempero da Tereza Arrozinho",
         description: "A melhor farofa.",
         image:
           "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-arrozinho.webp",
         price: 24.2,
       },
       {
-        name: "Tempero da Tereza Bifinho",
+        name: "Tabuleiro Da Chef Tempero da Tereza Bifinho",
         description: "A melhor farofa.",
         image:
           "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-bifinho.webp",
         price: 24.2,
       },
       {
-        name: "Tempero da Tereza Cordeirinho",
+        name: "Tabuleiro Da Chef Tempero da Tereza Cordeirinho",
         description: "A melhor farofa.",
         image:
           "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-cordeirinho.webp",
         price: 24.2,
       },
       {
-        name: "Tempero da Tereza Feijãozinho",
+        name: "Tabuleiro Da Chef Tempero da Tereza Feijãozinho",
         description: "A melhor farofa.",
         image:
           "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-feijaozinho.webp",
         price: 24.2,
       },
       {
-        name: "Tempero da Tereza Franguinho",
+        name: "Tabuleiro Da Chef Tempero da Tereza Franguinho",
         description: "A melhor farofa.",
         image:
           "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-franguinho.webp",
         price: 24.2,
       },
       {
-        name: "Tempero da Tereza Leguminho",
+        name: "Tabuleiro Da Chef Tempero da Tereza Leguminho",
         description: "A melhor farofa.",
         image:
           "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-leguminho.webp",
         price: 24.2,
       },
       {
-        name: "Tempero da Tereza Peixinho",
+        name: "Tabuleiro Da Chef Tempero da Tereza Peixinho",
         description: "A melhor farofa.",
         image:
           "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-peixinho.webp",
