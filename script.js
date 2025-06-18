@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
       typeWriter("typewriter-h2", "A melhor do Distrito Federal!", 100, () => {
         typeWriter(
           "typewriter-p",
-          "Os melhores produtos que uma bodegaria pode oferecer, não percam nossas melhores ofertas!",
+          "Os melhores produtos que uma bodegaria pode oferecer, não percam nossas ofertas!",
           100
         );
       });
@@ -449,7 +449,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Café gourmet Cítrico laranja torra clara",
         description: "O melho Café.",
         image:
-          "./assets/produtos/Divino/cafe-gourmet-citrico-laranja-torra-clara.webp",
+          "./assets/produtos/Divino/cafe-gourmet-citrico-torra-clara.webp",
         price: 29.9,
       },
       {
@@ -1000,7 +1000,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Puro&Leve Geleia de Frutas Amarelas Sem adição de Açúcar",
         description: "O melhor doce.",
         image:
-          "./assets/produtos/Puro&Leve/geleia-de-frutas-amarelas-sem-adicao.webp",
+          "./assets/produtos/Puro&Leve/geleia-frutas-amarelas-sem-adicao.webp",
         price: 29.9,
       },
       {
@@ -1340,7 +1340,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Receita Caipira Bananada da Roça 400g",
         description: "O melhor doce.",
-        image: "./assets/produtos/ReceitaCaipira/bananada-da-roca.webp",
+        image: "./assets/produtos/ReceitaCaipira/bananada-da-roca-400g.webp",
         price: 29.9,
       },
       {
@@ -1587,14 +1587,14 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Cabríssima Queijo maturado de leite de cabra Brasília",
         description: "O melhor queijo.",
         image:
-          "./assets/produtos/Cabrissima/quejo-maturado-de-leite-de-cabra-brasilia.webp",
+          "./assets/produtos/Cabrissima/queijo-maturado-de-leite-de-cabra-brasilia.webp",
         price: 53.0,
       },
       {
         name: "Cabríssima Queijo tipo boursin de leite de cabra com Za'atar",
         description: "O melhor queijo.",
         image:
-          "./assets/produtos/Cabrissima/queijo-tipo-boursin-leite-de-cabra-zaatar.webp",
+          "./assets/produtos/Cabrissima/queijo-tipo-boursin-leite-de-cabra-com-zaatar.webp",
         price: 53.0,
       },
       {
@@ -1653,7 +1653,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Fazenda Generosa Queijo Minas Padrão Zé Luiz",
         description: "O melhor queijo.",
         image:
-          "./assets/produtos/FazendaGenerosa/queijo-minas-padra-ze-luiz.webp",
+          "./assets/produtos/FazendaGenerosa/queijo-minas-padrao-ze-luiz.webp",
         price: 29.9,
       },
       {
@@ -1787,7 +1787,8 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Vermont Queijista Cru do Testo Leite Cru",
         description: "O melhor queijo.",
-        image: "./assets/produtos/Vermont/queijo-cru-do-testo-leite-cru.webp",
+        image:
+          "./assets/produtos/Vermont/queijista-cru-do-testo-leite-cru.webp",
         price: 29.9,
       },
       {
@@ -1978,7 +1979,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Manteigaria Nacional Manteiga com flor de sal",
         description: "A melhor manteiga.",
-        image: "./assets/produtos/ManteigariaNacional/flor-de-sal.webp",
+        image: "./assets/produtos/ManteigariaNacional/manteiga-flor-de-sal.webp",
         price: 29.9,
       },
       {
