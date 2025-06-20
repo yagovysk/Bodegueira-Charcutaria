@@ -1,4 +1,3 @@
-// Função de efeito de digitação utilizando requestAnimationFrame
 function typeWriter(elementId, text, speed, callback) {
   const element = document.getElementById(elementId);
   if (!element) {
@@ -28,10 +27,8 @@ function typeWriter(elementId, text, speed, callback) {
   requestAnimationFrame(type);
 }
 
-// Carrinho de compras
 const cart = [];
 
-// Toast de feedback
 function showMessage(msg) {
   const toast = document.createElement("div");
   toast.textContent = msg;
@@ -111,7 +108,6 @@ function removeFromCart(name) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Menu Mobile
   const menuToggle = document.querySelector(".menu-toggle");
   const menuClose = document.querySelector(".menu-close");
   const navMobile = document.querySelector(".nav-mobile");
@@ -123,7 +119,6 @@ document.addEventListener("DOMContentLoaded", () => {
     navMobile?.classList.remove("active")
   );
 
-  // Digitação
   typeWriter(
     "typewriter-h1",
     "Bem-vindo a Bodegueira Charcutaria & Cia",
@@ -139,7 +134,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   );
 
-  // Produtos por categoria
   const categories = {
     AlhoNegro: [
       {
@@ -2510,13 +2504,11 @@ document.addEventListener("DOMContentLoaded", () => {
       dropdownMenu.classList.remove("show");
       dropdownButton.classList.remove("open");
 
-      // Marca a li clicada como ativa
       document
         .querySelectorAll(".dropdown-menu li")
         .forEach((li) => li.classList.remove("active"));
       target.classList.add("active");
 
-      // Atualiza texto do botão, mantendo a seta
       dropdownButton.childNodes[0].textContent =
         target.textContent.trim().replace("›", "") + " ";
 
@@ -2528,7 +2520,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function resetCarouselLoopTemporariamente() {
     clearInterval(carouselInterval);
-    setTimeout(startCarouselLoop, 1000); // reinicia o loop após 1s
+    setTimeout(startCarouselLoop, 1000);
   }
 
   function startCarouselLoop() {
@@ -2573,7 +2565,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     updateCarousel();
     enableMobileScroll();
-    startCarouselLoop(); // 👈 CHAME AQUI
+    startCarouselLoop();
   }
 
   function enableMobileScroll() {
@@ -2635,8 +2627,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Modal do carrinho
-  // Abrir o modal
   const cartIcon = document.getElementById("cart-icon");
   const cartModal = document.getElementById("cart-modal");
   const modalCheckoutButton = document.getElementById("modal-checkout-button");
@@ -2644,12 +2634,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const clearCartButton = document.getElementById("clear-cart-button");
 
   cartIcon?.addEventListener("click", () => {
-    cartModal?.classList.remove("hidden"); // Remove a classe 'hidden' para exibir o modal
+    cartModal?.classList.remove("hidden");
   });
 
-  // Fechar o modal
   closeCartModal?.addEventListener("click", () => {
-    cartModal?.classList.add("hidden"); // Adiciona a classe 'hidden' para esconder o modal
+    cartModal?.classList.add("hidden");
   });
 
   modalCheckoutButton?.addEventListener("click", () => {
@@ -2674,12 +2663,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   clearCartButton?.addEventListener("click", () => {
-    cart.length = 0; // Esvazia o array sem reatribuir
+    cart.length = 0;
     updateCart();
     showMessage("Carrinho esvaziado com sucesso!");
   });
 
-  // Carrega carrinho salvo do localStorage
   const savedCart = localStorage.getItem("cart");
   if (savedCart) {
     cart.push(...JSON.parse(savedCart));
@@ -2710,11 +2698,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (arrowIcon) {
-      arrowIcon.textContent = "▼"; // seta para baixo
+      arrowIcon.textContent = "▼";
     }
 
     if (!query) {
-      loadProducts(); // Exibe todos
+      loadProducts();
       return;
     }
 
@@ -2734,7 +2722,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   searchInput?.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
-      searchButton.click(); // Isso aciona o clique e já fecha o dropdown
+      searchButton.click();
     }
   });
 });
