@@ -2461,7 +2461,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Vermont Torradas Vermont",
         description: "Vermont a melhor Torrada.",
         image: "./assets/produtos/Vermont/torradas-vermont.webp",
-        price: 11.0,
+        price: 15.0,
       },
     ],
   };
