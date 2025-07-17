@@ -241,13 +241,6 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
-        name: "Bisnaga Cebola Roxa Caramelizada",
-        description: "A melhor.",
-        image:
-          "./assets/produtos/BrazilianFlavor/flavor-cebola-roxa-caramelizada.webp",
-        price: 31.0,
-      },
-      {
         name: "Bisnaga Mel silvestre",
         description: "O melhor mel.",
         image: "./assets/produtos/BrazilianFlavor/mel-flavor-silvestre.webp",
@@ -498,7 +491,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 53.0,
       },
       {
-        name: "Guanciale Maturado Defumado",
+        name: "Guanciale Maturado",
         description: "O melhor guanciale.",
         image: "./assets/produtos/ColdSmoke/guanciale-maturado.webp",
         price: 53.0,
@@ -647,6 +640,13 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "A melhor geleia.",
         image:
           "./assets/produtos/BrazilianFlavor/geleia-flavor-morango-com-baunilha.webp",
+        price: 31.0,
+      },
+      {
+        name: "Bisnaga Cebola Roxa Caramelizada",
+        description: "A melhor.",
+        image:
+          "./assets/produtos/BrazilianFlavor/flavor-cebola-roxa-caramelizada.webp",
         price: 31.0,
       },
       {
@@ -886,6 +886,18 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 32.0,
       },
       {
+        name: "Puro&Leve Geleia de Uva Sem adição de Açúcar",
+        description: "O melhor doce.",
+        image: "./assets/produtos/Puro&Leve/geleia-uva-sem-adicao.webp",
+        price: 29.9,
+      },
+      {
+        name: "Puro&Leve Geleia de Figo Zero",
+        description: "O melhor doce.",
+        image: "./assets/produtos/Puro&Leve/geleia-de-figo-zero-adicao.webp",
+        price: 29.9,
+      },
+      {
         name: "Puro&Leve Geleia Keto de Frutas Vermelhas",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-frutas-vermelhas.webp",
@@ -895,19 +907,13 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Puro&Leve Geleia Keto Goiaba",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-goiaba.webp",
-        price: 38.0,
+        price: 32.0,
       },
       {
         name: "Puro&Leve Geleia Keto de Manga com Maracujá",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-manga-maracuja.webp",
         price: 32.0,
-      },
-      {
-        name: "Puro&Leve Geleia de Uva Sem adição de Açúcar",
-        description: "O melhor doce.",
-        image: "./assets/produtos/Puro&Leve/geleia-uva-sem-adicao.webp",
-        price: 29.9,
       },
       {
         name: "Puro&Leve Geleia Keto de Morango",
@@ -1021,12 +1027,6 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/figada-zero.webp",
         price: 25.9,
-      },
-      {
-        name: "Puro&Leve Geleia de Figo Zero",
-        description: "O melhor doce.",
-        image: "./assets/produtos/Puro&Leve/geleia-de-figo-zero-adicao.webp",
-        price: 29.9,
       },
       {
         name: "Bisnaga Geleia de morango zero adição de açúcar",
@@ -1310,13 +1310,13 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Do Cacao Licor do Cacao 375ml",
         description: "O melhor licor.",
         image: "./assets/produtos/ChocolateDoCacao/licor-do-cacao-375ml.webp",
-        price: 53.0,
+        price: 89.0,
       },
       {
         name: "Do Cacao Licor do Cacao 750ml",
         description: "O melhor licor.",
         image: "./assets/produtos/ChocolateDoCacao/licor-do-cacao-750ml.webp",
-        price: 53.0,
+        price: 138.0,
       },
     ],
     Salames: [
@@ -1421,7 +1421,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 0.0,
       },
       {
-        name: "Salame de Mista Defumada",
+        name: "Salame Misto Defumado Bovino e Suíno",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-mista-defumada.webp",
@@ -1957,7 +1957,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 59.5,
       },
       {
-        name: "Manteigaria Nacional Manteiga Ghee",
+        name: "Manteigaria Nacional Manteiga Ghee Tradicional",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/manteiga-ghee.webp",
         price: 51.9,
@@ -2145,91 +2145,91 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Risottos: [
       {
-        name: "IlCuoco Risotto de Abóbora sache",
+        name: "Il Cuoco Risotto de Abóbora sache",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-abobora-sache.webp",
         price: 32.9,
       },
       {
-        name: "IlCuoco Risotto de Alho Poró sache",
+        name: "Il Cuoco Risotto de Alho Poró sache",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-alho-poro-sache.webp",
         price: 32.9,
       },
       {
-        name: "IlCuoco Risotto de Alla milanese sache",
+        name: "Il Cuoco Risotto de Alla milanese sache",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-alla-milanese-sache.webp",
         price: 32.9,
       },
       {
-        name: "IlCuoco Risotto Alla Napoletana sache",
+        name: "Il Cuoco Risotto Alla Napoletana sache",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-alla-napoletana-sache.webp",
         price: 32.9,
       },
       {
-        name: "IlCuoco Risotto de Alle Verdure sache",
+        name: "Il Cuoco Risotto de Alle Verdure sache",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-alle-verdure-sache.webp",
         price: 32.9,
       },
       {
-        name: "IlCuoco Risotto de Beterraba sache",
+        name: "Il Cuoco Risotto de Beterraba sache",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-beterraba-sache.webp",
         price: 32.9,
       },
       {
-        name: "IlCuoco Risotto de Funghi sache",
+        name: "Il Cuoco Risotto de Funghi sache",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-funghi-sache.webp",
         price: 32.9,
       },
       {
-        name: "IlCuoco Risotto Limão Siciliano sache",
+        name: "Il Cuoco Risotto Limão Siciliano sache",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-siciliano-sache.webp",
         price: 32.9,
       },
       {
-        name: "IlCuoco Risotto de Damasco com Amêndoas",
+        name: "Il Cuoco Risotto de Damasco com Amêndoas",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-damasco-com-amendoas.webp",
         price: 42.9,
       },
       {
-        name: "IlCuoco Risotto de Alla Carbonara pote",
+        name: "Il Cuoco Risotto de Alla Carbonara pote",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-alla-carbonara.webp",
         price: 42.9,
       },
       {
-        name: "IlCuoco Risotto Alla Napoletana Pote",
+        name: "Il Cuoco Risotto Alla Napoletana Pote",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-alla-napoletana.webp",
         price: 42.9,
       },
       {
-        name: "IlCuoco Risotto Alle Funghi pote",
+        name: "Il Cuoco Risotto Alle Funghi pote",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-alle-funghi.webp",
         price: 42.9,
       },
       {
-        name: "IlCuoco Risotto de Limão Siciliano pote",
+        name: "Il Cuoco Risotto de Limão Siciliano pote",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-limao-siciliano.webp",
         price: 42.9,
       },
       {
-        name: "IlCuoco Risotto de Maçã e Castanhas pote",
+        name: "Il Cuoco Risotto de Maçã e Castanhas pote",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-maca-e-castanhas.webp",
         price: 42.9,
       },
       {
-        name: "IlCuoco Risotto de Pera e Nozes pote",
+        name: "Il Cuoco Risotto de Pera e Nozes pote",
         description: "O melhor risotto.",
         image: "./assets/produtos/IlCuoco/risotto-pera-e-nozes.webp",
         price: 42.9,
@@ -2316,37 +2316,6 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 43.0,
       },
       {
-        name: "Ayslla Beringela Defumada 350g",
-        description: "O melhor defumado.",
-        image: "./assets/produtos/Ayslla/beringela-defumada-350g.webp",
-        price: 59.9,
-      },
-      {
-        name: "Ayslla Jiló com castanha-de-cajú Defumada 345g",
-        description: "O melhor defumado.",
-        image:
-          "./assets/produtos/Ayslla/jilo-com-castanha-de-caju-defumada-345g.webp",
-        price: 59.9,
-      },
-      {
-        name: "Ayslla Tomate Defumado 350g",
-        description: "O melhor defumado.",
-        image: "./assets/produtos/Ayslla/tomate-defumado-350g.webp",
-        price: 59.9,
-      },
-      {
-        name: "L'apetisse Berinjela Filetada",
-        description: "A melhor beringela.",
-        image: "./assets/produtos/L'apetisse/berinjela-filetada.webp",
-        price: 37.9,
-      },
-      {
-        name: "L'apetisse Pimenta Biquinho e alho",
-        description: "A melhor pimenta.",
-        image: "./assets/produtos/L'apetisse/pimenta-biquinho-e-alho.webp",
-        price: 37.9,
-      },
-      {
         name: "Milagre de Minas Mostarda com alho e azeitona 220g",
         description: "O melhor molho.",
         image:
@@ -2411,6 +2380,37 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "A melhor beringela.",
         image: "./assets/produtos/L'apetisse/capotana-de-berinjela.webp",
         price: 37.9,
+      },
+      {
+        name: "L'apetisse Berinjela Filetada",
+        description: "A melhor beringela.",
+        image: "./assets/produtos/L'apetisse/berinjela-filetada.webp",
+        price: 37.9,
+      },
+      {
+        name: "L'apetisse Pimenta Biquinho e alho",
+        description: "A melhor pimenta.",
+        image: "./assets/produtos/L'apetisse/pimenta-biquinho-e-alho.webp",
+        price: 37.9,
+      },
+      {
+        name: "Ayslla Beringela Defumada 350g",
+        description: "O melhor defumado.",
+        image: "./assets/produtos/Ayslla/beringela-defumada-350g.webp",
+        price: 59.9,
+      },
+      {
+        name: "Ayslla Jiló com castanha-de-cajú Defumada 345g",
+        description: "O melhor defumado.",
+        image:
+          "./assets/produtos/Ayslla/jilo-com-castanha-de-caju-defumada-345g.webp",
+        price: 59.9,
+      },
+      {
+        name: "Ayslla Tomate Defumado 350g",
+        description: "O melhor defumado.",
+        image: "./assets/produtos/Ayslla/tomate-defumado-350g.webp",
+        price: 59.9,
       },
       {
         name: "Ayslla Pesto de manjericão crocante com amêndoas defumadas 213g",
