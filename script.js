@@ -184,6 +184,12 @@ document.addEventListener("DOMContentLoaded", () => {
         image: "./assets/produtos/AlhoNegro/vinagre-alho-negro.webp",
         price: 28.9,
       },
+      {
+        name: "Caixa Alho Negro",
+        description: "O melhor sabor.",
+        image: "./assets/produtos/AlhoNegro/caixa-alho-negro.webp",
+        price: 28.9,
+      },
     ],
     Mel: [
       {
@@ -324,6 +330,12 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Doce de leite de ovelha 660g",
         description: "O melhor doce de leite.",
         image: "./assets/produtos/CasaBianchi/doce-ovelha-660.webp",
+        price: 85.0,
+      },
+      {
+        name: "Doce de Leite Leite tipo A 420g",
+        description: "O melhor doce de leite.",
+        image: "./assets/produtos/Estrelat/doce-de-leite-tipo-a-420g.webp",
         price: 85.0,
       },
       {
@@ -471,11 +483,18 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     DefumadosMaturados: [
       {
-        name: "Copa Defumada Especial",
+        name: "Src Copa Defumada Especial",
         description: "Preço por peso, consultar no WhatsApp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/copa-defumada-especial.webp",
         price: 0.0,
+      },
+      {
+        name: "Src Copa Defumada Especial 1kg",
+        description: "O melhor defumado.",
+        image:
+          "./assets/produtos/CacianCharcutaria/copa-defumada-especial-maior.webp",
+        price: 29.9,
       },
       {
         name: "Linguiça Calabresa Defumada",
@@ -509,45 +528,51 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 53.0,
       },
       {
-        name: "Bacon Defumado",
+        name: "Pitlord Bacon Defumado",
         description: "O melhor Bacon.",
         image: "./assets/produtos/PitLord/bacon-defumado.webp",
         price: 53.0,
       },
       {
-        name: "Bacon Especial de Pernil Defumado",
+        name: "Pitlord Bacon Especial de Pernil Defumado",
         description: "O melhor Bacon.",
         image: "./assets/produtos/PitLord/bacon-especial-de-pernil.webp",
         price: 53.0,
       },
       {
-        name: "Guanciale Defumado",
+        name: "Pitlord Guanciale Defumado",
         description: "O melhor guanciale.",
         image: "./assets/produtos/PitLord/guanciale-defumado.webp",
         price: 53.0,
       },
       {
-        name: "Pancetta Rolata Defumada 1kg",
+        name: "Pitlord Pancetta Rolata Defumada 1kg",
         description: "A melhor pancetta.",
         image: "./assets/produtos/PitLord/pancetta-rolata-defumada-1kg.webp",
         price: 53.0,
       },
       {
-        name: "Pancetta Rolata Defumada",
+        name: "Pitlord Pancetta Rolata Defumada",
         description: "A melhor pancetta.",
         image: "./assets/produtos/PitLord/pancetta-rolata-defumada.webp",
         price: 53.0,
       },
       {
-        name: "Picanha Suína Defumada",
+        name: "Pitlord Picanha Suína Defumada",
         description: "A melhor picanha.",
         image: "./assets/produtos/PitLord/picanha-defumada.webp",
         price: 53.0,
       },
       {
-        name: "Salsicha Artesanal Defumada",
+        name: "Pitlord Salsicha Artesanal Defumada",
         description: "A melhor Salsicha.",
         image: "./assets/produtos/PitLord/salsicha-artesanal-defumada.webp",
+        price: 53.0,
+      },
+      {
+        name: "Pitlord Joelho Defumado",
+        description: "O melhor joelho.",
+        image: "./assets/produtos/PitLord/joelho-defumado.webp",
         price: 53.0,
       },
       {
@@ -787,6 +812,19 @@ document.addEventListener("DOMContentLoaded", () => {
         image: "./assets/produtos/ChocolateDoCacao/geleia-do-cacao-240g.webp",
         price: 39.8,
       },
+      {
+        name: "Geleia Chutney de maracujá",
+        description: "A melhor geleia.",
+        image: "./assets/produtos/GeleiaCoroa/chutney-maracuja.webp",
+        price: 39.8,
+      },
+      {
+        name: "Geleia de Maracujá com HUB de Churrasco",
+        description: "A melhor geleia.",
+        image:
+          "./assets/produtos/GeleiaCoroa/geleia-de-maracuja-com-hub-de-churrasco.webp",
+        price: 39.8,
+      },
     ],
     GeleiasZero: [
       {
@@ -871,6 +909,19 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/geleia-kiwi-sem-adicao.webp",
         price: 29.9,
+      },
+      {
+        name: "Puro&Leve Geleia Frutas do Bosque Sem adição de Açúcar",
+        description: "O melhor doce.",
+        image: "./assets/produtos/Puro&Leve/frutas-do-bosque-sem-adicao.webp",
+        price: 32.0,
+      },
+      {
+        name: "Puro&Leve Geleia de Frutas Vermelhas Sem adição de Açúcar",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/Puro&Leve/geleia-de-frutas-vermelhas-sem-adicao.webp",
+        price: 32.0,
       },
       {
         name: "Puro&Leve Geleia de Pitaya com Amora e Morango Sem adição de Açúcar",
@@ -990,6 +1041,13 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 48.9,
       },
       {
+        name: "Doces Fazenda De Minas Fondant de leite sem adição de açúcar com Lactose",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/DocesFazendaDeMinas/fondant-de-leite-sem-adicao.webp",
+        price: 48.9,
+      },
+      {
         name: "Doces Fazenda De Minas Jam cascão sem adição de açúcar",
         description: "O melhor doce.",
         image:
@@ -1010,6 +1068,13 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 56.9,
       },
       {
+        name: "Doces Fazenda De Minas Mamão Ralado Sem adição de açúcar",
+        description: "O melhor doce.",
+        image:
+          "./assets/produtos/DocesFazendaDeMinas/mamao-ralado-sem-adicao.webp",
+        price: 56.9,
+      },
+      {
         name: "Puro&Leve Creme de Avelã Zero Açúcar",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/creme-de-avela-zero.webp",
@@ -1026,6 +1091,12 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Puro&Leve Figada Zero",
         description: "O melhor doce.",
         image: "./assets/produtos/Puro&Leve/figada-zero.webp",
+        price: 25.9,
+      },
+      {
+        name: "Puro&Leve Goiabada Cascão Sem adição de açúcar",
+        description: "O melhor doce.",
+        image: "./assets/produtos/Puro&Leve/goiabada-cascao-sem-adicao.webp",
         price: 25.9,
       },
       {
@@ -1053,6 +1124,74 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-tamara-com-laranja.webp",
         price: 36.0,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Rosas Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-rosas-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Amendoim Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-amendoim-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Cacau Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-cacau-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Café Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image: "./assets/produtos/SaborGaucho/biscoito-de-cafe-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Camomila Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-camomila-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Lavanda Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-lavanda-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Maracujá Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-maracuja-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Morango Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-morango-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Nozes Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-nozes-sem-adicao.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor Gaúcho Broa de Milho Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image: "./assets/produtos/SaborGaucho/broa-de-milho-sem-adicao.webp",
+        price: 62.4,
       },
     ],
     Torrones: [
@@ -1092,6 +1231,12 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Torrone de Amêndoas avelã e Castanha de Cajú 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-castanha.webp",
+        price: 24.0,
+      },
+      {
+        name: "Torrone de Amêndoas Avelã Damasco e Cranberry 45g",
+        description: "O melhor torrone.",
+        image: "./assets/produtos/Torrones/torrone-damasco-cranberry-45g.webp",
         price: 24.0,
       },
       {
@@ -1243,6 +1388,12 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 44.0,
       },
       {
+        name: "Serra Negra Bala de Doce de Leite",
+        description: "O melhor doce.",
+        image: "./assets/produtos/SerraNegra/bala-de-doce-de-leite.webp",
+        price: 44.0,
+      },
+      {
         name: "Tabuleiro Da Chef Cocada de Abóbora",
         description: "O melhor doce.",
         image: "./assets/produtos/TabuleiroDaChef/cocada-de-abobora.webp",
@@ -1264,11 +1415,36 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 69.0,
       },
       {
+        name: "Casa Bianchi Licor de doce de leite com pistache 500ml",
+        description: "O melhor doce de licor.",
+        image: "./assets/produtos/CasaBianchi/licor-com-pistache-500ml.webp",
+        price: 69.0,
+      },
+      {
         name: "Casa Bianchi Licor creme de doce de leite de ovelha 250ml",
         description: "O melhor doce de leite.",
         image:
           "./assets/produtos/CasaBianchi/licor-creme-doce-ovelha-250ml.webp",
         price: 54.0,
+      },
+      {
+        name: "Casa Bianchi Licor creme de doce de leite de ovelha 500ml",
+        description: "O melhor doce de leite.",
+        image:
+          "./assets/produtos/CasaBianchi/licor-creme-de-leite-de-ovelha-500ml.webp",
+        price: 54.0,
+      },
+      {
+        name: "Casa Bianchi Licor de Banoffee 250ml",
+        description: "O melhor doce de licor.",
+        image: "./assets/produtos/CasaBianchi/licor-banoffee-250ml.webp",
+        price: 69.0,
+      },
+      {
+        name: "Casa Bianchi Licor de Banoffee 500ml",
+        description: "O melhor doce de licor.",
+        image: "./assets/produtos/CasaBianchi/licor-banoffee-500ml.webp",
+        price: 69.0,
       },
       {
         name: "AowsMininu Bananinha",
@@ -1318,6 +1494,51 @@ document.addEventListener("DOMContentLoaded", () => {
         image: "./assets/produtos/ChocolateDoCacao/licor-do-cacao-750ml.webp",
         price: 138.0,
       },
+      {
+        name: "Cachaça bodegueira",
+        description: "A melhor cachaça.",
+        image: "./assets/produtos/Bodegueira/cachaca-branca.webp",
+        price: 138.0,
+      },
+      {
+        name: "Cachaça bodegueira",
+        description: "A melhor cachaça.",
+        image: "./assets/produtos/Bodegueira/cachaca-clara.webp",
+        price: 138.0,
+      },
+      {
+        name: "Cachaça bodegueira",
+        description: "A melhor cachaça.",
+        image: "./assets/produtos/Bodegueira/cachaca-escura.webp",
+        price: 138.0,
+      },
+      {
+        name: "Velho Alambique Cachaça Envelhecida Blend Premium",
+        description: "A melhor cachaça.",
+        image:
+          "./assets/produtos/VelhoAlambique/cachaca-envelhecida-blend-premium.webp",
+        price: 138.0,
+      },
+      {
+        name: "Velho Alambique Cachaça Envelhecida em Cabreúva Premium",
+        description: "A melhor cachaça.",
+        image:
+          "./assets/produtos/VelhoAlambique/cachaca-envelhecida-em-cabreuva-premium.webp",
+        price: 138.0,
+      },
+      {
+        name: "Velho Alambique Cachaça Envelhecida em Carvalho",
+        description: "A melhor cachaça.",
+        image:
+          "./assets/produtos/VelhoAlambique/cachaca-envelhecida-em-carvalho.webp",
+        price: 138.0,
+      },
+      {
+        name: "Velho Alambique Licor de Chocolate",
+        description: "A melhor cachaça.",
+        image: "./assets/produtos/VelhoAlambique/licor-de-chocolate.webp",
+        price: 138.0,
+      },
     ],
     Salames: [
       {
@@ -1330,6 +1551,36 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Mayer Salame de Cordeiro",
         description: "Valor por peso, consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-de-cordeiro.webp",
+        price: 0.0,
+      },
+      {
+        name: "Mayer Salame de Classico",
+        description: "Valor por peso, consultar no Whatsapp.",
+        image: "./assets/produtos/Mayer/salame-classico.webp",
+        price: 0.0,
+      },
+      {
+        name: "Mayer Salame com Pistache",
+        description: "Valor por peso, consultar no Whatsapp.",
+        image: "./assets/produtos/Mayer/salame-com-pistache.webp",
+        price: 0.0,
+      },
+      {
+        name: "Mayer Salame Misto de Cordeiro e suíno",
+        description: "Valor por peso, consultar no Whatsapp.",
+        image: "./assets/produtos/Mayer/salame-misto-cordeiro-suino.webp",
+        price: 0.0,
+      },
+      {
+        name: "Mayer Salame",
+        description: "Valor por peso, consultar no Whatsapp.",
+        image: "./assets/produtos/Mayer/salame-mayer.webp",
+        price: 0.0,
+      },
+      {
+        name: "Mayer Salame Calabrese",
+        description: "Valor por peso, consultar no Whatsapp.",
+        image: "./assets/produtos/Mayer/salame-tipo-calabresa.webp",
         price: 0.0,
       },
       {
@@ -1358,6 +1609,13 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor salaminho.",
         image:
           "./assets/produtos/ImperioGourmet/salaminho-italiano-com-pimenta-biquinho.webp",
+        price: 30.0,
+      },
+      {
+        name: "Imperio Gourmet Lombo Canadense com Pimenta Malagueta",
+        description: "O melhor salaminho.",
+        image:
+          "./assets/produtos/ImperioGourmet/lombo-canadense-pimenta-malagueta.webp",
         price: 30.0,
       },
       {
@@ -1414,31 +1672,52 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 0.0,
       },
       {
-        name: "Salame de Carne Suína Defumada Apimentada",
+        name: "Src Salame de Carne Suína Defumada Apimentada",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-de-carne-suina-defumada-apimentada.webp",
         price: 0.0,
       },
       {
-        name: "Salame Misto Defumado Bovino e Suíno",
+        name: "Src Salame Misto Defumado Bovino e Suíno",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-mista-defumada.webp",
         price: 0.0,
       },
       {
-        name: "Salame Tipo Milano Defumado",
+        name: "Src Salame Tipo Milano Defumado",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-tipo-milano-defumado.webp",
         price: 0.0,
       },
       {
-        name: "Salame Tipo Sopressa Defumado",
+        name: "Src Salame Tipo Sopressa Defumado",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-tipo-sopressa-defumado.webp",
+        price: 0.0,
+      },
+      {
+        name: "Src Salame Misto Defumado com Javali",
+        description: "Valor por peso, consultar no Whatsapp.",
+        image:
+          "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-mista-defumada-com-javali.webp",
+        price: 0.0,
+      },
+      {
+        name: "Src Lombo Curado Defumado",
+        description: "Valor por peso, consultar no Whatsapp.",
+        image:
+          "./assets/produtos/SalumeriaSrcCaminhosDePedra/lombo-curado-defumado.webp",
+        price: 0.0,
+      },
+      {
+        name: "Src Salame Colonial Defumado",
+        description: "Valor por peso, consultar no Whatsapp.",
+        image:
+          "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-colonial-defumado.webp",
         price: 0.0,
       },
       {
@@ -1526,6 +1805,99 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Produto indisponível.",
         image: "./assets/produtos/FamilleChaulet/salame-tipo-argentino.webp",
         price: 0.0,
+      },
+      {
+        name: "Charque de Cordeiro",
+        description: "O Melhor charque.",
+        image:
+          "./assets/produtos/AgroindustriaSinuelo/charque-de-cordeiro.webp",
+        price: 0.0,
+      },
+      {
+        name: "Charque Light",
+        description: "O Melhor charque.",
+        image: "./assets/produtos/AgroindustriaSinuelo/charque-light.webp",
+        price: 0.0,
+      },
+      {
+        name: "Charque Tradicional",
+        description: "O Melhor charque.",
+        image:
+          "./assets/produtos/AgroindustriaSinuelo/charque-tradicional.webp",
+        price: 0.0,
+      },
+      {
+        name: "Jais Salame",
+        description: "O Melhor Salame.",
+        image: "./assets/produtos/Jais/salame-jais.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor do Chef Salame Tipo Italiano Azeitonas",
+        description: "O Melhor Salame.",
+        image:
+          "./assets/produtos/SaborDoChef/salame-tipo-italiano-azeitonas.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor do Chef Salame Tipo Italiano Malagueta",
+        description: "O Melhor Salame.",
+        image:
+          "./assets/produtos/SaborDoChef/salame-tipo-italiano-malagueta.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor do Chef Salame Tipo Italiano Pimenta Biquinho",
+        description: "O Melhor Salame.",
+        image:
+          "./assets/produtos/SaborDoChef/salame-tipo-italiano-pimenta-biquinho.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor do Chef Salame Tipo Italiano Provolone",
+        description: "O Melhor Salame.",
+        image:
+          "./assets/produtos/SaborDoChef/salame-tipo-italiano-provolone.webp",
+        price: 62.4,
+      },
+      {
+        name: "Sabor do Chef Salame Tipo Italiano Tradicional",
+        description: "O Melhor Salame.",
+        image:
+          "./assets/produtos/SaborDoChef/salame-tipo-italiano-tradicional.webp",
+        price: 62.4,
+      },
+      {
+        name: "Soeiro Salame com Funghi",
+        description: "O Melhor Salame.",
+        image: "./assets/produtos/Soeiro/salame-com-funghi.webp",
+        price: 62.4,
+      },
+      {
+        name: "Soeiro Salpicão Português",
+        description: "O Melhor Salpicão.",
+        image: "./assets/produtos/Soeiro/salpicão-portugues.webp",
+        price: 62.4,
+      },
+      {
+        name: "Vila Caipira Lombo Nobre Defumado com Alho",
+        description: "O Melhor Lombo.",
+        image: "./assets/produtos/VilaCaipira/lombo-nobre-defumado-alho.webp",
+        price: 62.4,
+      },
+      {
+        name: "Vila Caipira Lombo Nobre Defumado com Pimenta",
+        description: "O Melhor Lombo.",
+        image:
+          "./assets/produtos/VilaCaipira/lombo-nobre-defumado-pimenta.webp",
+        price: 62.4,
+      },
+      {
+        name: "Vila Caipira Salame de Frango Defumado Misto",
+        description: "O Melhor Salame.",
+        image:
+          "./assets/produtos/VilaCaipira/salame-frango-defumado-misto.webp",
+        price: 62.4,
       },
     ],
     Queijos: [
@@ -1712,6 +2084,18 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 0.0,
       },
       {
+        name: "Paladar De Minas Queijo Calambau com Cachaça",
+        description: "Consultar preço no Whatsapp.",
+        image: "./assets/produtos/PaladarDeMinas/calambau-com-cachaca.webp",
+        price: 0.0,
+      },
+      {
+        name: "Paladar De Minas Queijo Calamel",
+        description: "Consultar preço no Whatsapp.",
+        image: "./assets/produtos/PaladarDeMinas/queijo-calamel.webp",
+        price: 0.0,
+      },
+      {
         name: "Queijaria Bolderini Borbinha Queijo Cremoso",
         description: "Consultar preço no Whatsapp.",
         image:
@@ -1723,6 +2107,12 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Consultar preço no Whatsapp.",
         image:
           "./assets/produtos/QueijariaBolderini/malacaxeta-queijo-maturado-30-dias.webp",
+        price: 0.0,
+      },
+      {
+        name: "Queijaria Bolderini Queijo Santa Graça",
+        description: "Consultar preço no Whatsapp.",
+        image: "./assets/produtos/QueijariaBolderini/queijo-santa-graca.webp",
         price: 0.0,
       },
       {
@@ -1794,6 +2184,119 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor queijo.",
         image: "./assets/produtos/Vermont/queijo-zero-lactose.webp",
         price: 39.9,
+      },
+      {
+        name: "Lima Queijos Queijo Minas Artesanal",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/LimaQueijos/lima-queijo-minas-artesanal.webp",
+        price: 39.9,
+      },
+      {
+        name: "Lima Queijos Queijo Minas Artesanal",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/LimaQueijos/queijo-minas-artesanal.webp",
+        price: 39.9,
+      },
+      {
+        name: "Lima Queijos Queijo Rustiquim",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/LimaQueijos/queijo-rustiquim.webp",
+        price: 39.9,
+      },
+      {
+        name: "Micro Região Serro Queijo Minas Quilombo inteiro",
+        description: "O melhor queijo.",
+        image:
+          "./assets/produtos/MicroRegiaoSerro/queijo-minas-quilombo-inteiro.webp",
+        price: 39.9,
+      },
+      {
+        name: "Micro Região Serro Queijo Minas Quilombo metade",
+        description: "O melhor queijo.",
+        image:
+          "./assets/produtos/MicroRegiaoSerro/queijo-minas-quilombo-metade.webp",
+        price: 39.9,
+      },
+      {
+        name: "Micro Região Serro Queijo Minas Quilombo Saco",
+        description: "O melhor queijo.",
+        image:
+          "./assets/produtos/MicroRegiaoSerro/queijo-minas-quilombo-saco.webp",
+        price: 39.9,
+      },
+      {
+        name: "Pomedore Creme Tipo Brie Zero Lactose",
+        description: "O melhor creme.",
+        image: "./assets/produtos/Pomedore/creme-tipo-brie-zero-lactose.webp",
+        price: 42.0,
+      },
+      {
+        name: "Queijo Coqueiral",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/QueijoCoqueiral/queijo-coqueiral.webp",
+        price: 42.0,
+      },
+      {
+        name: "Quinta De Sant'Ana queijo Canastra Crispy",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/QuintaDeSant'Ana/queijo-canastra-crispy.webp",
+        price: 42.0,
+      },
+      {
+        name: "Quinta De Sant'Ana queijo Cordilheira",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/QuintaDeSant'Ana/queijo-cordilheira.webp",
+        price: 42.0,
+      },
+      {
+        name: "Quinta De Sant'Ana queijo Marandu",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/QuintaDeSant'Ana/queijo-marandu.webp",
+        price: 42.0,
+      },
+      {
+        name: "Rancho Maranata Queijo Mantiqueira Maranata Jovem",
+        description: "O melhor queijo.",
+        image:
+          "./assets/produtos/RanchoMaranata/queijo-mantiqueira-maranata-jovem.webp",
+        price: 42.0,
+      },
+      {
+        name: "Rancho Maranata Queijo Maranata Jovem Capa Preta",
+        description: "O melhor queijo.",
+        image:
+          "./assets/produtos/RanchoMaranata/queijo-maranata-jovem-capa-preta.webp",
+        price: 42.0,
+      },
+      {
+        name: "Terra Límpida Queijo Cynarella",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/TerraLimpida/queijo-cynarella.webp",
+        price: 42.0,
+      },
+      {
+        name: "Terra Límpida Queijo Faggeta",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/TerraLimpida/queijo-faggeta.webp",
+        price: 42.0,
+      },
+      {
+        name: "Terra Límpida Queijo Primavera",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/TerraLimpida/queijo-primavera.webp",
+        price: 42.0,
+      },
+      {
+        name: "Terra Límpida Queijo Querciola",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/TerraLimpida/queijo-querciola.webp",
+        price: 42.0,
+      },
+      {
+        name: "Terra Límpida Queijo Tipo Brie",
+        description: "O melhor queijo.",
+        image: "./assets/produtos/TerraLimpida/queijo-tipo-brie.webp",
+        price: 42.0,
       },
     ],
     Chocolates: [
@@ -1970,6 +2473,13 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 33.9,
       },
       {
+        name: "Manteigaria Nacional Manteiga com flor de sal 250g",
+        description: "A melhor manteiga.",
+        image:
+          "./assets/produtos/ManteigariaNacional/manteiga-flor-de-sal-250g.webp",
+        price: 33.9,
+      },
+      {
         name: "Manteigaria Nacional Manteiga Jatobá",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/manteiga-jatoba.webp",
@@ -1986,6 +2496,12 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Manteigaria Nacional Manteiga Tartufo",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/manteiga-tartufo.webp",
+        price: 62.4,
+      },
+      {
+        name: "Jais Manteiga com Alho Negro",
+        description: "A melhor manteiga.",
+        image: "./assets/produtos/Jais/manteiga-alho-negro.webp",
         price: 62.4,
       },
     ],
@@ -2069,6 +2585,12 @@ document.addEventListener("DOMContentLoaded", () => {
         image: "./assets/produtos/L'apetisse/alho-em-conserva.webp",
         price: 29.9,
       },
+      {
+        name: "Jais Mix de Cogumelos",
+        description: "A melhor manteiga.",
+        image: "./assets/produtos/Jais/mix-de-cogumelos.webp",
+        price: 62.4,
+      },
     ],
     Farofas: [
       {
@@ -2100,6 +2622,12 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Tabuleiro Da Chef Farofa da Tereza Sertaneja",
         description: "A melhor farofa.",
         image: "./assets/produtos/TabuleiroDaChef/farofa-sertaneja.webp",
+        price: 29.0,
+      },
+      {
+        name: "Empório Lessa Farofa Crocante",
+        description: "A melhor farofa.",
+        image: "./assets/produtos/EmporioLessa/farofa-crocante.webp",
         price: 29.0,
       },
     ],
@@ -2346,6 +2874,20 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor molho.",
         image:
           "./assets/produtos/MilagreDeMinas/mostarda-de-maracuja-220g.webp",
+        price: 42.0,
+      },
+      {
+        name: "Milagre de Minas Mostarda com Funghi 220g",
+        description: "O melhor molho.",
+        image:
+          "./assets/produtos/MilagreDeMinas/mostarda-de-funghi-sec-220gr.webp",
+        price: 42.0,
+      },
+      {
+        name: "Milagre de Minas Caixa com Potes",
+        description: "O melhor molho.",
+        image:
+          "./assets/produtos/MilagreDeMinas/caixa-com-potes-milagre-de-minas.webp",
         price: 42.0,
       },
     ],
