@@ -483,17 +483,17 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     DefumadosMaturados: [
       {
-        name: "Src Copa Defumada Especial",
+        name: "Scp Copa Defumada Especial",
         description: "Preço por peso, consultar no WhatsApp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/copa-defumada-especial.webp",
         price: 0.0,
       },
       {
-        name: "Src Copa Defumada Especial 1kg",
+        name: "Scp Copa Defumada Especial 1kg",
         description: "O melhor defumado.",
         image:
-          "./assets/produtos/CacianCharcutaria/copa-defumada-especial-maior.webp",
+          "./assets/produtos/SalumeriaSrcCaminhosDePedra/copa-defumada-especial-maior.webp",
         price: 29.9,
       },
       {
@@ -582,7 +582,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 29.9,
       },
       {
-        name: "ColdSmoke Pepperoni Picante",
+        name: "ColdSmoke Pulled Pork",
         description: "A melhor pulled pork.",
         image: "./assets/produtos/ColdSmoke/pulled-pork.webp",
         price: 29.9,
@@ -1672,49 +1672,49 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 0.0,
       },
       {
-        name: "Src Salame de Carne Suína Defumada Apimentada",
+        name: "Scp Salame de Carne Suína Defumada Apimentada",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-de-carne-suina-defumada-apimentada.webp",
         price: 0.0,
       },
       {
-        name: "Src Salame Misto Defumado Bovino e Suíno",
+        name: "Scp Salame Misto Defumado Bovino e Suíno",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-mista-defumada.webp",
         price: 0.0,
       },
       {
-        name: "Src Salame Tipo Milano Defumado",
+        name: "Scp Salame Tipo Milano Defumado",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-tipo-milano-defumado.webp",
         price: 0.0,
       },
       {
-        name: "Src Salame Tipo Sopressa Defumado",
+        name: "Scp Salame Tipo Sopressa Defumado",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-tipo-sopressa-defumado.webp",
         price: 0.0,
       },
       {
-        name: "Src Salame Misto Defumado com Javali",
+        name: "Scp Salame Misto Defumado com Javali",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-mista-defumada-com-javali.webp",
         price: 0.0,
       },
       {
-        name: "Src Lombo Curado Defumado",
+        name: "Scp Lombo Curado Defumado",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/lombo-curado-defumado.webp",
         price: 0.0,
       },
       {
-        name: "Src Salame Colonial Defumado",
+        name: "Scp Salame Colonial Defumado",
         description: "Valor por peso, consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-colonial-defumado.webp",
