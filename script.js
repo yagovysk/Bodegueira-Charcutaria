@@ -483,133 +483,127 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     DefumadosMaturados: [
       {
-        name: "Scp Copa Defumada Especial",
-        description: "Preço por peso, consultar no WhatsApp.",
+        name: "Scp Copa Lombo Maturado e Defumado Light",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
-          "./assets/produtos/SalumeriaSrcCaminhosDePedra/copa-defumada-especial.webp",
-        price: 0.0,
+          "./assets/produtos/SalumeriaSrcCaminhosDePedra/lombo-curado-defumado.webp",
+        price: 15.4,
       },
       {
-        name: "Scp Copa Defumada Especial 1kg",
+        name: "Scp Copa Maturada e Defumada Especial",
         description: "O melhor defumado.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/copa-defumada-especial-maior.webp",
-        price: 29.9,
+        price: 15.4,
       },
-      {
+      /*{
         name: "Linguiça Calabresa Defumada",
         description: "O melhor defumado.",
         image:
           "./assets/produtos/CacianCharcutaria/linguica-calabresa-defumada.webp",
         price: 29.9,
-      },
+      },*/
       {
         name: "Calabresa Defumada",
         description: "A melhor calabresa.",
         image: "./assets/produtos/ColdSmoke/calabresa-defumada.webp",
-        price: 53.0,
+        price: 31.8,
       },
       {
         name: "Guanciale Maturado",
         description: "O melhor guanciale.",
         image: "./assets/produtos/ColdSmoke/guanciale-maturado.webp",
-        price: 53.0,
+        price: 43.9,
       },
       {
         name: "Pastrami Defumado",
-        description: "Pastrami Defumado.",
+        description: "Pastrami Defumado peça.",
         image: "./assets/produtos/ColdSmoke/pastrami-defumado.webp",
-        price: 53.0,
+        price: 63.0,
       },
       {
         name: "Pastrami Defumado em fatias",
         description: "O melhor pastrami.",
         image: "./assets/produtos/ColdSmoke/pastrami-defumado-fatias.webp",
-        price: 53.0,
+        price: 48.0,
       },
       {
         name: "Pitlord Bacon Defumado",
         description: "O melhor Bacon.",
         image: "./assets/produtos/PitLord/bacon-defumado.webp",
-        price: 53.0,
+        price: 52.0,
       },
       {
         name: "Pitlord Bacon Especial de Pernil Defumado",
-        description: "O melhor Bacon.",
+        description: "Verificar disponibilidade.",
         image: "./assets/produtos/PitLord/bacon-especial-de-pernil.webp",
-        price: 53.0,
+        price: 0.0,
       },
       {
         name: "Pitlord Guanciale Defumado",
-        description: "O melhor guanciale.",
+        description: "Verificar Disponibilidade.",
         image: "./assets/produtos/PitLord/guanciale-defumado.webp",
-        price: 53.0,
-      },
-      {
-        name: "Pitlord Pancetta Rolata Defumada 1kg",
-        description: "A melhor pancetta.",
-        image: "./assets/produtos/PitLord/pancetta-rolata-defumada-1kg.webp",
-        price: 53.0,
+        price: 0.0,
       },
       {
         name: "Pitlord Pancetta Rolata Defumada",
         description: "A melhor pancetta.",
         image: "./assets/produtos/PitLord/pancetta-rolata-defumada.webp",
-        price: 53.0,
+        price: 58.0,
       },
       {
         name: "Pitlord Picanha Suína Defumada",
         description: "A melhor picanha.",
         image: "./assets/produtos/PitLord/picanha-defumada.webp",
-        price: 53.0,
+        price: 89.0,
       },
       {
         name: "Pitlord Salsicha Artesanal Defumada",
         description: "A melhor Salsicha.",
         image: "./assets/produtos/PitLord/salsicha-artesanal-defumada.webp",
-        price: 53.0,
+        price: 38.0,
       },
       {
         name: "Pitlord Joelho Defumado",
         description: "O melhor joelho.",
         image: "./assets/produtos/PitLord/joelho-defumado.webp",
-        price: 53.0,
+        price: 89.0,
       },
       {
         name: "ColdSmoke Pepperoni Picante",
-        description: "O melhor pepperoni.",
+        description: "Verificar Disponibilidade.",
         image: "./assets/produtos/ColdSmoke/pepperoni-picante.webp",
-        price: 29.9,
+        price: 0.0,
       },
       {
         name: "ColdSmoke Pulled Pork",
         description: "A melhor pulled pork.",
         image: "./assets/produtos/ColdSmoke/pulled-pork.webp",
-        price: 29.9,
+        price: 58.0,
       },
       {
         name: "ColdSmoke Salsicha Frank Furter",
         description: "A melhor salsicha.",
         image: "./assets/produtos/ColdSmoke/salsicha-frank-furter.webp",
-        price: 29.9,
+        price: 48.0,
       },
       {
         name: "ColdSmoke Torresmo de Rolo",
         description: "O melhor torresmo.",
         image: "./assets/produtos/ColdSmoke/torresmo-de-rolo.webp",
-        price: 29.9,
+        price: 31.9,
       },
       {
         name: "Olho Linguiça Blumenau",
-        description: "A melhor linguiça.",
+        description: "Verificar Disponibilidade.",
         image: "./assets/produtos/Olho/linguica-blumenau.webp",
-        price: 29.9,
+        price: 0.0,
       },
       {
         name: "Olho Linguiça Húngara",
-        description: "A melhor linguiça.",
+        description: "Verificar Disponibilidade.",
         image: "./assets/produtos/Olho/linguica-hungara.webp",
-        price: 29.9,
+        price: 0.0,
       },
     ],
     Geleias: [
@@ -1543,53 +1537,54 @@ document.addEventListener("DOMContentLoaded", () => {
     Salames: [
       {
         name: "Mayer Calabresa Seca",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor das 100g, maior kg consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/calabresa-seca.webp",
-        price: 0.0,
+        price: 29.98,
       },
       {
         name: "Mayer Salame de Cordeiro",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor das 100g, maior kg consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-de-cordeiro.webp",
-        price: 0.0,
+        price: 41.4,
       },
       {
         name: "Mayer Salame de Classico",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor das 100g, maior kg consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-classico.webp",
-        price: 0.0,
+        price: 29.04,
       },
       {
         name: "Mayer Salame com Pistache",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor das 100g, maior kg consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-com-pistache.webp",
-        price: 0.0,
+        price: 33.6,
       },
       {
         name: "Mayer Salame Misto de Cordeiro e suíno",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor das 100g, maior kg consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-misto-cordeiro-suino.webp",
-        price: 0.0,
+        price: 41.4,
       },
       {
-        name: "Mayer Salame",
+        name: "Mayer Salame da Casa",
         description: "Valor por peso, consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-mayer.webp",
         price: 0.0,
       },
       {
         name: "Mayer Salame Calabrese",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor das 100g, maior kg consultar no Whatsapp.",
         image: "./assets/produtos/Mayer/salame-tipo-calabresa.webp",
-        price: 0.0,
+        price: 29.0,
       },
+      /*
       {
         name: "Imperio Gourmet Lombo Canadense com Provolone",
         description: "O melhor lombo.",
         image:
           "./assets/produtos/ImperioGourmet/lombo-canadense-com-provolone.webp",
         price: 30.0,
-      },
+      }, 
       {
         name: "Imperio Gourmet Salaminho tipo Italiano tradicional",
         description: "O melhor lombo.",
@@ -1618,6 +1613,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "./assets/produtos/ImperioGourmet/lombo-canadense-pimenta-malagueta.webp",
         price: 30.0,
       },
+      */
       {
         name: "Frango Defumado com Azeitona, Bacon e Pimenta Biquinho",
         description: "Valor por peso, consultar no Whatsapp.",
@@ -1672,66 +1668,80 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 0.0,
       },
       {
-        name: "Scp Salame de Carne Suína Defumada Apimentada",
-        description: "Valor por peso, consultar no Whatsapp.",
+        name: "Scp Copa Defumada Especial",
+        description: "Preço 100g, mais kg consultar no WhatsApp.",
         image:
-          "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-de-carne-suina-defumada-apimentada.webp",
-        price: 0.0,
+          "./assets/produtos/SalumeriaSrcCaminhosDePedra/copa-defumada-especial.webp",
+        price: 15.4,
       },
       {
-        name: "Scp Salame Misto Defumado Bovino e Suíno",
-        description: "Valor por peso, consultar no Whatsapp.",
+        name: "Scp Salame de Carne Suína Defumada Apimentada",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
+        image:
+          "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-de-carne-suina-defumada-apimentada.webp",
+        price: 14.0,
+      },
+      {
+        name: "Scp Salame de Carne Suína Defumada Erva Doce",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
+        image:
+          "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-de-carne-suina-defumada-apimentada.webp",
+        price: 14.0,
+      },
+      {
+        name: "Scp Salame Misto Defumado Ovino e Suíno",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-mista-defumada.webp",
-        price: 0.0,
+        price: 19.2,
       },
       {
         name: "Scp Salame Tipo Milano Defumado",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-tipo-milano-defumado.webp",
-        price: 0.0,
+        price: 14.0,
       },
       {
         name: "Scp Salame Tipo Sopressa Defumado",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-tipo-sopressa-defumado.webp",
-        price: 0.0,
+        price: 19.8,
       },
       {
         name: "Scp Salame Misto Defumado com Javali",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/linguica-mista-defumada-com-javali.webp",
-        price: 0.0,
+        price: 19.2,
       },
       {
-        name: "Scp Lombo Curado Defumado",
-        description: "Valor por peso, consultar no Whatsapp.",
+        name: "Scp Lombo Curado Defumado Light",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/lombo-curado-defumado.webp",
-        price: 0.0,
+        price: 15.4,
       },
       {
         name: "Scp Salame Colonial Defumado",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-colonial-defumado.webp",
-        price: 0.0,
+        price: 12.5,
       },
       {
         name: "Olho Salame Tipo italiano",
-        description: "Valor por peso, consultar no Whatsapp.",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image: "./assets/produtos/Olho/salame-tipo-italiano.webp",
-        price: 0.0,
+        price: 14.0,
       },
-      {
+      /*{
         name: "Salumeria Romani Salame tipo Napolitano",
         description: "Produto indisponível.",
         image: "./assets/produtos/SalumeriaRomani/salame-tipo-napolitano.webp",
         price: 0.0,
-      },
+      },*/
       {
         name: "Salame Defumado Apimentado",
         description: "Produto indisponível.",
@@ -1740,12 +1750,12 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 0.0,
       },
       {
-        name: "Cacian Charcutaria Salame tipo Friolano",
+        name: "Cancian Charcutaria Salame tipo Friolano",
         description: "Produto indisponível.",
         image: "./assets/produtos/CacianCharcutaria/salame-tipo-friolano.webp",
         price: 0.0,
       },
-      {
+      /*{
         name: "Salumeria Romani Embutido de Carne Suína",
         description: "Indisponível no momento.",
         image:
@@ -1805,99 +1815,99 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Produto indisponível.",
         image: "./assets/produtos/FamilleChaulet/salame-tipo-argentino.webp",
         price: 0.0,
-      },
+      },*/
       {
         name: "Charque de Cordeiro",
         description: "O Melhor charque.",
         image:
           "./assets/produtos/AgroindustriaSinuelo/charque-de-cordeiro.webp",
-        price: 0.0,
+        price: 65.0,
       },
       {
         name: "Charque Light",
         description: "O Melhor charque.",
         image: "./assets/produtos/AgroindustriaSinuelo/charque-light.webp",
-        price: 0.0,
+        price: 53.0,
       },
       {
         name: "Charque Tradicional",
         description: "O Melhor charque.",
         image:
           "./assets/produtos/AgroindustriaSinuelo/charque-tradicional.webp",
-        price: 0.0,
+        price: 49.0,
       },
-      {
+      /*{
         name: "Jais Salame",
         description: "O Melhor Salame.",
         image: "./assets/produtos/Jais/salame-jais.webp",
         price: 62.4,
-      },
+      },*/
       {
         name: "Sabor do Chef Salame Tipo Italiano Azeitonas",
-        description: "O Melhor Salame.",
+        description: "Valor Unidade.",
         image:
           "./assets/produtos/SaborDoChef/salame-tipo-italiano-azeitonas.webp",
-        price: 62.4,
+        price: 30.0,
       },
       {
         name: "Sabor do Chef Salame Tipo Italiano Malagueta",
-        description: "O Melhor Salame.",
+        description: "Valor Unidade.",
         image:
           "./assets/produtos/SaborDoChef/salame-tipo-italiano-malagueta.webp",
-        price: 62.4,
+        price: 30.0,
       },
       {
         name: "Sabor do Chef Salame Tipo Italiano Pimenta Biquinho",
-        description: "O Melhor Salame.",
+        description: "Valor Unidade.",
         image:
           "./assets/produtos/SaborDoChef/salame-tipo-italiano-pimenta-biquinho.webp",
-        price: 62.4,
+        price: 30.0,
       },
       {
         name: "Sabor do Chef Salame Tipo Italiano Provolone",
-        description: "O Melhor Salame.",
+        description: "Valor Unidade.",
         image:
           "./assets/produtos/SaborDoChef/salame-tipo-italiano-provolone.webp",
-        price: 62.4,
+        price: 30.0,
       },
       {
         name: "Sabor do Chef Salame Tipo Italiano Tradicional",
-        description: "O Melhor Salame.",
+        description: "Valor Unidade.",
         image:
           "./assets/produtos/SaborDoChef/salame-tipo-italiano-tradicional.webp",
-        price: 62.4,
+        price: 30.0,
       },
       {
         name: "Soeiro Salame com Funghi",
-        description: "O Melhor Salame.",
+        description: "Consultar no Whatsapp.",
         image: "./assets/produtos/Soeiro/salame-com-funghi.webp",
-        price: 62.4,
+        price: 0.0,
       },
       {
         name: "Soeiro Salpicão Português",
-        description: "O Melhor Salpicão.",
-        image: "./assets/produtos/Soeiro/salpicão-portugues.webp",
-        price: 62.4,
+        description: "Consultar no Whatsapp.",
+        image: "./assets/produtos/Soeiro/salpicao-portugues.webp",
+        price: 0.0,
       },
       {
         name: "Vila Caipira Lombo Nobre Defumado com Alho",
-        description: "O Melhor Lombo.",
+        description: "Valor 100g, mais kg consultar no Whatsapp..",
         image: "./assets/produtos/VilaCaipira/lombo-nobre-defumado-alho.webp",
-        price: 62.4,
+        price: 8.8,
       },
       {
         name: "Vila Caipira Lombo Nobre Defumado com Pimenta",
-        description: "O Melhor Lombo.",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
-          "./assets/produtos/VilaCaipira/lombo-nobre-defumado-pimenta.webp",
-        price: 62.4,
+          "./assets/produtos/VilaCaipira/lombo-nobre-defumado-pimenta-calabresa.webp",
+        price: 8.8,
       },
       {
         name: "Vila Caipira Salame de Frango Defumado Misto",
-        description: "O Melhor Salame.",
+        description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/VilaCaipira/salame-frango-defumado-misto.webp",
-        price: 62.4,
+        price: 8.8,
       },
     ],
     Queijos: [
@@ -1920,76 +1930,76 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor queijo.",
         image:
           "./assets/produtos/Cabrissima/queijo-boursin-com-pimenta-rosa.webp",
-        price: 59.8,
+        price: 61.0,
       },
       {
         name: "Cabríssima Queijo tipo boursin com ervas finas",
         description: "O melhor queijo.",
         image: "./assets/produtos/Cabrissima/queijo-boursin-ervas-finas.webp",
-        price: 59.8,
+        price: 61.0,
       },
       {
         name: "Cabríssima Queijo tipo boursin com chimichurry",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/Cabrissima/queijo-boursin-leite-de-cabra-com-chimichurri.webp",
-        price: 59.8,
+        price: 61.0,
       },
       {
         name: "Cabríssima Queijo tipo boursin de leite de cabra com Za'atar",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/Cabrissima/queijo-tipo-boursin-leite-de-cabra-com-zaatar.webp",
-        price: 59.8,
+        price: 61.0,
       },
       {
         name: "Cabríssima Queijo flor do cerrado",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor 100g.",
         image: "./assets/produtos/Cabrissima/flor-do-cerrado.webp",
-        price: 0.0,
+        price: 33.4,
       },
       {
         name: "Cabríssima Queijo maturado de leite de cabra Brasília",
-        description: "Consultar preço no Whatsapp.",
+        description: "100g, mais kg Consultar preço no Whatsapp.",
         image:
           "./assets/produtos/Cabrissima/queijo-maturado-de-leite-de-cabra-brasilia.webp",
-        price: 0.0,
+        price: 28.0,
       },
       {
         name: "Casa Bianchi Queijo Piegora colonial de leite de ovelha com chimichurri",
-        description: "Consultar preço no Whatsapp.",
+        description: "100g, mais kg Consultar preço no Whatsapp.",
         image:
           "./assets/produtos/CasaBianchi/Piegora-queijo-colonial-de-leite-de-ovelha-com-chimichurri.webp",
-        price: 0.0,
+        price: 28.0,
       },
       {
         name: "Casa Bianchi Queijo Palline di Catarina tipo boursin alecrim e pimenta",
         description: "O melhor queijo.",
         image:
           "./assets/produtos/CasaBianchi/queijo-palline-di-catarina-tipo-boursin-alecrim-e-pimenta.webp",
-        price: 46.0,
+        price: 52.0,
       },
       {
-        name: "Casa Bianchi Queijo tipo Deta de leite de ovelha",
-        description: "Consultar preço no Whatsapp.",
+        name: "Casa Bianchi Queijo tipo Feta de leite de ovelha",
+        description: "100g, mais kg Consultar preço no Whatsapp.",
         image:
           "./assets/produtos/CasaBianchi/queijo-tipo-deta-de-leite-de-ovelha.webp",
-        price: 0.0,
+        price: 28.0,
       },
       {
-        name: "Celero Queijo Celero",
-        description: "Consultar preço no Whatsapp.",
+        name: "Fazenda Celeiro do Leite Queijo Celero",
+        description: "100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/Celero/queijo-celero.webp",
-        price: 0.0,
+        price: 14.0,
       },
       {
-        name: "Candeia Queijo Autoral",
+        name: "Fazenda Celeiro do Leite Queijo Candeia Autoral",
         description: "Consultar preço no Whatsapp.",
         image: "./assets/produtos/Candeia/queijo-autoral.webp",
         price: 0.0,
       },
       {
-        name: "Cremoso Queijo Autoral",
+        name: "Fazenda Celeiro do Leite Queijo Cremoso Autoral",
         description: "Consultar preço no Whatsapp.",
         image: "./assets/produtos/Cremoso/queijo-autoral.webp",
         price: 0.0,
@@ -2001,7 +2011,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 0.0,
       },
       {
-        name: "Fazenda Generosa Queijo Minas meia cura premium",
+        name: "Fazenda Generosa Queijo O Lendário da Generosa",
         description: "Consultar preço no Whatsapp.",
         image:
           "./assets/produtos/FazendaGenerosa/queijo-minas-meia-cura-premium.webp",
@@ -2047,9 +2057,15 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Jeito De Mato Requeijão",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/JeitoDeMato/requeijao.webp",
-        price: 0.0,
+        price: 12.5,
+      },
+      {
+        name: "Jeito De Mato Requeijão com Raspas",
+        description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
+        image: "./assets/produtos/JeitoDeMato/requeijao.webp",
+        price: 12.5,
       },
       {
         name: "Ouro Branco Quejo Coalho com Chimichurry",
@@ -2085,9 +2101,9 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Paladar De Minas Queijo Calambau com Cachaça",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/PaladarDeMinas/calambau-com-cachaca.webp",
-        price: 0.0,
+        price: 14.5,
       },
       {
         name: "Paladar De Minas Queijo Calamel",
@@ -2104,22 +2120,22 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Queijaria Bolderini Malacaxeta Queijo Maturado 30 dias",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image:
           "./assets/produtos/QueijariaBolderini/malacaxeta-queijo-maturado-30-dias.webp",
-        price: 0.0,
+        price: 16.8,
       },
       {
         name: "Queijaria Bolderini Queijo Santa Graça",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/QueijariaBolderini/queijo-santa-graca.webp",
-        price: 0.0,
+        price: 15.3,
       },
       {
         name: "Queijo do Serjão queijo canastra",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/QueijoDoSerjao/queijo-canastra.webp",
-        price: 0.0,
+        price: 17.9,
       },
       {
         name: "Santa Clara Queijo Minas Artesanal Alba",
@@ -2148,13 +2164,13 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 0.0,
       },
       {
-        name: "Serra Do Condado Queijo Defumado Serra do Condado",
+        name: "Serra Do Condado Queijo Defumado de Alagoa",
         description: "Consultar preço no Whatsapp.",
         image: "./assets/produtos/SerraDoCondado/queijo-defumado.webp",
         price: 0.0,
       },
       {
-        name: "Serra Do Condado Queijo Ovo Negro Serra do Condado",
+        name: "Serra Do Condado Queijo Ovo Negro de Alagoa",
         description: "Consultar preço no Whatsapp.",
         image:
           "./assets/produtos/SerraDoCondado/queijo-serra-do-condado-ovo-negro.webp",
@@ -2177,7 +2193,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Vermont Queijo Tipo Brie Zero lactose 125g",
         description: "O melhor queijo.",
         image: "./assets/produtos/Vermont/queijo-tipo-brie.webp",
-        price: 33.0,
+        price: 36.0,
       },
       {
         name: "Vermont Queijo Zero Lactose Morro Azul 125g",
@@ -2199,104 +2215,98 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Lima Queijos Queijo Rustiquim",
-        description: "O melhor queijo.",
+        description: "Verificar Disponibilidade.",
         image: "./assets/produtos/LimaQueijos/queijo-rustiquim.webp",
-        price: 39.9,
+        price: 0.0,
       },
       {
         name: "Micro Região Serro Queijo Minas Quilombo inteiro",
-        description: "O melhor queijo.",
+        description: "Verificar Disponibilidade.",
         image:
           "./assets/produtos/MicroRegiaoSerro/queijo-minas-quilombo-inteiro.webp",
-        price: 39.9,
+        price: 88.0,
       },
       {
         name: "Micro Região Serro Queijo Minas Quilombo metade",
-        description: "O melhor queijo.",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
         image:
           "./assets/produtos/MicroRegiaoSerro/queijo-minas-quilombo-metade.webp",
-        price: 39.9,
+        price: 15.3,
       },
       {
         name: "Micro Região Serro Queijo Minas Quilombo Saco",
-        description: "O melhor queijo.",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
         image:
           "./assets/produtos/MicroRegiaoSerro/queijo-minas-quilombo-saco.webp",
-        price: 39.9,
+        price: 15.3,
       },
       {
-        name: "Pomedore Creme Tipo Brie Zero Lactose",
+        name: "Pomerode Creme Tipo Brie Zero Lactose",
         description: "O melhor creme.",
         image: "./assets/produtos/Pomedore/creme-tipo-brie-zero-lactose.webp",
-        price: 42.0,
+        price: 28.0,
       },
       {
         name: "Queijo Coqueiral",
-        description: "O melhor queijo.",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/QueijoCoqueiral/queijo-coqueiral.webp",
-        price: 42.0,
+        price: 15.3,
       },
       {
         name: "Quinta De Sant'Ana queijo Canastra Crispy",
-        description: "O melhor queijo.",
+        description: "Valor Unidade.",
         image: "./assets/produtos/QuintaDeSant'Ana/queijo-canastra-crispy.webp",
-        price: 42.0,
+        price: 35.0,
       },
       {
         name: "Quinta De Sant'Ana queijo Cordilheira",
-        description: "O melhor queijo.",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/QuintaDeSant'Ana/queijo-cordilheira.webp",
-        price: 42.0,
+        price: 14.0,
       },
       {
         name: "Quinta De Sant'Ana queijo Marandu",
-        description: "O melhor queijo.",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/QuintaDeSant'Ana/queijo-marandu.webp",
-        price: 42.0,
+        price: 25.4,
       },
       {
         name: "Rancho Maranata Queijo Mantiqueira Maranata Jovem",
-        description: "O melhor queijo.",
+        description: "Verificar Disponibilidade.",
         image:
           "./assets/produtos/RanchoMaranata/queijo-mantiqueira-maranata-jovem.webp",
-        price: 42.0,
+        price: 0.0,
       },
       {
-        name: "Rancho Maranata Queijo Maranata Jovem Capa Preta",
-        description: "O melhor queijo.",
+        name: "Rancho Maranata Queijo Maranata Capa Preta",
+        description: "Verificar Disponibilidade.",
         image:
           "./assets/produtos/RanchoMaranata/queijo-maranata-jovem-capa-preta.webp",
-        price: 42.0,
-      },
-      {
-        name: "Terra Límpida Queijo Cynarella",
-        description: "O melhor queijo.",
-        image: "./assets/produtos/TerraLimpida/queijo-cynarella.webp",
-        price: 42.0,
+        price: 0.0,
       },
       {
         name: "Terra Límpida Queijo Faggeta",
-        description: "O melhor queijo.",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/TerraLimpida/queijo-faggeta.webp",
-        price: 42.0,
+        price: 26.3,
       },
       {
         name: "Terra Límpida Queijo Primavera",
-        description: "O melhor queijo.",
+        description: "Verificar Disponibildade.",
         image: "./assets/produtos/TerraLimpida/queijo-primavera.webp",
         price: 42.0,
       },
       {
-        name: "Terra Límpida Queijo Querciola",
-        description: "O melhor queijo.",
+        name: "Terra Límpida Queijo Querciola 3 Meses",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/TerraLimpida/queijo-querciola.webp",
-        price: 42.0,
+        price: 24.1,
       },
       {
         name: "Terra Límpida Queijo Tipo Brie",
-        description: "O melhor queijo.",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/TerraLimpida/queijo-tipo-brie.webp",
-        price: 42.0,
+        price: 27.6,
       },
     ],
     Chocolates: [
