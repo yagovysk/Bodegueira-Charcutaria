@@ -194,57 +194,57 @@ document.addEventListener("DOMContentLoaded", () => {
     Mel: [
       {
         name: "Mel Black Forest 50g",
-        description: "O melhor mel.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/Amaze/mel-amaze-black-forest-50g.webp",
-        price: 29.9,
+        price: 0.0,
       },
       {
         name: "Mel Black Forest 200g",
-        description: "O melhor mel.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/Amaze/mel-amaze-black-forest-200g.webp",
-        price: 29.9,
+        price: 0.0,
       },
       {
         name: "Mel Cacau 70% 200g",
         description: "O melhor mel.",
         image: "./assets/produtos/Amaze/mel-amaze-cacau-70-200g.webp",
-        price: 29.9,
+        price: 62.0,
       },
       {
         name: "Mel Cacau com laranja 200g",
         description: "O melhor mel.",
         image: "./assets/produtos/Amaze/mel-amaze-cacau-com-laranja-200g.webp",
-        price: 29.9,
+        price: 62.0,
       },
       {
         name: "Mel Citrus 200g",
         description: "O melhor mel.",
         image: "./assets/produtos/Amaze/mel-amaze-citrus-200g.webp",
-        price: 29.9,
+        price: 62.0,
       },
       {
         name: "Mel Orange Blossom 50g",
         description: "O melhor mel.",
         image: "./assets/produtos/Amaze/mel-amaze-orange-blossom-50g.webp",
-        price: 29.9,
+        price: 14.0,
       },
       {
         name: "Mel Orange Blossom 200g",
         description: "O melhor mel.",
         image: "./assets/produtos/Amaze/mel-amaze-orange-blossom-200g.webp",
-        price: 29.9,
+        price: 52.0,
       },
       {
         name: "Mel White blossom 50g",
         description: "O melhor mel.",
         image: "./assets/produtos/Amaze/mel-amaze-white-blossom-50g.webp",
-        price: 29.9,
+        price: 14.0,
       },
       {
         name: "Mel White Blossom 200g",
         description: "O melhor mel.",
         image: "./assets/produtos/Amaze/mel-amaze-white-blossom-200g.webp",
-        price: 29.9,
+        price: 52.0,
       },
       {
         name: "Bisnaga Mel silvestre",
@@ -253,63 +253,45 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 31.0,
       },
       {
-        name: "Favo de Mel",
-        description: "O melhor mel.",
-        image: "./assets/produtos/Mbee/favo-de-mel.webp",
-        price: 29.9,
-      },
-      {
         name: "Mel Mbee 300g",
         description: "O melhor mel.",
         image: "./assets/produtos/Mbee/mbee-mel-300g.webp",
-        price: 29.9,
+        price: 44.0,
       },
       {
-        name: "Mel Mbee Black Forest 300g",
+        name: "Mel Mbee de Terroir 300g",
         description: "O melhor mel.",
         image: "./assets/produtos/Mbee/mbee-mel-black-forest.webp",
-        price: 29.9,
+        price: 36.0,
       },
       {
         name: "Mel Mbee Canions gaúchos",
         description: "O melhor mel.",
         image: "./assets/produtos/Mbee/mel-canions-gauchos.webp",
-        price: 29.9,
+        price: 59.0,
       },
       {
-        name: "Mel do Cerrado Aroeira",
+        name: "Mel do Cerrado Aroeira 280g",
         description: "O melhor mel.",
         image: "./assets/produtos/MelDoCerrado/mel-aroeira.webp",
-        price: 29.9,
+        price: 25.0,
       },
       {
-        name: "Mel do Cerrado Cipó Uva",
+        name: "Mel do Cerrado Cipó Uva 280g",
         description: "O melhor mel.",
         image: "./assets/produtos/MelDoCerrado/mel-cipo-uva.webp",
-        price: 29.9,
+        price: 25.0,
       },
       {
-        name: "Mel do Cerrado Laranjeira",
+        name: "Mel do Cerrado Laranjeira 280g",
         description: "O melhor mel.",
         image: "./assets/produtos/MelDoCerrado/mel-laranjeira.webp",
-        price: 29.9,
+        price: 25.0,
       },
       {
         name: "Mel do Cerrado Silvestre",
         description: "O melhor mel.",
         image: "./assets/produtos/MelDoCerrado/mel-silvestre.webp",
-        price: 29.9,
-      },
-      {
-        name: "Ayslla Laranja desidratada com mel",
-        description: "O melhor doce.",
-        image: "./assets/produtos/Ayslla/laranja-desidratada-com-mel.webp",
-        price: 29.9,
-      },
-      {
-        name: "Ayslla Coco defumado com mel",
-        description: "O melhor doce.",
-        image: "./assets/produtos/Ayslla/coco-defumado-com-mel.webp",
         price: 29.9,
       },
     ],
@@ -336,48 +318,48 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Doce de Leite Leite tipo A 420g",
         description: "O melhor doce de leite.",
         image: "./assets/produtos/Estrelat/doce-de-leite-tipo-a-420g.webp",
-        price: 85.0,
+        price: 49.0,
       },
       {
         name: "Doce de Leite com ameixa Dona Lazara 400g",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-ameixa-400g.webp",
-        price: 43.9,
+        price: 0.0,
       },
       {
         name: "Doce de Leite com Goiabada Dona Lazara 400g",
         description: "O melhor doce.",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-goiabada-400g.webp",
-        price: 43.9,
+        price: 0.0,
       },
       {
         name: "Doce de Leite com Maracujá Dona Lazara 400g",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-maracuja-400g.webp",
-        price: 43.9,
+        price: 0.0,
       },
       {
         name: "Doce de Leite com Morango Dona Lazara 400g",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-morango-400g.webp",
-        price: 43.9,
+        price: 0.0,
       },
       {
         name: "Doce de Leite Talhado Dona Lazara 400g",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-talhado-400g.webp",
-        price: 41.9,
+        price: 0.0,
       },
       {
         name: "Doce de Leite com café 400g",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/ReceitaCaipira/doce-de-leite-cafe-400g.webp",
-        price: 42.9,
+        price: 0.0,
       },
       {
         name: "Doce de Leite Caipira 400g",
@@ -388,52 +370,24 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Doce de Leite com Côco 400g",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/ReceitaCaipira/doce-de-leite-com-coco-400g.webp",
-        price: 42.9,
+        price: 0.0,
       },
       {
         name: "Doce de leite com raspas de limão 400g",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/EmporioLessa/doce-de-leite-raspas-limao-400g.webp",
-        price: 46.0,
-      },
-      {
-        name: "Doce de Leite com goiabada Dona Lazara saquinho 150g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/doce-de-leite-goiabada-saquinhos-150g.webp",
-        price: 29.8,
-      },
-      {
-        name: "Doce de Leite Dona Lazara saquinho 150g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/doce-de-leite-saquinhos-150g.webp",
-        price: 29.8,
-      },
-      {
-        name: "Pingo de Leite com amendoim Dona Lazara Saquinho 150g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-com-amendoim-saquinhos-150g.webp",
-        price: 29.8,
-      },
-      {
-        name: "Pingo de Leite Dona Lazara Saquinho 150g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-saquinhos-150g.webp",
-        price: 29.8,
+        price: 0.0,
       },
       {
         name: "Pingo de Leite com amendoim Dona Lazara",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-com-amendoim.webp",
-        price: 29.8,
+        price: 0.0,
       },
     ],
     Cafe: [
@@ -608,36 +562,9 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Geleias: [
       {
-        name: "LetsCook Geleia de Amora com Hortelã",
-        description: "A melhor Geleia.",
-        image: "./assets/produtos/LetsCook/lets-cook-amora-com-hortela.webp",
-        price: 46.0,
-      },
-      {
-        name: "LetsCook Melado de Cana Balsamico",
-        description: "O melhor melado.",
-        image:
-          "./assets/produtos/LetsCook/lets-cook-melado-de-cana-balsamico.webp",
-        price: 40.0,
-      },
-      {
-        name: "LetsCook Geleia de Morango com Manjericão",
-        description: "A melhor Geleia.",
-        image:
-          "./assets/produtos/LetsCook/lets-cook-morango-com-manjericao.webp",
-        price: 44.0,
-      },
-      {
         name: "LetsCook Geleia de Pimenta Defumada",
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-pimenta-defumada.webp",
-        price: 44.0,
-      },
-      {
-        name: "LetsCook Geleia de Tomate com Manjericão",
-        description: "A melhor Geleia.",
-        image:
-          "./assets/produtos/LetsCook/lets-cook-tomate-com-manjericao.webp",
         price: 44.0,
       },
       {
@@ -681,7 +608,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 39.0,
       },
       {
-        name: "Geleia MeLambuzei Abacaxi",
+        name: "Geleia MeLambuzei Abacaxi com Pimenta",
         description: "A melhor geleia.",
         image:
           "./assets/produtos/MeLambuzei/me-lambuzei-geleia-de-abacaxi.webp",
@@ -710,7 +637,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Geleia MeLambuzei Mexerica",
         description: "A melhor geleia.",
         image: "./assets/produtos/MeLambuzei/me-lambuzei-mecerica.webp",
-        price: 39.0,
+        price: 44.0,
       },
       {
         name: "Geleia MeLambuzei Morango",
@@ -809,7 +736,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Geleia Chutney de maracujá",
         description: "A melhor geleia.",
-        image: "./assets/produtos/GeleiaCoroa/chutney-maracuja.webp",
+        image: "./assets/produtos/GeleiaCoroa/chutney-de-maracuja.webp",
         price: 39.8,
       },
       {
@@ -823,13 +750,13 @@ document.addEventListener("DOMContentLoaded", () => {
     GeleiasZero: [
       {
         name: "Puro&Leve Geleia de Cupuaçu Sem adição de Açúcar",
-        description: "O melhor doce.",
+        description: "As melhores geleias.",
         image: "./assets/produtos/Puro&Leve/geleia-cupuacu-sem-adicao.webp",
         price: 29.9,
       },
       {
         name: "Puro&Leve Geleia de Abacaxi com Pimenta Sem adição de Açúcar",
-        description: "O melhor doce.",
+        description: "As melhores geleias.",
         image:
           "./assets/produtos/Puro&Leve/geleia-de-abacaxi-com-pimenta-sem-adicao.webp",
         price: 29.9,
@@ -906,33 +833,33 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Puro&Leve Geleia Frutas do Bosque Sem adição de Açúcar",
-        description: "O melhor doce.",
+        description: "As melhores geleias.",
         image: "./assets/produtos/Puro&Leve/frutas-do-bosque-sem-adicao.webp",
         price: 32.0,
       },
       {
         name: "Puro&Leve Geleia de Frutas Vermelhas Sem adição de Açúcar",
-        description: "O melhor doce.",
+        description: "As melhores geleiras",
         image:
-          "./assets/produtos/Puro&Leve/geleia-de-frutas-vermelhas-sem-adicao.webp",
+          "./assets/produtos/Puro&Leve/geleia-de-frutas-vermelhas-sem-adicao.png",
         price: 32.0,
       },
       {
         name: "Puro&Leve Geleia de Pitaya com Amora e Morango Sem adição de Açúcar",
-        description: "O melhor doce.",
+        description: "As melhores geleiras",
         image:
           "./assets/produtos/Puro&Leve/geleia-pitaya-amora-morango-sem-adicao.webp",
         price: 29.9,
       },
       {
         name: "Puro&Leve Geleia Keto de Damasco",
-        description: "O melhor doce.",
+        description: "As melhores geleias",
         image: "./assets/produtos/Puro&Leve/geleia-keto-damasco.webp",
         price: 32.0,
       },
       {
         name: "Puro&Leve Geleia de Uva Sem adição de Açúcar",
-        description: "O melhor doce.",
+        description: "As melhores geleias",
         image: "./assets/produtos/Puro&Leve/geleia-uva-sem-adicao.webp",
         price: 29.9,
       },
@@ -962,7 +889,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Puro&Leve Geleia Keto de Morango",
-        description: "O melhor doce.",
+        description: "As melhores geleias.",
         image: "./assets/produtos/Puro&Leve/geleia-keto-morango.webp",
         price: 32.0,
       },
@@ -1108,12 +1035,6 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 31.0,
       },
       {
-        name: "LetsCook Geleia de Frutas Amarelas",
-        description: "A melhor Geleia.",
-        image: "./assets/produtos/LetsCook/lets-cook-frutas-amarelas.webp",
-        price: 38.0,
-      },
-      {
         name: "LetsCook Geleia Tamara com Laranja",
         description: "A melhor Geleia.",
         image: "./assets/produtos/LetsCook/lets-cook-tamara-com-laranja.webp",
@@ -1124,68 +1045,69 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor Biscoito.",
         image:
           "./assets/produtos/SaborGaucho/biscoito-de-rosas-sem-adicao.webp",
-        price: 62.4,
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Biscoito de Amendoim Sem adição de Açúcar",
         description: "O melhor Biscoito.",
         image:
-          "./assets/produtos/SaborGaucho/biscoito-de-amendoim-sem-adicao.webp",
-        price: 62.4,
+          "./assets/produtos/SaborGaucho/biscoitos-de-amendoim-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Biscoito de Cacau Sem adição de Açúcar",
         description: "O melhor Biscoito.",
         image:
-          "./assets/produtos/SaborGaucho/biscoito-de-cacau-sem-adicao.webp",
-        price: 62.4,
+          "./assets/produtos/SaborGaucho/biscoitos-de-cacau-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Biscoito de Café Sem adição de Açúcar",
         description: "O melhor Biscoito.",
-        image: "./assets/produtos/SaborGaucho/biscoito-de-cafe-sem-adicao.webp",
-        price: 62.4,
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-cafe-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Biscoito de Camomila Sem adição de Açúcar",
         description: "O melhor Biscoito.",
         image:
-          "./assets/produtos/SaborGaucho/biscoito-de-camomila-sem-adicao.webp",
-        price: 62.4,
+          "./assets/produtos/SaborGaucho/biscoitos-de-camomila-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Biscoito de Lavanda Sem adição de Açúcar",
         description: "O melhor Biscoito.",
         image:
-          "./assets/produtos/SaborGaucho/biscoito-de-lavanda-sem-adicao.webp",
-        price: 62.4,
+          "./assets/produtos/SaborGaucho/biscoitos-de-lavanda-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Biscoito de Maracujá Sem adição de Açúcar",
         description: "O melhor Biscoito.",
         image:
-          "./assets/produtos/SaborGaucho/biscoito-de-maracuja-sem-adicao.webp",
-        price: 62.4,
+          "./assets/produtos/SaborGaucho/biscoitos-de-maracuja-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Biscoito de Morango Sem adição de Açúcar",
         description: "O melhor Biscoito.",
         image:
-          "./assets/produtos/SaborGaucho/biscoito-de-morango-sem-adicao.webp",
-        price: 62.4,
+          "./assets/produtos/SaborGaucho/biscoitos-de-morango-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Biscoito de Nozes Sem adição de Açúcar",
         description: "O melhor Biscoito.",
         image:
-          "./assets/produtos/SaborGaucho/biscoito-de-nozes-sem-adicao.webp",
-        price: 62.4,
+          "./assets/produtos/SaborGaucho/biscoitos-de-nozes-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "Sabor Gaúcho Broa de Milho Sem adição de Açúcar",
         description: "O melhor Biscoito.",
         image: "./assets/produtos/SaborGaucho/broa-de-milho-sem-adicao.webp",
-        price: 62.4,
+        price: 24.5,
       },
     ],
     Torrones: [
@@ -1243,13 +1165,13 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Torrone de Frutas Vermelhas 45g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-frutas-vermelhas-45g.webp",
-        price: 15.0,
+        price: 17.0,
       },
       {
         name: "Torrone de Frutas Vermelhas 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-frutas-vermelhas.webp",
-        price: 24.0,
+        price: 26.0,
       },
       {
         name: "Torrone de Laranja com Chocolate Branco 45g",
@@ -1281,7 +1203,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Jatiboca Bala de Goiabada",
         description: "A melhor Bala.",
         image: "./assets/produtos/Jatiboca/bala-goiabada.webp",
-        price: 56.0,
+        price: 49.9,
       },
       {
         name: "Doces Fazenda De Minas Ambrosia 420g",
@@ -1313,40 +1235,6 @@ document.addEventListener("DOMContentLoaded", () => {
         image:
           "./assets/produtos/Olina/olina-caramelo-salgado-flor-de-sal.webp",
         price: 0.0,
-      },
-      {
-        name: "Bananada Dona Lazara saquinho 150g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/bananada-saquinhos-150g.webp",
-        price: 29.8,
-      },
-      {
-        name: "Doce bananada Dona Lazara 250g",
-        description: "O melhor doce.",
-        image: "./assets/produtos/ProdutosDonaLazara/doce-bananada-250g.webp",
-        price: 29.8,
-      },
-      {
-        name: "Doce de Abóbora com Côco Dona Lazara 220g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/doce-de-abobora-com-coco-220g.webp",
-        price: 29.8,
-      },
-      {
-        name: "Doce de Café Dona Lazara saquinho 150g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/doce-de-cafe-saquinhos-150g.webp",
-        price: 29.8,
-      },
-      {
-        name: "Doce Goiabada Cascão Dona Lazara 250g",
-        description: "O melhor doce.",
-        image:
-          "./assets/produtos/ProdutosDonaLazara/doce-goiabada-cascao-250g.webp",
-        price: 29.8,
       },
       {
         name: "Goiabada Redonda Dona Lazara 200g",
@@ -1383,9 +1271,9 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Serra Negra Bala de Doce de Leite",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/SerraNegra/bala-de-doce-de-leite.webp",
-        price: 44.0,
+        price: 0.0,
       },
       {
         name: "Tabuleiro Da Chef Cocada de Abóbora",
@@ -1395,10 +1283,10 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Tabuleiro Da Chef Cocada de Tereza Tradicional",
-        description: "O melhor doce.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/TabuleiroDaChef/cocada-de-tereza-tradicional.webp",
-        price: 33.4,
+        price: 0.0,
       },
     ],
     BebidasAlcoolicas: [
@@ -1412,7 +1300,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Casa Bianchi Licor de doce de leite com pistache 500ml",
         description: "O melhor doce de licor.",
         image: "./assets/produtos/CasaBianchi/licor-com-pistache-500ml.webp",
-        price: 69.0,
+        price: 129.0,
       },
       {
         name: "Casa Bianchi Licor creme de doce de leite de ovelha 250ml",
@@ -1426,19 +1314,19 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor doce de leite.",
         image:
           "./assets/produtos/CasaBianchi/licor-creme-de-leite-de-ovelha-500ml.webp",
-        price: 54.0,
+        price: 89.0,
       },
       {
         name: "Casa Bianchi Licor de Banoffee 250ml",
         description: "O melhor doce de licor.",
         image: "./assets/produtos/CasaBianchi/licor-banoffee-250ml.webp",
-        price: 69.0,
+        price: 63.0,
       },
       {
         name: "Casa Bianchi Licor de Banoffee 500ml",
         description: "O melhor doce de licor.",
         image: "./assets/produtos/CasaBianchi/licor-banoffee-500ml.webp",
-        price: 69.0,
+        price: 109.0,
       },
       {
         name: "AowsMininu Bananinha",
@@ -1466,9 +1354,9 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Tabuleiro Da Chef Flor de Moncello da Tereza",
-        description: "A melhor bebida.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/TabuleiroDaChef/flor-de-mOncello.webp",
-        price: 89.9,
+        price: 0.0,
       },
       {
         name: "Tabuleiro Da Chef Licor de Jenipapo da Tereza",
@@ -1489,49 +1377,49 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 138.0,
       },
       {
-        name: "Cachaça bodegueira",
+        name: "Cachaça bodegueira Prata 375ml",
         description: "A melhor cachaça.",
         image: "./assets/produtos/Bodegueira/cachaca-branca.webp",
-        price: 138.0,
+        price: 29.0,
       },
       {
-        name: "Cachaça bodegueira",
+        name: "Cachaça bodegueira carvalho 375ml",
         description: "A melhor cachaça.",
         image: "./assets/produtos/Bodegueira/cachaca-clara.webp",
-        price: 138.0,
+        price: 39.0,
       },
       {
-        name: "Cachaça bodegueira",
-        description: "A melhor cachaça.",
+        name: "Cachaça bodegueira 3 Madeiras",
+        description: "Produto indsponível.",
         image: "./assets/produtos/Bodegueira/cachaca-escura.webp",
-        price: 138.0,
+        price: 0.0,
       },
       {
         name: "Velho Alambique Cachaça Envelhecida Blend Premium",
-        description: "A melhor cachaça.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/VelhoAlambique/cachaca-envelhecida-blend-premium.webp",
-        price: 138.0,
+        price: 0.0,
       },
       {
         name: "Velho Alambique Cachaça Envelhecida em Cabreúva Premium",
         description: "A melhor cachaça.",
         image:
           "./assets/produtos/VelhoAlambique/cachaca-envelhecida-em-cabreuva-premium.webp",
-        price: 138.0,
+        price: 80.0,
       },
       {
-        name: "Velho Alambique Cachaça Envelhecida em Carvalho",
+        name: "Velho Alambique Cachaça Envelhecida em Carvalho Premium",
         description: "A melhor cachaça.",
         image:
           "./assets/produtos/VelhoAlambique/cachaca-envelhecida-em-carvalho.webp",
-        price: 138.0,
+        price: 120.0,
       },
       {
         name: "Velho Alambique Licor de Chocolate",
         description: "A melhor cachaça.",
         image: "./assets/produtos/VelhoAlambique/licor-de-chocolate.webp",
-        price: 138.0,
+        price: 80.0,
       },
     ],
     Salames: [
@@ -2314,137 +2202,131 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Do Cacao Caixa de chocolate barras do Cacao",
         description: "O melhor chocolate.",
         image: "./assets/produtos/ChocolateDoCacao/caixa-do-cacao.webp",
-        price: 53.0,
-      },
-      {
-        name: "Do Cacao Caixa de 10 chocolates do Cacao",
-        description: "O melhor chocolate.",
-        image: "./assets/produtos/ChocolateDoCacao/caixa-do-cacao-10.webp",
-        price: 53.0,
+        price: 245.0,
       },
       {
         name: "Do Cacao Chocolate ao Leite 40% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-40-30g.webp",
-        price: 53.0,
+        price: 19.0,
       },
       {
         name: "Do Cacao Chocolate ao Leite 40% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-40-85g.webp",
-        price: 53.0,
+        price: 40.0,
       },
       {
         name: "Do Cacao Chocolate ao Leite com castanha 40% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-com-castanha-40-30g.webp",
-        price: 53.0,
+        price: 19.0,
       },
       {
         name: "Do Cacao Chocolate ao Leite com castanha 40% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-com-castanha-40-85g.webp",
-        price: 53.0,
+        price: 40.0,
       },
       {
         name: "Do Cacao Chocolate ao Leite com cupuaçu 40% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-ao-leite-com-cupuacu-40-30g.webp",
-        price: 53.0,
+        price: 19.0,
       },
       {
         name: "Do Cacao Chocolate ao Leite com cupuaçu 40% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-com-cupuacu-40-85g.webp",
-        price: 53.0,
+        price: 40.0,
       },
       {
         name: "Do Cacao Chocolate Branco 35% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-branco-35-30g.webp",
-        price: 53.0,
+        price: 19.0,
       },
       {
         name: "Do Cacao Chocolate Branco 35% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-branco-35-85g.webp",
-        price: 53.0,
+        price: 40.0,
       },
       {
         name: "Do Cacao Chocolate Branco com amora 35% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-branco-com-amora-35-30g.webp",
-        price: 53.0,
+        price: 19.0,
       },
       {
         name: "Do Cacao Chocolate Branco com amora 35% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-branco-com-amora-35-85g.webp",
-        price: 53.0,
+        price: 40.0,
       },
       {
         name: "Do Cacao Chocolate com café 40% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-com-cafe-40-30g.webp",
-        price: 53.0,
+        price: 19.0,
       },
       {
         name: "Do Cacao Chocolate com café 40% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-com-cafe-40-85g.webp",
-        price: 53.0,
+        price: 40.0,
       },
       {
         name: "Do Cacao Chocolate Intenso 70% cacau 30g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-intenso-70-30g.webp",
-        price: 53.0,
+        price: 19.0,
       },
       {
         name: "Do Cacao Chocolate Intenso 70% cacau 85g",
         description: "O melhor chocolate.",
         image:
           "./assets/produtos/ChocolateDoCacao/chocolate-intenso-70-85g.webp",
-        price: 53.0,
+        price: 40.0,
       },
       {
         name: "Amêndoa do cacao Caramelizada 130g",
-        description: "O melhor chocolate.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/ChocolateDoCacao/amendoa-do-cacao-caramelizada-130g.webp",
-        price: 53.0,
+        price: 0.0,
       },
       {
         name: "Nibs do cacao Caramelizado 150g",
-        description: "O melhor chocolate.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/ChocolateDoCacao/nibs-do-cacao-caramelizado-150g.webp",
-        price: 53.0,
+        price: 0.0,
       },
       {
         name: "Melaço do Cacao 240g",
         description: "O melhor chocolate.",
         image: "./assets/produtos/ChocolateDoCacao/melaco-do-cacao-240g.webp",
-        price: 53.0,
+        price: 77.9,
       },
       {
         name: "Geleia do cacao 240g",
         description: "A melhor geleia.",
         image: "./assets/produtos/ChocolateDoCacao/geleia-do-cacao-240g.webp",
-        price: 53.0,
+        price: 39.9,
       },
     ],
     Manteigas: [
@@ -2613,32 +2495,32 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Tabuleiro Da Chef Farofa da Tereza Amarelinha",
         description: "A melhor farofa.",
         image: "./assets/produtos/TabuleiroDaChef/farofa-amarelinha.webp",
-        price: 29.0,
+        price: 29.9,
       },
       {
         name: "Tabuleiro Da Chef Farofa da Tereza Branquinha",
         description: "A melhor farofa.",
         image: "./assets/produtos/TabuleiroDaChef/farofa-branquinha.webp",
-        price: 29.0,
+        price: 29.9,
       },
       {
         name: "Tabuleiro Da Chef Farofa da Tereza Verdinha",
         description: "A melhor farofa.",
         image:
           "./assets/produtos/TabuleiroDaChef/farofa-da-tereza-verdinha.webp",
-        price: 29.0,
+        price: 29.9,
       },
       {
         name: "Tabuleiro Da Chef Farofa da Tereza Sertaneja",
         description: "A melhor farofa.",
         image: "./assets/produtos/TabuleiroDaChef/farofa-sertaneja.webp",
-        price: 29.0,
+        price: 29.9,
       },
       {
         name: "Empório Lessa Farofa Crocante",
         description: "A melhor farofa.",
         image: "./assets/produtos/EmporioLessa/farofa-crocante.webp",
-        price: 29.0,
+        price: 33.0,
       },
     ],
     Pates: [
@@ -2651,16 +2533,16 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "LaPopote Patê de Figado de Pato com geleia de Cebola",
-        description: "O melhor patê.",
+        description: "Produto indisponível.",
         image:
           "./assets/produtos/LaPopote/pate-de-figado-de-pato-com-geleia-de-cebola.webp",
-        price: 49.0,
+        price: 0.0,
       },
       {
         name: "LaPopote Patê de Figado de Pato",
-        description: "O melhor patê.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/LaPopote/pate-de-figado-pato.webp",
-        price: 53.0,
+        price: 0.0,
       },
       {
         name: "LaPopote Patê de Ovas de Tainha",
@@ -2670,9 +2552,9 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "LaPopote Patê de Pato",
-        description: "O melhor patê.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/LaPopote/pate-de-pato.webp",
-        price: 53.0,
+        price: 0.0,
       },
       {
         name: "LaPopote Patê de Porco",
@@ -2890,15 +2772,15 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Milagre de Minas Mostarda com Funghi 220g",
         description: "O melhor molho.",
         image:
-          "./assets/produtos/MilagreDeMinas/mostarda-de-funghi-sec-220gr.webp",
-        price: 42.0,
+          "./assets/produtos/MilagreDeMinas/mostarda-com-funghi-sec-220gr.webp",
+        price: 44.0,
       },
       {
         name: "Milagre de Minas Caixa com Potes",
         description: "O melhor molho.",
         image:
           "./assets/produtos/MilagreDeMinas/caixa-com-potes-milagre-de-minas.webp",
-        price: 42.0,
+        price: 63.0,
       },
     ],
     CamponatasAntepastos: [
@@ -2974,46 +2856,91 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Biscoitos: [
       {
-        name: "Rocêro Biscoito de polvilho Docim 80g",
-        description: "O melhor biscoito.",
-        image: "./assets/produtos/ProdutosRocero/biscoito-docim-80g.webp",
-        price: 23.9,
+        name: "Sabor Gaúcho Biscoito de Rosas Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoito-de-rosas-sem-adicao.webp",
+        price: 24.5,
       },
       {
-        name: "Rocêro Biscoito de polvilho Parmesão 80g",
-        description: "O melhor biscoito.",
-        image: "./assets/produtos/ProdutosRocero/biscoito-parmesao-80g.webp",
-        price: 23.9,
+        name: "Sabor Gaúcho Biscoito de Amendoim Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-amendoim-sem-adicao.webp",
+        price: 24.5,
       },
       {
-        name: "Rocêro Biscoito de polvilho Queijo Minas 80g",
-        description: "O melhor biscoito.",
-        image: "./assets/produtos/ProdutosRocero/biscoito-queijo-minas-80g.png",
-        price: 23.9,
+        name: "Sabor Gaúcho Biscoito de Cacau Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-cacau-sem-adicao.webp",
+        price: 24.5,
       },
       {
-        name: "Rocêro Biscoito de polvilho Salgadim 80g",
-        description: "Rocêro o melhor biscoito.",
-        image: "./assets/produtos/ProdutosRocero/biscoito-salgadim-80g.webp",
-        price: 23.9,
+        name: "Sabor Gaúcho Biscoito de Café Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-cafe-sem-adicao.webp",
+        price: 24.5,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Camomila Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-camomila-sem-adicao.webp",
+        price: 24.5,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Lavanda Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-lavanda-sem-adicao.webp",
+        price: 24.5,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Maracujá Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-maracuja-sem-adicao.webp",
+        price: 24.5,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Morango Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-morango-sem-adicao.webp",
+        price: 24.5,
+      },
+      {
+        name: "Sabor Gaúcho Biscoito de Nozes Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image:
+          "./assets/produtos/SaborGaucho/biscoitos-de-nozes-sem-adicao.webp",
+        price: 24.5,
+      },
+      {
+        name: "Sabor Gaúcho Broa de Milho Sem adição de Açúcar",
+        description: "O melhor Biscoito.",
+        image: "./assets/produtos/SaborGaucho/broa-de-milho-sem-adicao.webp",
+        price: 24.5,
       },
       {
         name: "L'apetisse Grissini Alho e Salsa",
-        description: "O melhor biscoito.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/L'apetisse/grissini-alho-salsa.webp",
-        price: 18.0,
+        price: 0.0,
       },
       {
         name: "L'apetisse Grissini tradicional",
-        description: "O melhor biscoito.",
+        description: "Produto indisponível.",
         image: "./assets/produtos/L'apetisse/grissini-tradicional.webp",
-        price: 18.0,
+        price: 0.0,
       },
       {
         name: "Vermont Torradas Vermont",
         description: "Vermont a melhor Torrada.",
         image: "./assets/produtos/Vermont/torradas-vermont.webp",
-        price: 15.0,
+        price: 12.0,
       },
     ],
   };
