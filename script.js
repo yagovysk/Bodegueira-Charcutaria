@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 44.0,
       },
       {
-        name: "Mel Mbee de Terroir 300g",
+        name: "Mel Mbee black forest",
         description: "O melhor mel.",
         image: "./assets/produtos/Mbee/mbee-mel-black-forest.webp",
         price: 36.0,
@@ -269,6 +269,36 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor mel.",
         image: "./assets/produtos/Mbee/mel-canions-gauchos.webp",
         price: 59.0,
+      },
+      {
+        name: "Mbee Mel Terroir 300g",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Mbee/mel-torroir.webp",
+        price: 59.0,
+      },
+      {
+        name: "Mbee Mel Laranjeira",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Mbee/mel-de-laranjeira.webp",
+        price: 59.0,
+      },
+      {
+        name: "Mbee Mel Gabriela",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Mbee/mbee-mel-gabriela.webp",
+        price: 44.0,
+      },
+      {
+        name: "Mbee Melato Bragantina",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Mbee/mbee-melato-bragantina.webp",
+        price: 44.0,
+      },
+      {
+        name: "Mbee Mel Silvestre 1kg",
+        description: "O melhor mel.",
+        image: "./assets/produtos/Mbee/mbee-silvestre-1kg.webp",
+        price: 44.0,
       },
       {
         name: "Mel do Cerrado Aroeira 280g",
@@ -292,6 +322,18 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Mel do Cerrado Silvestre",
         description: "O melhor mel.",
         image: "./assets/produtos/MelDoCerrado/mel-silvestre.webp",
+        price: 29.9,
+      },
+      {
+        name: "Favo de mel Cipó Úva",
+        description: "O melhor mel.",
+        image: "./assets/produtos/MelDoCerrado/favo-de-mel-cipo.webp",
+        price: 29.9,
+      },
+      {
+        name: "Favo de mel Aroeira",
+        description: "O melhor mel.",
+        image: "./assets/produtos/MelDoCerrado/favo-de-mel-aroeira.webp",
         price: 29.9,
       },
     ],
@@ -389,6 +431,12 @@ document.addEventListener("DOMContentLoaded", () => {
           "./assets/produtos/ProdutosDonaLazara/pingo-de-leite-com-amendoim.webp",
         price: 0.0,
       },
+      {
+        name: "Doce de leite de Búfala ",
+        description: "O melhor doce de leite.",
+        image: "./assets/produtos/Natomatoo/doce-de-leite-de-bufala.webp",
+        price: 35.0,
+      },
     ],
     Cafe: [
       {
@@ -424,6 +472,12 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Café Gourmet Torra Média",
+        description: "O melhor Café.",
+        image: "./assets/produtos/RignoCafe/cafe-gourmet-torra-media.webp",
+        price: 37.5,
+      },
+      {
+        name: "Duas irmãs Café Especial Torrado e moído",
         description: "O melhor Café.",
         image: "./assets/produtos/RignoCafe/cafe-gourmet-torra-media.webp",
         price: 37.5,
@@ -636,7 +690,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Geleia MeLambuzei Mexerica",
         description: "A melhor geleia.",
-        image: "./assets/produtos/MeLambuzei/me-lambuzei-mecerica.webp",
+        image: "./assets/produtos/MeLambuzei/me-lambuzei-mexerica.webp",
         price: 44.0,
       },
       {
@@ -744,6 +798,13 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "A melhor geleia.",
         image:
           "./assets/produtos/GeleiaCoroa/geleia-de-maracuja-com-hub-de-churrasco.webp",
+        price: 39.8,
+      },
+      {
+        name: "Melado de cana de Tereza",
+        description: "O melhor melado.",
+        image:
+          "./assets/produtos/TabuleiroDaChef/melado-de-cana-de-teresa.webp",
         price: 39.8,
       },
     ],
@@ -1286,6 +1347,12 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Produto indisponível.",
         image:
           "./assets/produtos/TabuleiroDaChef/cocada-de-tereza-tradicional.webp",
+        price: 0.0,
+      },
+      {
+        name: "Tabuleiro Da Chef Pimenta de Tereza",
+        description: "A melhor pimenta.",
+        image: "./assets/produtos/TabuleiroDaChef/pimenta-de-tereza.webp",
         price: 0.0,
       },
     ],
@@ -2135,6 +2202,12 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 28.0,
       },
       {
+        name: "Pomerode Creme Gorgonzola Zero Lactose",
+        description: "O melhor creme.",
+        image: "./assets/produtos/Pomedore/creme-de-gorgonzola-zero.webp",
+        price: 28.0,
+      },
+      {
         name: "Queijo Coqueiral",
         description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/QueijoCoqueiral/queijo-coqueiral.webp",
@@ -2694,6 +2767,12 @@ document.addEventListener("DOMContentLoaded", () => {
         image:
           "./assets/produtos/MilagreDeMinas/caixa-com-potes-milagre-de-minas.webp",
         price: 63.0,
+      },
+      {
+        name: "Tabuleiro Da Chef Dendê de Tereza",
+        description: "A melhor farofa.",
+        image: "./assets/produtos/TabuleiroDaChef/dende-de-tereza.webp",
+        price: 24.2,
       },
       {
         name: "Tabuleiro Da Chef Tempero da Tereza Arrozinho",
