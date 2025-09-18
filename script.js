@@ -2397,93 +2397,6 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 62.4,
       },
     ],
-    Temperos: [
-      {
-        name: "Tabuleiro Da Chef Tempero da Tereza Arrozinho",
-        description: "A melhor farofa.",
-        image:
-          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-arrozinho.webp",
-        price: 24.2,
-      },
-      {
-        name: "Tabuleiro Da Chef Tempero da Tereza Bifinho",
-        description: "A melhor farofa.",
-        image:
-          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-bifinho.webp",
-        price: 24.2,
-      },
-      {
-        name: "Tabuleiro Da Chef Tempero da Tereza Cordeirinho",
-        description: "A melhor farofa.",
-        image:
-          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-cordeirinho.webp",
-        price: 24.2,
-      },
-      {
-        name: "Tabuleiro Da Chef Tempero da Tereza Feijãozinho",
-        description: "A melhor farofa.",
-        image:
-          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-feijaozinho.webp",
-        price: 24.2,
-      },
-      {
-        name: "Tabuleiro Da Chef Tempero da Tereza Franguinho",
-        description: "A melhor farofa.",
-        image:
-          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-franguinho.webp",
-        price: 24.2,
-      },
-      {
-        name: "Tabuleiro Da Chef Tempero da Tereza Leguminho",
-        description: "A melhor farofa.",
-        image:
-          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-leguminho.webp",
-        price: 24.2,
-      },
-      {
-        name: "Tabuleiro Da Chef Tempero da Tereza Peixinho",
-        description: "A melhor farofa.",
-        image:
-          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-peixinho.webp",
-        price: 24.2,
-      },
-      {
-        name: "Tabuleiro Da Chef Pimenta da Tereza",
-        description: "A melhor geleia.",
-        image: "./assets/produtos/TabuleiroDaChef/pimenta-de-tereza.webp",
-        price: 29.9,
-      },
-      {
-        name: "ColdSmoke Sal marinho defumado",
-        description: "O melhor bacon.",
-        image: "./assets/produtos/ColdSmoke/sal-marinho-defumado.webp",
-        price: 36.0,
-      },
-      {
-        name: "ChefNBoss Fumaça Líquida",
-        description: "O melhor molho.",
-        image: "./assets/produtos/ChefNBoss/fumaca-liquida.webp",
-        price: 29.9,
-      },
-      {
-        name: "ChefNBoss Jalapeño com pimenta especial",
-        description: "O melhor molho.",
-        image: "./assets/produtos/ChefNBoss/jalapeno-pimentinha-especial.webp",
-        price: 29.9,
-      },
-      {
-        name: "L'apetisse Alho em Conserva",
-        description: "O melhor alho.",
-        image: "./assets/produtos/L'apetisse/alho-em-conserva.webp",
-        price: 29.9,
-      },
-      {
-        name: "Jais Mix de Cogumelos",
-        description: "A melhor manteiga.",
-        image: "./assets/produtos/Jais/mix-de-cogumelos.webp",
-        price: 62.4,
-      },
-    ],
     Farofas: [
       {
         name: "Tabuleiro Da Chef Farinha da Tereza",
@@ -2782,6 +2695,79 @@ document.addEventListener("DOMContentLoaded", () => {
           "./assets/produtos/MilagreDeMinas/caixa-com-potes-milagre-de-minas.webp",
         price: 63.0,
       },
+      {
+        name: "Tabuleiro Da Chef Tempero da Tereza Arrozinho",
+        description: "A melhor farofa.",
+        image:
+          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-arrozinho.webp",
+        price: 24.2,
+      },
+      {
+        name: "Tabuleiro Da Chef Tempero da Tereza Bifinho",
+        description: "A melhor farofa.",
+        image:
+          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-bifinho.webp",
+        price: 24.2,
+      },
+      {
+        name: "Tabuleiro Da Chef Tempero da Tereza Cordeirinho",
+        description: "A melhor farofa.",
+        image:
+          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-cordeirinho.webp",
+        price: 24.2,
+      },
+      {
+        name: "Tabuleiro Da Chef Tempero da Tereza Feijãozinho",
+        description: "A melhor farofa.",
+        image:
+          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-feijaozinho.webp",
+        price: 24.2,
+      },
+      {
+        name: "Tabuleiro Da Chef Tempero da Tereza Franguinho",
+        description: "A melhor farofa.",
+        image:
+          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-franguinho.webp",
+        price: 24.2,
+      },
+      {
+        name: "Tabuleiro Da Chef Tempero da Tereza Leguminho",
+        description: "A melhor farofa.",
+        image:
+          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-leguminho.webp",
+        price: 24.2,
+      },
+      {
+        name: "Tabuleiro Da Chef Tempero da Tereza Peixinho",
+        description: "A melhor farofa.",
+        image:
+          "./assets/produtos/TabuleiroDaChef/tempero-de-tereza-peixinho.webp",
+        price: 24.2,
+      },
+      {
+        name: "Tabuleiro Da Chef Pimenta da Tereza",
+        description: "A melhor geleia.",
+        image: "./assets/produtos/TabuleiroDaChef/pimenta-de-tereza.webp",
+        price: 29.9,
+      },
+      {
+        name: "ColdSmoke Sal marinho defumado",
+        description: "O melhor bacon.",
+        image: "./assets/produtos/ColdSmoke/sal-marinho-defumado.webp",
+        price: 36.0,
+      },
+      {
+        name: "ChefNBoss Fumaça Líquida",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/fumaca-liquida.webp",
+        price: 29.9,
+      },
+      {
+        name: "ChefNBoss Jalapeño com pimenta especial",
+        description: "O melhor molho.",
+        image: "./assets/produtos/ChefNBoss/jalapeno-pimentinha-especial.webp",
+        price: 29.9,
+      },
     ],
     CamponatasAntepastos: [
       {
@@ -2852,6 +2838,18 @@ document.addEventListener("DOMContentLoaded", () => {
         image:
           "./assets/produtos/Ayslla/pesto-manjericao-crocante-com-amendoas-defumadas-213g.webp",
         price: 59.9,
+      },
+      {
+        name: "L'apetisse Alho em Conserva",
+        description: "O melhor alho.",
+        image: "./assets/produtos/L'apetisse/alho-em-conserva.webp",
+        price: 29.9,
+      },
+      {
+        name: "Jais Mix de Cogumelos",
+        description: "A melhor manteiga.",
+        image: "./assets/produtos/Jais/mix-de-cogumelos.webp",
+        price: 62.4,
       },
     ],
     Biscoitos: [
