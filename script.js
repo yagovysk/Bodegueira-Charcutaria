@@ -1776,7 +1776,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Produto indisponível.",
         image: "./assets/produtos/FamilleChaulet/salame-tipo-argentino.webp",
         price: 0.0,
-      },*/
+      },
       {
         name: "Charque de Cordeiro",
         description: "O Melhor charque.",
@@ -3126,25 +3126,98 @@ document.addEventListener("DOMContentLoaded", () => {
       <p><strong>R$ ${product.price.toFixed(2)}</strong></p>
       <button>Adicionar ao Carrinho</button>
     `;
-      card
-        .querySelector("button")
-        .addEventListener("click", () => addToCart(product));
+      // attach handler explicitly and ensure button exists
+      const btn = card.querySelector("button") || (() => {
+        const b = document.createElement("button");
+        b.textContent = "Adicionar ao Carrinho";
+        card.appendChild(b);
+        return b;
+      })();
+      btn.addEventListener("click", () => addToCart(product));
+      // mark button so adjustCardStyles won't rebind unnecessarily
+      btn.dataset.bound = "1";
+
       carousel.appendChild(card);
     });
-    updateCarousel();
+    // Apply layout utilities and start behaviors
     enableMobileScroll();
+    adjustCardStyles();
+    updateCarousel();
     startCarouselLoop();
   }
 
   function enableMobileScroll() {
+    // Make carousel a horizontal flex container always; adapt overflow for mobile
+    carousel.style.display = "flex";
+    carousel.style.flexWrap = "nowrap";
+    carousel.style.gap = "16px";
+    carousel.style.alignItems = "stretch";
+    carousel.style.padding = "1rem 0";
+
     if (window.innerWidth <= 768) {
       carousel.style.overflowX = "auto";
       carousel.style.scrollSnapType = "x mandatory";
+      carousel.style.webkitOverflowScrolling = "touch";
       carousel.style.scrollBehavior = "smooth";
       carousel.style.transform = "none";
     } else {
       carousel.style.overflowX = "hidden";
+      carousel.style.scrollSnapType = "none";
+      carousel.style.scrollBehavior = "auto";
     }
+  }
+
+  function adjustCardStyles() {
+    const cards = carousel.querySelectorAll(".card");
+    cards.forEach((card) => {
+      // Base layout for each card
+      card.style.boxSizing = "border-box";
+      card.style.display = "flex";
+      card.style.flexDirection = "column";
+      card.style.alignItems = "stretch";
+      card.style.scrollSnapAlign = "start";
+      card.style.flex = "0 0 auto";
+      card.style.padding = "12px";
+      card.style.margin = "0";
+      card.style.minWidth = window.innerWidth <= 480 ? "220px" : window.innerWidth <= 768 ? "260px" : "auto";
+      card.style.maxWidth = window.innerWidth <= 768 ? "320px" : "100%";
+      card.style.borderRadius = card.style.borderRadius || "8px";
+
+      // Ensure image is responsive
+      const img = card.querySelector("img");
+      if (img) {
+        img.style.width = "100%";
+        img.style.height = "auto";
+        img.style.objectFit = "cover";
+        img.style.maxHeight = "180px";
+        img.style.borderRadius = "6px";
+      }
+
+      // Ensure button exists and is visible
+      let btn = card.querySelector("button");
+      if (!btn) {
+        btn = document.createElement("button");
+        btn.textContent = "Adicionar ao Carrinho";
+        card.appendChild(btn);
+      }
+      btn.style.display = "block";
+      btn.style.width = "100%";
+      btn.style.marginTop = "auto";
+      btn.style.padding = "0.6rem 0.8rem";
+      btn.style.boxSizing = "border-box";
+      btn.style.fontSize = "1rem";
+      btn.style.cursor = "pointer";
+      // Ensure click handler (if not already attached)
+      if (!btn.dataset.bound) {
+        const productName = card.querySelector("h4")?.textContent || "";
+        btn.addEventListener("click", () => {
+          // find product by name in currentCategory (fallback)
+          const product = currentCategory.find((p) => p.name === productName);
+          if (product) addToCart(product);
+        });
+        btn.dataset.bound = "1";
+      }
+    });
   }
 
   loadProducts();
@@ -3244,6 +3317,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("resize", () => {
     enableMobileScroll();
+    adjustCardStyles();
     startCarouselLoop();
   });
 
