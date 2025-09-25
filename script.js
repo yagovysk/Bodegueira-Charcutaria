@@ -483,6 +483,12 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 37.5,
       },
       {
+        name: "Café Tipo Superior Torrado e moído 250g",
+        description: "O melhor Café.",
+        image: "./assets/produtos/RignoCafe/cafe-tipo-superior.webp",
+        price: 37.5,
+      },
+      {
         name: "Chá do Cacao 200g",
         description: "O melhor Chá.",
         image: "./assets/produtos/ChocolateDoCacao/cha-do-cacao-200g.webp",
@@ -1942,6 +1948,13 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 28.0,
       },
       {
+        name: "Casa Bianchi Queijinho Queijo Colonial de Leite de Ovelha",
+        description: "100g, mais kg Consultar preço no Whatsapp.",
+        image:
+          "./assets/produtos/CasaBianchi/queijinho-queijo-colonial-de-leite-de-ovelha.webp",
+        price: 28.0,
+      },
+      {
         name: "Fazenda Celeiro do Leite Queijo Celero",
         description: "100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/Celero/queijo-celero.webp",
@@ -2267,6 +2280,12 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Terra Límpida Queijo Tipo Brie",
         description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/TerraLimpida/queijo-tipo-brie.webp",
+        price: 27.6,
+      },
+      {
+        name: "Fazenda São Victor Queijo Do Marajó Leite de Búfala Tipo Creme",
+        description: "Valor 100g, mais kg Consultar no whatsapp.",
+        image: "./assets/produtos/QueijoDoMarajo/queijo-de-bufala-creme.webp",
         price: 27.6,
       },
     ],
