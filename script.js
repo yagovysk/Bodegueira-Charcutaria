@@ -3127,12 +3127,14 @@ document.addEventListener("DOMContentLoaded", () => {
       <button>Adicionar ao Carrinho</button>
     `;
       // attach handler explicitly and ensure button exists
-      const btn = card.querySelector("button") || (() => {
-        const b = document.createElement("button");
-        b.textContent = "Adicionar ao Carrinho";
-        card.appendChild(b);
-        return b;
-      })();
+      const btn =
+        card.querySelector("button") ||
+        (() => {
+          const b = document.createElement("button");
+          b.textContent = "Adicionar ao Carrinho";
+          card.appendChild(b);
+          return b;
+        })();
       btn.addEventListener("click", () => addToCart(product));
       // mark button so adjustCardStyles won't rebind unnecessarily
       btn.dataset.bound = "1";
@@ -3179,7 +3181,12 @@ document.addEventListener("DOMContentLoaded", () => {
       card.style.flex = "0 0 auto";
       card.style.padding = "12px";
       card.style.margin = "0";
-      card.style.minWidth = window.innerWidth <= 480 ? "220px" : window.innerWidth <= 768 ? "260px" : "auto";
+      card.style.minWidth =
+        window.innerWidth <= 480
+          ? "220px"
+          : window.innerWidth <= 768
+          ? "260px"
+          : "auto";
       card.style.maxWidth = window.innerWidth <= 768 ? "320px" : "100%";
       card.style.borderRadius = card.style.borderRadius || "8px";
 
