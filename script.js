@@ -3179,7 +3179,8 @@ document.addEventListener("DOMContentLoaded", () => {
     carousel.style.alignItems = "stretch";
     carousel.style.padding = "1rem 0";
 
-    if (window.innerWidth <= 480) { // Apenas mobile muito pequeno usa scroll
+    if (window.innerWidth <= 480) {
+      // Apenas mobile muito pequeno usa scroll
       carousel.style.overflowX = "auto";
       carousel.style.scrollSnapType = "x mandatory";
       carousel.style.webkitOverflowScrolling = "touch";
@@ -3210,7 +3211,12 @@ document.addEventListener("DOMContentLoaded", () => {
           : window.innerWidth <= 768
           ? "240px"
           : "auto";
-      card.style.maxWidth = window.innerWidth <= 480 ? "250px" : window.innerWidth <= 768 ? "280px" : "100%";
+      card.style.maxWidth =
+        window.innerWidth <= 480
+          ? "250px"
+          : window.innerWidth <= 768
+          ? "280px"
+          : "100%";
       card.style.borderRadius = card.style.borderRadius || "8px";
 
       // Ensure image is responsive
