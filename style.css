@@ -430,6 +430,13 @@ body {
   text-align: center;
   scroll-snap-align: start;
   transition: transform 0.3s ease;
+  width: 280px;
+  min-width: 280px;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 350px;
 }
 
 .card img {
@@ -444,12 +451,17 @@ body {
   font-size: 1.1rem;
   margin: 0.5rem 0;
   font-family: "Lora", serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.3;
 }
 
 .card p {
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
   font-family: "Cormorant Garamond", serif;
+  flex-grow: 1;
 }
 
 .card button {
@@ -460,14 +472,26 @@ body {
   color: white;
   border-radius: var(--radius);
   cursor: pointer;
-  width: 15rem;
+  width: 100%;
   font-family: "Cormorant Garamond", serif;
+  margin-top: auto;
 }
 
 .card button:hover {
   background: var(--primary-color-light);
   transform: scale(1.05);
   transition: 0.3s ease;
+}
+
+.card button:disabled {
+  background: #999 !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+}
+
+.card button:disabled:hover {
+  background: #999 !important;
+  transform: none !important;
 }
 
 .card p strong {
@@ -814,9 +838,10 @@ body {
   .card {
     flex: 0 0 auto;
     scroll-snap-align: start;
-    width: 80vw;
-    max-width: 250px;
-    min-width: 200px;
+    width: 260px;
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 320px;
   }
 
   .carousel-prev,
@@ -830,11 +855,6 @@ body {
 
   .carousel-next {
     right: 10px;
-  }
-
-  .card {
-    margin: 0 0.5rem;
-    scroll-snap-align: start;
   }
 
   #cart-icon-wrapper {

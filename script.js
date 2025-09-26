@@ -455,7 +455,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Café Especial 100% Arábica",
         description: "O melhor Café.",
-        image: "./assets/produtos/RignoCafe/cafe-especial-100%-arabica.webp",
+        image: "./assets/produtos/RignoCafe/cafe-especial-100-arabica.webp",
         price: 88.0,
       },
       {
@@ -3119,23 +3119,46 @@ document.addEventListener("DOMContentLoaded", () => {
     currentCategory.forEach((product) => {
       const card = document.createElement("div");
       card.classList.add("card");
+
+      // Verifica se o produto tem preço 0 para mostrar como indisponível
+      const isUnavailable = product.price === 0;
+      const description = isUnavailable
+        ? "Produto indisponível no momento"
+        : product.description;
+      const priceText = isUnavailable
+        ? ""
+        : `<p><strong>R$ ${product.price.toFixed(2)}</strong></p>`;
+
       card.innerHTML = `
       <img src="${product.image}" alt="${product.name}" />
       <h4>${product.name}</h4>
-      <p>${product.description}</p>
-      <p><strong>R$ ${product.price.toFixed(2)}</strong></p>
-      <button>Adicionar ao Carrinho</button>
+      <p>${description}</p>
+      ${priceText}
+      <button>${
+        isUnavailable ? "Produto Indisponível" : "Adicionar ao Carrinho"
+      }</button>
     `;
       // attach handler explicitly and ensure button exists
       const btn =
         card.querySelector("button") ||
         (() => {
           const b = document.createElement("button");
-          b.textContent = "Adicionar ao Carrinho";
+          b.textContent = isUnavailable
+            ? "Produto Indisponível"
+            : "Adicionar ao Carrinho";
           card.appendChild(b);
           return b;
         })();
-      btn.addEventListener("click", () => addToCart(product));
+
+      // Se o produto estiver indisponível, desabilita o botão
+      if (isUnavailable) {
+        btn.disabled = true;
+        btn.style.backgroundColor = "#999";
+        btn.style.cursor = "not-allowed";
+      } else {
+        btn.addEventListener("click", () => addToCart(product));
+      }
+
       // mark button so adjustCardStyles won't rebind unnecessarily
       btn.dataset.bound = "1";
 
@@ -3213,9 +3236,14 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.style.padding = "0.6rem 0.8rem";
       btn.style.boxSizing = "border-box";
       btn.style.fontSize = "1rem";
-      btn.style.cursor = "pointer";
+
+      // Não sobrescreve cursor se o botão estiver desabilitado
+      if (!btn.disabled) {
+        btn.style.cursor = "pointer";
+      }
+
       // Ensure click handler (if not already attached)
-      if (!btn.dataset.bound) {
+      if (!btn.dataset.bound && !btn.disabled) {
         const productName = card.querySelector("h4")?.textContent || "";
         btn.addEventListener("click", () => {
           // find product by name in currentCategory (fallback)
