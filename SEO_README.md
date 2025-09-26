@@ -3,6 +3,7 @@
 ## ✅ Melhorias de SEO Implementadas
 
 ### 📍 Meta Tags Otimizadas
+
 - **Title**: Otimizado com palavras-chave relevantes
 - **Description**: 160 caracteres, incluindo localização e produtos principais
 - **Keywords**: Palavras-chave locais e específicas do negócio
@@ -11,6 +12,7 @@
 - **Theme Color**: Cor da marca (#961914)
 
 ### 🌐 Open Graph (Facebook/LinkedIn)
+
 - Título otimizado para redes sociais
 - Descrição específica para compartilhamento
 - Imagens com dimensões e alt text adequados
@@ -18,12 +20,14 @@
 - Site name definido
 
 ### 🐦 Twitter Cards
+
 - Card tipo "summary_large_image"
 - Título e descrição otimizados
 - Imagem com alt text
 - Handle do Twitter (@bodegueiradf)
 
 ### 📊 Dados Estruturados (JSON-LD)
+
 - Tipo: LocalBusiness (mais específico que Restaurant)
 - Informações completas do negócio
 - Coordenadas geográficas
@@ -34,6 +38,7 @@
 - Links para redes sociais
 
 ### 🗺️ Sitemap XML
+
 - URLs principais do site
 - Prioridades definidas por importância
 - Frequência de atualização
@@ -41,12 +46,14 @@
 - Data de última modificação
 
 ### 🤖 Robots.txt
+
 - Diretivas para bots de busca
 - Referência ao sitemap
 - Crawl-delay configurado
 - Permissões específicas para assets
 
 ### ⚡ Performance & Acessibilidade
+
 - Compressão Gzip configurada (.htaccess)
 - Headers de cache otimizados
 - Headers de segurança
@@ -63,6 +70,7 @@
 6. **Indexação**: Sitemap facilita descoberta de páginas
 
 ## 🎯 Palavras-chave Principais
+
 - charcutaria brasília
 - queijos artesanais df
 - salames vicente pires
@@ -80,6 +88,7 @@
 6. **Backlinks**: Estratégia de link building local
 
 ## 🔗 URLs Importantes
+
 - Sitemap: `/sitemap.xml`
 - Robots: `/robots.txt`
 - Configurações: `/.htaccess`

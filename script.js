@@ -3179,7 +3179,7 @@ document.addEventListener("DOMContentLoaded", () => {
     carousel.style.alignItems = "stretch";
     carousel.style.padding = "1rem 0";
 
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 480) { // Apenas mobile muito pequeno usa scroll
       carousel.style.overflowX = "auto";
       carousel.style.scrollSnapType = "x mandatory";
       carousel.style.webkitOverflowScrolling = "touch";
@@ -3206,11 +3206,11 @@ document.addEventListener("DOMContentLoaded", () => {
       card.style.margin = "0";
       card.style.minWidth =
         window.innerWidth <= 480
-          ? "220px"
+          ? "200px"
           : window.innerWidth <= 768
-          ? "260px"
+          ? "240px"
           : "auto";
-      card.style.maxWidth = window.innerWidth <= 768 ? "320px" : "100%";
+      card.style.maxWidth = window.innerWidth <= 480 ? "250px" : window.innerWidth <= 768 ? "280px" : "100%";
       card.style.borderRadius = card.style.borderRadius || "8px";
 
       // Ensure image is responsive
@@ -3260,7 +3260,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function updateCarousel() {
     const card = carousel.querySelector(".card");
-    if (!card || window.innerWidth <= 768) return;
+    if (!card || window.innerWidth <= 480) return; // Permite setas em tablets
 
     const offset = currentIndex * card.offsetWidth;
     carousel.scrollTo({ left: offset, behavior: "smooth" });
