@@ -544,14 +544,21 @@ body {
 .dropdown-menu li {
   padding: 10px;
   cursor: pointer;
-  text-align: center;
+  text-align: left;
   font-family: "Lora", serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .li-arrow {
   transition: transform 0.3s ease;
   font-size: 1rem;
   color: var(--primary-color);
+  flex-shrink: 0;
+  min-width: 20px;
+  text-align: center;
 }
 
 /* Quando o item estiver ativo (selecionado) */
@@ -1182,6 +1189,17 @@ body {
 
 /* Responsividade para Mobile pequeno (até 480px) */
 @media (max-width: 480px) {
+  .dropdown-menu li {
+    padding: 12px 10px;
+    font-size: 0.95rem;
+    min-height: 44px;
+  }
+
+  .li-arrow {
+    font-size: 1.1rem;
+    min-width: 24px;
+  }
+
   .card {
     width: calc(90vw - 1rem);
     min-width: 200px;

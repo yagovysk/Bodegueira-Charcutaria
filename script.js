@@ -3108,7 +3108,7 @@ document.addEventListener("DOMContentLoaded", () => {
       carouselInterval = setInterval(() => {
         currentIndex = currentIndex >= maxIndex ? 0 : currentIndex + 1;
         updateCarousel();
-      }, 3000);
+      }, 6000);
     } else {
       clearInterval(carouselInterval);
     }
