@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Molho de alho Negro 80g",
         description: "O melhot molho.",
         image: "./assets/produtos/AlhoNegro/molho-de-alho-negro.webp",
-        price: 26.0,
+        price: 28.0,
       },
       {
         name: "Pasta de alho Negro 80g",
@@ -479,7 +479,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Duas irmãs Café Especial Torrado e moído",
         description: "O melhor Café.",
-        image: "./assets/produtos/RignoCafe/cafe-gourmet-torra-media.webp",
+        image: "./assets/produtos/Divino/duas-irmas.webp",
         price: 37.5,
       },
       {
@@ -2427,27 +2427,27 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "A melhor manteiga.",
         image:
           "./assets/produtos/ManteigariaNacional/manteiga-ghee-alecrim.webp",
-        price: 54.9,
+        price: 54.0,
       },
       {
         name: "Manteigaria Nacional Manteiga Ghee com Noz Moscada e Pimenta Seca",
         description: "A melhor manteiga.",
         image:
           "./assets/produtos/ManteigariaNacional/manteiga-ghee-noz-moscada-pimenta-seca.webp",
-        price: 54.9,
+        price: 54.0,
       },
       {
         name: "Manteigaria Nacional Manteiga Ghee com Tamara",
         description: "A melhor manteiga.",
         image:
           "./assets/produtos/ManteigariaNacional/manteiga-ghee-tamara.webp",
-        price: 59.5,
+        price: 57.0,
       },
       {
         name: "Manteigaria Nacional Manteiga Ghee Tradicional",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/manteiga-ghee.webp",
-        price: 51.9,
+        price: 48.0,
       },
       {
         name: "Manteigaria Nacional Manteiga com flor de sal",
@@ -2461,13 +2461,13 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "A melhor manteiga.",
         image:
           "./assets/produtos/ManteigariaNacional/manteiga-flor-de-sal-250g.webp",
-        price: 33.9,
+        price: 42.9,
       },
       {
         name: "Manteigaria Nacional Manteiga Jatobá",
         description: "A melhor manteiga.",
         image: "./assets/produtos/ManteigariaNacional/manteiga-jatoba.webp",
-        price: 33.9,
+        price: 31.9,
       },
       {
         name: "Manteigaria Nacional Manteiga Tartufo 90g",
@@ -2486,7 +2486,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Jais Manteiga com Alho Negro",
         description: "A melhor manteiga.",
         image: "./assets/produtos/Jais/manteiga-alho-negro.webp",
-        price: 62.4,
+        price: 63.0,
       },
     ],
     Farofas: [
