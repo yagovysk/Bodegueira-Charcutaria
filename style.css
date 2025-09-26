@@ -655,6 +655,38 @@ body {
   margin-top: 1rem;
 }
 
+/* Crédito do desenvolvedor */
+.developer-credit {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-family: "Lora", serif;
+}
+
+.developer-credit p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.developer-credit a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.developer-credit a:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.togyro-black {
+  color: #000000;
+}
+
+.group-red {
+  color: var(--primary-color);
+}
+
 /* Responsividade para Mobile */
 @media (max-width: 768px) {
   /* Logo Redimensionada */
