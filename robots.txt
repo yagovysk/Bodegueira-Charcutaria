@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bodegueira-charcutaria-vicente-pires.netlify.app/sitemap.xml
+
+# Diretórios importantes
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.webp
+Allow: /*.jpg
+
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1
+
+# Principais páginas
+Allow: /#home
+Allow: /#about  
+Allow: /#products
+Allow: /#footer
