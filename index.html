@@ -22,7 +22,7 @@
     />
     <link
       rel="canonical"
-      href="https://bodegueira-charcutaria-vicente-pires.netlify.app/"
+      href="https://bodegueiradf.com.br/"
     />
     <meta name="robots" content="index,follow" />
     <meta name="author" content="Cláudia Milagres - Bodegueira Charcutaria & Cia" />
@@ -45,14 +45,14 @@
     />
     <meta
       property="og:image"
-      content="https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/logo-bodegueira.webp"
+      content="https://bodegueiradf.com.br/assets/logo-bodegueira.webp"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Logo da Bodegueira Charcutaria & Cia" />
     <meta
       property="og:url"
-      content="https://bodegueira-charcutaria-vicente-pires.netlify.app/"
+      content="https://bodegueiradf.com.br/"
     />
     <meta property="og:site_name" content="Bodegueira Charcutaria & Cia" />
     <meta property="og:locale" content="pt_BR" />
@@ -70,7 +70,7 @@
     />
     <meta
       name="twitter:image"
-      content="https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/logo-bodegueira.webp"
+      content="https://bodegueiradf.com.br/assets/logo-bodegueira.webp"
     />
     <meta name="twitter:image:alt" content="Logo da Bodegueira Charcutaria & Cia" />
 
@@ -107,11 +107,11 @@
         "alternateName": "Bodegueira",
         "description": "A melhor seleção de produtos artesanais: queijos especiais, salames, defumados, geleias e doces em Brasília DF.",
         "image": [
-          "https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/logo-bodegueira.webp",
-          "https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/perfil-bodegueira.jpg"
+          "https://bodegueiradf.com.br/assets/logo-bodegueira.webp",
+          "https://bodegueiradf.com.br/assets/perfil-bodegueira.jpg"
         ],
-        "logo": "https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/logo-bodegueira.webp",
-        "url": "https://bodegueira-charcutaria-vicente-pires.netlify.app/",
+        "logo": "https://bodegueiradf.com.br/assets/logo-bodegueira.webp",
+        "url": "https://bodegueiradf.com.br/",
         "telephone": "+5561981894200",
         "email": "bodegueira.charcutariadf@gmail.com",
         "address": {
@@ -394,6 +394,40 @@
           Fechar
         </button>
         <button id="clear-cart-button">🗑️ Esvaziar Carrinho</button>
+      </div>
+    </div>
+
+    <!-- Modal de Imagem do Produto -->
+    <div
+      id="product-image-modal"
+      class="hidden product-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="product-modal-title"
+    >
+      <div class="product-modal-overlay">
+        <div class="product-modal-content">
+          <button 
+            id="close-product-modal" 
+            class="product-modal-close" 
+            aria-label="Fechar modal"
+          >
+            ✕
+          </button>
+          <div class="product-modal-body">
+            <div class="product-modal-image">
+              <img id="modal-product-image" src="" alt="" />
+            </div>
+            <div class="product-modal-info">
+              <h3 id="modal-product-title">Nome do Produto</h3>
+              <p id="modal-product-description">Descrição do produto</p>
+              <p id="modal-product-price"><strong>R$ 0,00</strong></p>
+              <button id="modal-add-to-cart" class="modal-add-button">
+                Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

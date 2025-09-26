@@ -4,22 +4,22 @@
   
   <!-- Página Principal -->
   <url>
-    <loc>https://bodegueira-charcutaria-vicente-pires.netlify.app/</loc>
+    <loc>https://bodegueiradf.com.br/</loc>
     <lastmod>2025-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/logo-bodegueira.webp</image:loc>
+      <image:loc>https://bodegueiradf.com.br/assets/logo-bodegueira.webp</image:loc>
       <image:title>Logo da Bodegueira Charcutaria &amp; Cia</image:title>
       <image:caption>Bodegueira Charcutaria &amp; Cia - Produtos artesanais em Brasília DF</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/perfil-bodegueira.jpg</image:loc>
+      <image:loc>https://bodegueiradf.com.br/assets/perfil-bodegueira.jpg</image:loc>
       <image:title>Perfil da Bodegueira Charcutaria</image:title>
       <image:caption>Cláudia Milagres e os produtos da Bodegueira Charcutaria</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://bodegueira-charcutaria-vicente-pires.netlify.app/assets/maps-feira.webp</image:loc>
+      <image:loc>https://bodegueiradf.com.br/assets/maps-feira.webp</image:loc>
       <image:title>Localização da Feira do Produtor Vicente Pires</image:title>
       <image:caption>Mapa da localização da Bodegueira na Feira do Produtor Vicente Pires</image:caption>
     </image:image>
@@ -27,7 +27,7 @@
 
   <!-- Seção Home -->
   <url>
-    <loc>https://bodegueira-charcutaria-vicente-pires.netlify.app/#home</loc>
+    <loc>https://bodegueiradf.com.br/#home</loc>
     <lastmod>2025-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -35,7 +35,7 @@
 
   <!-- Seção Sobre -->
   <url>
-    <loc>https://bodegueira-charcutaria-vicente-pires.netlify.app/#about</loc>
+    <loc>https://bodegueiradf.com.br/#about</loc>
     <lastmod>2025-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -43,7 +43,7 @@
 
   <!-- Seção Produtos -->
   <url>
-    <loc>https://bodegueira-charcutaria-vicente-pires.netlify.app/#products</loc>
+    <loc>https://bodegueiradf.com.br/#products</loc>
     <lastmod>2025-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -51,7 +51,7 @@
 
   <!-- Seção Contato/Footer -->
   <url>
-    <loc>https://bodegueira-charcutaria-vicente-pires.netlify.app/#footer</loc>
+    <loc>https://bodegueiradf.com.br/#footer</loc>
     <lastmod>2025-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

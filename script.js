@@ -3162,6 +3162,13 @@ document.addEventListener("DOMContentLoaded", () => {
       // mark button so adjustCardStyles won't rebind unnecessarily
       btn.dataset.bound = "1";
 
+      // Adicionar evento de clique na imagem para abrir o modal
+      const img = card.querySelector("img");
+      if (img) {
+        img.style.cursor = "pointer";
+        img.addEventListener("click", () => openProductModal(product));
+      }
+
       carousel.appendChild(card);
     });
     // Apply layout utilities and start behaviors
@@ -3408,4 +3415,85 @@ document.addEventListener("DOMContentLoaded", () => {
       searchButton.click();
     }
   });
+
+  // Funcionalidades do Modal de Produto
+  const productModal = document.getElementById("product-image-modal");
+  const closeProductModal = document.getElementById("close-product-modal");
+  const modalProductImage = document.getElementById("modal-product-image");
+  const modalProductTitle = document.getElementById("modal-product-title");
+  const modalProductDescription = document.getElementById(
+    "modal-product-description"
+  );
+  const modalProductPrice = document.getElementById("modal-product-price");
+  const modalAddToCartButton = document.getElementById("modal-add-to-cart");
+
+  let currentModalProduct = null;
+
+  // Função para abrir o modal do produto
+  function openProductModal(product) {
+    currentModalProduct = product;
+
+    modalProductImage.src = product.image;
+    modalProductImage.alt = product.name;
+    modalProductTitle.textContent = product.name;
+
+    const isUnavailable = product.price === 0;
+    modalProductDescription.textContent = isUnavailable
+      ? "Produto indisponível no momento"
+      : product.description;
+
+    if (isUnavailable) {
+      modalProductPrice.innerHTML = "";
+      modalAddToCartButton.textContent = "Produto Indisponível";
+      modalAddToCartButton.disabled = true;
+    } else {
+      modalProductPrice.innerHTML = `<strong>R$ ${product.price.toFixed(
+        2
+      )}</strong>`;
+      modalAddToCartButton.textContent = "Adicionar ao Carrinho";
+      modalAddToCartButton.disabled = false;
+    }
+
+    productModal.classList.remove("hidden");
+    document.body.style.overflow = "hidden"; // Previne scroll da página
+  }
+
+  // Função para fechar o modal
+  function closeProductModalHandler() {
+    productModal.classList.add("hidden");
+    document.body.style.overflow = "auto"; // Restaura scroll da página
+    currentModalProduct = null;
+  }
+
+  // Event listeners do modal
+  closeProductModal?.addEventListener("click", closeProductModalHandler);
+
+  // Fechar modal clicando no overlay
+  productModal?.addEventListener("click", (e) => {
+    if (
+      e.target === productModal ||
+      e.target.classList.contains("product-modal-overlay")
+    ) {
+      closeProductModalHandler();
+    }
+  });
+
+  // Fechar modal com ESC
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !productModal.classList.contains("hidden")) {
+      closeProductModalHandler();
+    }
+  });
+
+  // Adicionar produto ao carrinho pelo modal
+  modalAddToCartButton?.addEventListener("click", () => {
+    if (currentModalProduct && !modalAddToCartButton.disabled) {
+      addToCart(currentModalProduct);
+      closeProductModalHandler();
+      showMessage(`${currentModalProduct.name} adicionado ao carrinho!`);
+    }
+  });
+
+  // Expor função globalmente para uso nos cards
+  window.openProductModal = openProductModal;
 });

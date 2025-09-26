@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://bodegueira-charcutaria-vicente-pires.netlify.app/sitemap.xml
+Sitemap: https://bodegueiradf.com.br/sitemap.xml
 
 # Diretórios importantes
 Allow: /assets/
