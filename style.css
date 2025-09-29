@@ -1189,6 +1189,11 @@ body {
 
 /* Responsividade para Mobile pequeno (até 480px) */
 @media (max-width: 480px) {
+  .products {
+    height: 140vh;
+    padding: 3rem 0;
+  }
+
   .dropdown-menu li {
     padding: 12px 10px;
     font-size: 0.95rem;
