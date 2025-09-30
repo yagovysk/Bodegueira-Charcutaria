@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Caixa Alho Negro",
         description: "O melhor sabor.",
         image: "./assets/produtos/AlhoNegro/caixa-alho-negro.webp",
-        price: 28.9,
+        price: 0.0,
       },
     ],
     Mel: [
@@ -504,7 +504,7 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 15.4,
       },
       {
-        name: "Scp Copa Maturada e Defumada Especial",
+        name: "Scp Copa Maturada e Defumada Especial 100g",
         description: "O melhor defumado.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/copa-defumada-especial-maior.webp",
