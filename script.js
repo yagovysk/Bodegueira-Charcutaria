@@ -354,13 +354,13 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Doce de leite de ovelha 660g",
         description: "O melhor doce de leite.",
         image: "./assets/produtos/CasaBianchi/doce-ovelha-660.webp",
-        price: 85.0,
+        price: 88.0,
       },
       {
         name: "Doce de Leite Leite tipo A 420g",
         description: "O melhor doce de leite.",
         image: "./assets/produtos/Estrelat/doce-de-leite-tipo-a-420g.webp",
-        price: 49.0,
+        price: 0.0,
       },
       {
         name: "Doce de Leite com ameixa Dona Lazara 400g",
@@ -435,7 +435,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Doce de leite de Búfala ",
         description: "O melhor doce de leite.",
         image: "./assets/produtos/Natomatoo/doce-de-leite-de-bufala.webp",
-        price: 35.0,
+        price: 49.0,
       },
     ],
     Cafe: [
@@ -1183,86 +1183,86 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "O melhor torrone.",
         image:
           "./assets/produtos/Torrones/torrone-amendoa-avela-castanha-mel-45g.webp",
-        price: 16.0,
+        price: 0.0,
       },
       {
         name: "Torrone de amêndoas avelã e castanha sem Mel 45g",
         description: "O melhor torrone.",
         image:
           "./assets/produtos/Torrones/torrone-amendoa-avela-castanha-sem-mel-45g.webp",
-        price: 15.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Amêndoas com Chocolate 45g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-amendoa-choco-45g.webp",
-        price: 18.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Amêndoas com Chocolate 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-amendoa-chocolate.webp",
-        price: 28.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Amêndoas Figo com nozes 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-amendoas.webp",
-        price: 24.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Amêndoas avelã e Castanha de Cajú 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-castanha.webp",
-        price: 24.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Amêndoas Avelã Damasco e Cranberry 45g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-damasco-cranberry-45g.webp",
-        price: 24.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Amêndoas Avelã Damasco e Cranberry 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-damasco-cranberry.webp",
-        price: 24.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Frutas Vermelhas 45g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-frutas-vermelhas-45g.webp",
-        price: 17.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Frutas Vermelhas 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-frutas-vermelhas.webp",
-        price: 26.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Laranja com Chocolate Branco 45g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-laranja-choco-branco.webp",
-        price: 15.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Laranja com Chocolate Branco 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-laranja-chocolate.webp",
-        price: 24.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Amêndoas com Pistache 45g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-pistache-45g.webp",
-        price: 18.0,
+        price: 0.0,
       },
       {
         name: "Torrone de Amêndoas com Pistache 90g",
         description: "O melhor torrone.",
         image: "./assets/produtos/Torrones/torrone-pistache.webp",
-        price: 28.0,
+        price: 0.0,
       },
     ],
     Doces: [
@@ -1334,7 +1334,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Serra Negra Bala Quebraqueixo",
         description: "O melhor doce.",
         image: "./assets/produtos/SerraNegra/bala-quebraqueixo.webp",
-        price: 44.0,
+        price: 39.90,
       },
       {
         name: "Serra Negra Bala de Doce de Leite",
@@ -1346,19 +1346,13 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Tabuleiro Da Chef Cocada de Abóbora",
         description: "O melhor doce.",
         image: "./assets/produtos/TabuleiroDaChef/cocada-de-abobora.webp",
-        price: 33.4,
+        price: 0.0,
       },
       {
         name: "Tabuleiro Da Chef Cocada de Tereza Tradicional",
         description: "Produto indisponível.",
         image:
           "./assets/produtos/TabuleiroDaChef/cocada-de-tereza-tradicional.webp",
-        price: 0.0,
-      },
-      {
-        name: "Tabuleiro Da Chef Pimenta de Tereza",
-        description: "A melhor pimenta.",
-        image: "./assets/produtos/TabuleiroDaChef/pimenta-de-tereza.webp",
         price: 0.0,
       },
     ],
@@ -2843,10 +2837,10 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 24.2,
       },
       {
-        name: "Tabuleiro Da Chef Pimenta da Tereza",
-        description: "A melhor geleia.",
+        name: "Tabuleiro Da Chef Pimenta de Tereza",
+        description: "A melhor pimenta.",
         image: "./assets/produtos/TabuleiroDaChef/pimenta-de-tereza.webp",
-        price: 29.9,
+        price: 0.0,
       },
       {
         name: "ColdSmoke Sal marinho defumado",
@@ -3496,4 +3490,183 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Expor função globalmente para uso nos cards
   window.openProductModal = openProductModal;
+
+  // ==================== PRODUTOS EM DESTAQUE ====================
+
+  // Lista de produtos em destaque (até 20 produtos)
+  const featuredProductsData = [
+    {
+      name: "Queijo Minas Artesanal",
+      description: "Queijo artesanal de alta qualidade",
+      price: 45.9,
+      image: "./assets/produtos/Queijos/queijo-minas.webp",
+      category: "Queijos",
+    },
+    {
+      name: "Salame Italiano Premium",
+      description: "Salame artesanal italiano",
+      price: 38.5,
+      image: "./assets/produtos/Salames/salame-italiano.webp",
+      category: "Salames",
+    },
+    {
+      name: "Geleia de Frutas Vermelhas",
+      description: "Geleia artesanal de frutas",
+      price: 18.9,
+      image: "./assets/produtos/Geleias/geleia-frutas-vermelhas.webp",
+      category: "Geleias",
+    },
+    {
+      name: "Mel Puro 500g",
+      description: "Mel puro e natural",
+      price: 35.0,
+      image: "./assets/produtos/Mel/mel-puro.webp",
+      category: "Mel",
+    },
+    {
+      name: "Doce de Leite Tradicional",
+      description: "Doce de leite cremoso",
+      price: 22.9,
+      image: "./assets/produtos/DoceDeLeite/doce-leite-tradicional.webp",
+      category: "DoceDeLeite",
+    },
+    // Adicione até 20 produtos aqui
+  ];
+
+  const featuredCarousel = document.querySelector(".featured-carousel");
+  const featuredPrevButton = document.querySelector(".featured-carousel-prev");
+  const featuredNextButton = document.querySelector(".featured-carousel-next");
+
+  // Carregar produtos em destaque
+  function loadFeaturedProducts() {
+    if (!featuredCarousel) return;
+
+    featuredCarousel.innerHTML = "";
+
+    featuredProductsData.forEach((product) => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <img src="${product.image}" alt="${
+        product.name
+      }" loading="lazy" onerror="this.src='./assets/placeholder.webp'" />
+        <h4>${product.name}</h4>
+        <p>${product.description}</p>
+        <p><strong>R$ ${product.price.toFixed(2)}</strong></p>
+        <button onclick="addToCart({name: '${product.name}', price: ${
+        product.price
+      }})">
+          Adicionar ao Carrinho
+        </button>
+      `;
+
+      // Adicionar evento de clique na imagem para abrir modal
+      const img = card.querySelector("img");
+      img.style.cursor = "pointer";
+      img.addEventListener("click", () => openProductModal(product));
+
+      featuredCarousel.appendChild(card);
+    });
+  }
+
+  // Controles do carrossel de destaque
+  let featuredCurrentIndex = 0;
+
+  function updateFeaturedCarousel() {
+    if (!featuredCarousel) return;
+
+    const cards = featuredCarousel.querySelectorAll(".card");
+    if (cards.length === 0) return;
+
+    const card = cards[0];
+    const cardWidth = card.offsetWidth;
+    const cardStyle = window.getComputedStyle(card);
+    const marginRight = parseInt(cardStyle.marginRight) || 0;
+    const gap = 24; // 1.5rem
+
+    const scrollAmount = cardWidth + gap + marginRight;
+
+    featuredCarousel.scrollTo({
+      left: featuredCurrentIndex * scrollAmount,
+      behavior: "smooth",
+    });
+  }
+
+  function scrollFeaturedCarousel(direction) {
+    if (!featuredCarousel) return;
+
+    const cards = featuredCarousel.querySelectorAll(".card");
+    if (cards.length === 0) return;
+
+    const containerWidth = featuredCarousel.offsetWidth;
+    const card = cards[0];
+    const cardWidth = card.offsetWidth;
+    const gap = 24;
+    const cardsPerView = Math.floor(containerWidth / (cardWidth + gap));
+
+    if (direction === "next") {
+      featuredCurrentIndex = Math.min(
+        cards.length - cardsPerView,
+        featuredCurrentIndex + 1
+      );
+    } else {
+      featuredCurrentIndex = Math.max(0, featuredCurrentIndex - 1);
+    }
+
+    updateFeaturedCarousel();
+  }
+
+  featuredPrevButton?.addEventListener("click", () => {
+    scrollFeaturedCarousel("prev");
+  });
+
+  featuredNextButton?.addEventListener("click", () => {
+    scrollFeaturedCarousel("next");
+  });
+
+  // Carrossel automático para produtos em destaque
+  let featuredCarouselInterval;
+
+  function startFeaturedCarouselLoop() {
+    if (featuredProductsData.length <= 1 || !featuredCarousel) return;
+
+    clearInterval(featuredCarouselInterval);
+
+    const cards = featuredCarousel.querySelectorAll(".card");
+    const containerWidth = featuredCarousel.offsetWidth;
+    const cardWidth = cards[0]?.offsetWidth || 280;
+    const gap = 24;
+    const cardsPerView = Math.floor(containerWidth / (cardWidth + gap)) || 1;
+    const maxIndex = Math.max(0, cards.length - cardsPerView);
+
+    featuredCarouselInterval = setInterval(() => {
+      if (featuredCurrentIndex >= maxIndex) {
+        featuredCurrentIndex = 0;
+      } else {
+        featuredCurrentIndex++;
+      }
+      updateFeaturedCarousel();
+    }, 6000);
+  }
+
+  function resetFeaturedCarouselLoop() {
+    clearInterval(featuredCarouselInterval);
+    setTimeout(startFeaturedCarouselLoop, 1000);
+  }
+
+  // Pausar carrossel ao interagir
+  featuredPrevButton?.addEventListener("click", resetFeaturedCarouselLoop);
+  featuredNextButton?.addEventListener("click", resetFeaturedCarouselLoop);
+
+  // Reiniciar carrossel ao redimensionar a janela
+  window.addEventListener("resize", () => {
+    if (featuredCarousel) {
+      updateFeaturedCarousel();
+      resetFeaturedCarouselLoop();
+    }
+  });
+
+  // Inicializar produtos em destaque
+  loadFeaturedProducts();
+  startFeaturedCarouselLoop();
 });
