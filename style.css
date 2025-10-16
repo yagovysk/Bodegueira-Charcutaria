@@ -291,6 +291,28 @@ body {
   color: #666;
   margin: 0;
   line-height: 1.5;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  text-align: justify;
+}
+
+.product-modal-info p::-webkit-scrollbar {
+  width: 6px;
+}
+
+.product-modal-info p::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.product-modal-info p::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.product-modal-info p::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .product-modal-info p strong {
@@ -766,6 +788,23 @@ body {
   width: 100%;
   font-family: "Cormorant Garamond", serif;
   margin-top: auto;
+}
+
+.card .btn-saiba-mais {
+  background: #555;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card .btn-saiba-mais:hover {
+  background: #666;
+  transform: scale(1.03);
+}
+
+.card .btn-add-cart {
+  margin-top: 0;
 }
 
 .card button:hover {

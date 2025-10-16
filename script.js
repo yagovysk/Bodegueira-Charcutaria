@@ -364,31 +364,33 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Doce de Leite com ameixa Dona Lazara 400g",
-        description: "Produto indisponível.",
+        description: "O doce de leite com ameixa...",
+        longDescription:
+          "O doce de leite com ameixa Dona Lázara, direto de Minas Gerais, é o autêntico doce de leite artesanal mineiro combinado com o sabor marcante da ameixa, cremosíssimo e irresistível!",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-ameixa-400g.webp",
-        price: 0.0,
+        price: 46.0,
       },
       {
         name: "Doce de Leite com Goiabada Dona Lazara 400g",
         description: "O melhor doce.",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-goiabada-400g.webp",
-        price: 0.0,
+        price: 46.0,
       },
       {
         name: "Doce de Leite com Maracujá Dona Lazara 400g",
         description: "Produto indisponível.",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-maracuja-400g.webp",
-        price: 0.0,
+        price: 46.0,
       },
       {
         name: "Doce de Leite com Morango Dona Lazara 400g",
         description: "Produto indisponível.",
         image:
           "./assets/produtos/ProdutosDonaLazara/doce-de-leite-morango-400g.webp",
-        price: 0.0,
+        price: 46.0,
       },
       {
         name: "Doce de Leite Talhado Dona Lazara 400g",
@@ -1334,7 +1336,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Serra Negra Bala Quebraqueixo",
         description: "O melhor doce.",
         image: "./assets/produtos/SerraNegra/bala-quebraqueixo.webp",
-        price: 39.90,
+        price: 39.9,
       },
       {
         name: "Serra Negra Bala de Doce de Leite",
@@ -1962,9 +1964,9 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Fazenda Celeiro do Leite Queijo Cremoso Autoral",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor das 100g.",
         image: "./assets/produtos/Cremoso/queijo-autoral.webp",
-        price: 0.0,
+        price: 13.0,
       },
       {
         name: "Fazenda Generosa Queijo O enigma",
@@ -3123,20 +3125,38 @@ document.addEventListener("DOMContentLoaded", () => {
         ? ""
         : `<p><strong>R$ ${product.price.toFixed(2)}</strong></p>`;
 
+      // Botão "Saiba mais" se tiver descrição longa
+      const saibaMaisButton = product.longDescription
+        ? `<button class="btn-saiba-mais">Saiba Mais</button>`
+        : "";
+
       card.innerHTML = `
       <img src="${product.image}" alt="${product.name}" />
       <h4>${product.name}</h4>
       <p>${description}</p>
       ${priceText}
-      <button>${
+      ${saibaMaisButton}
+      <button class="btn-add-cart">${
         isUnavailable ? "Produto Indisponível" : "Adicionar ao Carrinho"
       }</button>
     `;
+
+      // Handler para botão "Saiba mais"
+      if (product.longDescription) {
+        const saibaMaisBtn = card.querySelector(".btn-saiba-mais");
+        if (saibaMaisBtn) {
+          saibaMaisBtn.addEventListener("click", () =>
+            openProductModal(product)
+          );
+        }
+      }
+
       // attach handler explicitly and ensure button exists
       const btn =
-        card.querySelector("button") ||
+        card.querySelector(".btn-add-cart") ||
         (() => {
           const b = document.createElement("button");
+          b.className = "btn-add-cart";
           b.textContent = isUnavailable
             ? "Produto Indisponível"
             : "Adicionar ao Carrinho";
@@ -3432,9 +3452,13 @@ document.addEventListener("DOMContentLoaded", () => {
     modalProductTitle.textContent = product.name;
 
     const isUnavailable = product.price === 0;
-    modalProductDescription.textContent = isUnavailable
+
+    // Usa longDescription se disponível, senão usa description
+    const displayDescription = isUnavailable
       ? "Produto indisponível no momento"
-      : product.description;
+      : product.longDescription || product.description;
+
+    modalProductDescription.textContent = displayDescription;
 
     if (isUnavailable) {
       modalProductPrice.innerHTML = "";
@@ -3499,28 +3523,30 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Queijo Minas Artesanal",
       description: "Queijo artesanal de alta qualidade",
       price: 45.9,
-      image: "./assets/produtos/Queijos/queijo-minas.webp",
+      image:
+        "./assets/produtos/Cabrissima/queijo-maturado-de-leite-de-cabra-brasilia.webp",
       category: "Queijos",
     },
     {
-      name: "Salame Italiano Premium",
-      description: "Salame artesanal italiano",
+      name: "Doce de Leite de Ovelha 160g",
+      description: "Doce de leite cremoso feito com leite de ovelha.",
       price: 38.5,
-      image: "./assets/produtos/Salames/salame-italiano.webp",
-      category: "Salames",
+      image: "./assets/produtos/CasaBianchi/doce-ovelha-160.webp",
+      category: "Doce de Leite",
     },
     {
-      name: "Geleia de Frutas Vermelhas",
-      description: "Geleia artesanal de frutas",
+      name: "Geleia de Frutas Vermelhas sem adição de açúcar",
+      description: "Geleia de frutas vermelhas sem adição de açúcar.",
       price: 18.9,
-      image: "./assets/produtos/Geleias/geleia-frutas-vermelhas.webp",
+      image:
+        "./assets/produtos/Puro&Leve/geleia-de-frutas-vermelhas-sem-adicao.png",
       category: "Geleias",
     },
     {
-      name: "Mel Puro 500g",
-      description: "Mel puro e natural",
+      name: "Mel Amaze Citrus 200g",
+      description: "Mel puro e natural com notas cítricas.",
       price: 35.0,
-      image: "./assets/produtos/Mel/mel-puro.webp",
+      image: "./assets/produtos/Amaze/mel-amaze-citrus-200g.webp",
       category: "Mel",
     },
     {
