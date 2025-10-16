@@ -611,9 +611,9 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Olho Linguiça Blumenau",
-        description: "Verificar Disponibilidade.",
+        description: "Valor por peso das 100g.",
         image: "./assets/produtos/Olho/linguica-blumenau.webp",
-        price: 0.0,
+        price: 11.8,
       },
       {
         name: "Olho Linguiça Húngara",
@@ -3521,9 +3521,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const featuredProductsData = [
     {
       name: "Olho Linguiça Blumenau",
-      description: "Verificar Disponibilidade.",
+      description: "Valor por peso das 100g.",
       image: "./assets/produtos/Olho/linguica-blumenau.webp",
-      price: 0.0,
+      price: 11.8,
     },
     {
       name: "ColdSmoke Torresmo de Rolo",
