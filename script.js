@@ -3520,43 +3520,115 @@ document.addEventListener("DOMContentLoaded", () => {
   // Lista de produtos em destaque (até 20 produtos)
   const featuredProductsData = [
     {
-      name: "Queijo Minas Artesanal",
-      description: "Queijo artesanal de alta qualidade",
-      price: 45.9,
+      name: "Olho Linguiça Blumenau",
+      description: "Verificar Disponibilidade.",
+      image: "./assets/produtos/Olho/linguica-blumenau.webp",
+      price: 0.0,
+    },
+    {
+      name: "ColdSmoke Torresmo de Rolo",
+      description: "O melhor torresmo.",
+      image: "./assets/produtos/ColdSmoke/torresmo-de-rolo.webp",
+      price: 31.9,
+    },
+    {
+      name: "Guanciale Maturado",
+      description: "O melhor guanciale.",
+      image: "./assets/produtos/ColdSmoke/guanciale-maturado.webp",
+      price: 43.9,
+    },
+    {
+      name: "Doce de leite de ovelha 260g",
+      description: "O melhor doce de leite.",
+      image: "./assets/produtos/CasaBianchi/doce-ovelha-260.webp",
+      price: 46.0,
+    },
+    {
+      name: "Serra Negra Bala de Doce de Leite",
+      description: "Produto indisponível.",
+      image: "./assets/produtos/SerraNegra/bala-de-doce-de-leite.webp",
+      price: 0.0,
+    },
+    {
+      name: "Molho de alho Negro 160g",
+      description: "Nosso campeão de vendas!",
+      image: "./assets/produtos/AlhoNegro/molho-alho-negro-160g.webp",
+      price: 51.0,
+    },
+    {
+      name: "Manteigaria Nacional Manteiga Ghee Tradicional",
+      description: "A melhor manteiga.",
+      image: "./assets/produtos/ManteigariaNacional/manteiga-ghee.webp",
+      price: 48.0,
+    },
+    {
+      name: "Café Especial 100% Arábica",
+      description: "O melhor Café.",
+      image: "./assets/produtos/RignoCafe/cafe-especial-100-arabica.webp",
+      price: 88.0,
+    },
+    {
+      name: "Casa Bianchi Licor creme de doce de leite de ovelha 250ml",
+      description: "O melhor doce de leite.",
+      image: "./assets/produtos/CasaBianchi/licor-creme-doce-ovelha-250ml.webp",
+      price: 54.0,
+    },
+    {
+      name: "Do Cacao Licor do Cacao 750ml",
+      description: "O melhor licor.",
+      image: "./assets/produtos/ChocolateDoCacao/licor-do-cacao-750ml.webp",
+      price: 138.0,
+    },
+    {
+      name: "Geleia MeLambuzei Mexerica",
+      description: "A melhor geleia.",
+      image: "./assets/produtos/MeLambuzei/me-lambuzei-mexerica.webp",
+      price: 44.0,
+    },
+    {
+      name: "Tabuleiro Da Chef Geleia da Tereza de Jabuticaba com Pimenta",
+      description: "A melhor geleia.",
+      image: "./assets/produtos/TabuleiroDaChef/jabuticaba-pimenta.webp",
+      price: 26.0,
+    },
+    {
+      name: "Bisnaga Geleia laranja com vinho e cravo",
+      description: "A melhor geleia.",
       image:
-        "./assets/produtos/Cabrissima/queijo-maturado-de-leite-de-cabra-brasilia.webp",
-      category: "Queijos",
+        "./assets/produtos/BrazilianFlavor/geleia-flavor-laranja-com-vinho-cravo.webp",
+      price: 31.0,
     },
     {
-      name: "Doce de Leite de Ovelha 160g",
-      description: "Doce de leite cremoso feito com leite de ovelha.",
-      price: 38.5,
-      image: "./assets/produtos/CasaBianchi/doce-ovelha-160.webp",
-      category: "Doce de Leite",
-    },
-    {
-      name: "Geleia de Frutas Vermelhas sem adição de açúcar",
-      description: "Geleia de frutas vermelhas sem adição de açúcar.",
-      price: 18.9,
+      name: "Milagre de Minas Mostarda com jabuticaba 220g",
+      description: "O melhor molho.",
       image:
-        "./assets/produtos/Puro&Leve/geleia-de-frutas-vermelhas-sem-adicao.png",
-      category: "Geleias",
+        "./assets/produtos/MilagreDeMinas/mostarda-com-jabuticaba-220g.webp",
+      price: 44.0,
     },
     {
-      name: "Mel Amaze Citrus 200g",
-      description: "Mel puro e natural com notas cítricas.",
-      price: 35.0,
-      image: "./assets/produtos/Amaze/mel-amaze-citrus-200g.webp",
-      category: "Mel",
+      name: "Queijaria Bolderini Queijo Santa Graça",
+      description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
+      image: "./assets/produtos/QueijariaBolderini/queijo-santa-graca.webp",
+      price: 15.3,
     },
     {
-      name: "Doce de Leite Tradicional",
-      description: "Doce de leite cremoso",
-      price: 22.9,
-      image: "./assets/produtos/DoceDeLeite/doce-leite-tradicional.webp",
-      category: "DoceDeLeite",
+      name: "Pomerode Creme Tipo Brie Zero Lactose",
+      description: "O melhor creme.",
+      image: "./assets/produtos/Pomedore/creme-tipo-brie-zero-lactose.webp",
+      price: 28.0,
     },
-    // Adicione até 20 produtos aqui
+    {
+      name: "Fazenda São Victor Queijo Do Marajó Leite de Búfala Tipo Creme",
+      description: "Valor 100g, mais kg Consultar no whatsapp.",
+      image: "./assets/produtos/QueijoDoMarajo/queijo-de-bufala-creme.webp",
+      price: 27.6,
+    },
+    {
+      name: "Goa Queijo Mantiqueira de minas 6kg",
+      description: "Consultar preço no Whatsapp.",
+      image: "./assets/produtos/Goa/mantiqueira-de-minas-6kg.webp",
+      price: 0.0,
+    },
   ];
 
   const featuredCarousel = document.querySelector(".featured-carousel");
