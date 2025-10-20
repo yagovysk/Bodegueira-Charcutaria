@@ -3179,7 +3179,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Adicionar evento de clique na imagem para abrir o modal
       const img = card.querySelector("img");
       if (img) {
-        img.style.cursor = "pointer";
+        img.style.cursor = "zoom-in";
         img.addEventListener("click", () => openProductModal(product));
       }
 
@@ -3553,7 +3553,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Molho de alho Negro 160g",
       description: "Nosso campeão de vendas!",
       image: "./assets/produtos/AlhoNegro/molho-alho-negro-160g.webp",
-      price: 51.0,
+      price: 0.0,
     },
     {
       name: "Manteigaria Nacional Manteiga Ghee Tradicional",
@@ -3589,7 +3589,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Tabuleiro Da Chef Geleia da Tereza de Jabuticaba com Pimenta",
       description: "A melhor geleia.",
       image: "./assets/produtos/TabuleiroDaChef/jabuticaba-pimenta.webp",
-      price: 26.0,
+      price: 0.0,
     },
     {
       name: "Bisnaga Geleia laranja com vinho e cravo",
@@ -3603,7 +3603,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "O melhor molho.",
       image:
         "./assets/produtos/MilagreDeMinas/mostarda-com-jabuticaba-220g.webp",
-      price: 44.0,
+      price: 0.0,
     },
     {
       name: "Queijaria Bolderini Queijo Santa Graça",
@@ -3660,7 +3660,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Adicionar evento de clique na imagem para abrir modal
       const img = card.querySelector("img");
-      img.style.cursor = "pointer";
+      img.style.cursor = "zoom-in";
       img.addEventListener("click", () => openProductModal(product));
 
       featuredCarousel.appendChild(card);
