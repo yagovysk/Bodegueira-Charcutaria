@@ -3543,18 +3543,18 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./assets/produtos/CasaBianchi/doce-ovelha-260.webp",
       price: 46.0,
     },
-    {
-      name: "Serra Negra Bala de Doce de Leite",
-      description: "Produto indisponível.",
-      image: "./assets/produtos/SerraNegra/bala-de-doce-de-leite.webp",
-      price: 0.0,
-    },
-    {
-      name: "Molho de alho Negro 160g",
-      description: "Nosso campeão de vendas!",
-      image: "./assets/produtos/AlhoNegro/molho-alho-negro-160g.webp",
-      price: 0.0,
-    },
+    // {
+    //   name: "Serra Negra Bala de Doce de Leite",
+    //   description: "Produto indisponível.",
+    //   image: "./assets/produtos/SerraNegra/bala-de-doce-de-leite.webp",
+    //   price: 0.0,
+    // },
+    // {
+    //   name: "Molho de alho Negro 160g",
+    //   description: "Nosso campeão de vendas!",
+    //   image: "./assets/produtos/AlhoNegro/molho-alho-negro-160g.webp",
+    //   price: 0.0,
+    // },
     {
       name: "Manteigaria Nacional Manteiga Ghee Tradicional",
       description: "A melhor manteiga.",
@@ -3585,12 +3585,12 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./assets/produtos/MeLambuzei/me-lambuzei-mexerica.webp",
       price: 44.0,
     },
-    {
-      name: "Tabuleiro Da Chef Geleia da Tereza de Jabuticaba com Pimenta",
-      description: "A melhor geleia.",
-      image: "./assets/produtos/TabuleiroDaChef/jabuticaba-pimenta.webp",
-      price: 0.0,
-    },
+    // {
+    //   name: "Tabuleiro Da Chef Geleia da Tereza de Jabuticaba com Pimenta",
+    //   description: "A melhor geleia.",
+    //   image: "./assets/produtos/TabuleiroDaChef/jabuticaba-pimenta.webp",
+    //   price: 0.0,
+    // },
     {
       name: "Bisnaga Geleia laranja com vinho e cravo",
       description: "A melhor geleia.",
@@ -3598,13 +3598,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "./assets/produtos/BrazilianFlavor/geleia-flavor-laranja-com-vinho-cravo.webp",
       price: 31.0,
     },
-    {
-      name: "Milagre de Minas Mostarda com jabuticaba 220g",
-      description: "O melhor molho.",
-      image:
-        "./assets/produtos/MilagreDeMinas/mostarda-com-jabuticaba-220g.webp",
-      price: 0.0,
-    },
+    // {
+    //   name: "Milagre de Minas Mostarda com jabuticaba 220g",
+    //   description: "O melhor molho.",
+    //   image:
+    //     "./assets/produtos/MilagreDeMinas/mostarda-com-jabuticaba-220g.webp",
+    //   price: 0.0,
+    // },
     {
       name: "Queijaria Bolderini Queijo Santa Graça",
       description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
@@ -3623,12 +3623,12 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./assets/produtos/QueijoDoMarajo/queijo-de-bufala-creme.webp",
       price: 27.6,
     },
-    {
-      name: "Goa Queijo Mantiqueira de minas 6kg",
-      description: "Consultar preço no Whatsapp.",
-      image: "./assets/produtos/Goa/mantiqueira-de-minas-6kg.webp",
-      price: 0.0,
-    },
+    // {
+    //   name: "Goa Queijo Mantiqueira de minas 6kg",
+    //   description: "Consultar preço no Whatsapp.",
+    //   image: "./assets/produtos/Goa/mantiqueira-de-minas-6kg.webp",
+    //   price: 0.0,
+    // },
   ];
 
   const featuredCarousel = document.querySelector(".featured-carousel");
