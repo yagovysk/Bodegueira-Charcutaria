@@ -595,6 +595,75 @@ body {
   background: var(--primary-color-light);
 }
 
+/* Seção Delivery */
+.delivery-info {
+  background: linear-gradient(135deg, #4a2c1f 0%, #6b3e2e 50%, #2c1810 100%);
+  padding: 3rem 2rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.delivery-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(150, 25, 20, 0.1);
+  pointer-events: none;
+}
+
+.delivery-content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.delivery-info h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.8rem;
+  color: #f0e6d2;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+
+.delivery-info p {
+  font-family: "Lora", serif;
+  font-size: 1.3rem;
+  color: #e6d7c3;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.delivery-button {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  color: #f0e6d2;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: solid 2px var(--primary-color);
+  background: var(--primary-color);
+  padding: 1.2rem 2.5rem;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.delivery-button:hover {
+  transform: scale(1.05);
+  background: #7a140f;
+  border-color: #7a140f;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
 .products {
   display: flex;
   flex-direction: column;
@@ -1102,6 +1171,24 @@ body {
     width: 40px;
     height: 40px;
   }
+
+  /* Delivery - Tablet */
+  .delivery-info {
+    padding: 2.5rem 1rem;
+  }
+
+  .delivery-info h3 {
+    font-size: 2.4rem;
+  }
+
+  .delivery-info p {
+    font-size: 1.2rem;
+  }
+
+  .delivery-button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
 }
 
 /* Responsividade para Mobile */
@@ -1269,6 +1356,43 @@ body {
 
   .about-button {
     font-size: 1rem;
+  }
+
+  /* Delivery - Mobile */
+  .delivery-info {
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #4a2c1f 0%, #6b3e2e 50%, #2c1810 100%);
+    color: #f0e6d2;
+  }
+
+  .delivery-info h3 {
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    color: #e6d7c3;
+  }
+
+  .delivery-info p {
+    font-size: 1rem;
+    color: #f0e6d2;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .delivery-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    background: var(--primary-color);
+    color: #f0e6d2;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .delivery-button:hover {
+    background: #b8350e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
 
   .carousel-container {
