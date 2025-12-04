@@ -1685,7 +1685,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/SalumeriaSrcCaminhosDePedra/salame-colonial-defumado.webp",
-        price: 12.5,
+        price: 138.0,
       },
       {
         name: "Olho Salame Tipo italiano",
@@ -1850,21 +1850,21 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Vila Caipira Lombo Nobre Defumado com Alho",
         description: "Valor 100g, mais kg consultar no Whatsapp..",
         image: "./assets/produtos/VilaCaipira/lombo-nobre-defumado-alho.webp",
-        price: 8.8,
+        price: 0.0,
       },
       {
         name: "Vila Caipira Lombo Nobre Defumado com Pimenta",
         description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/VilaCaipira/lombo-nobre-defumado-pimenta-calabresa.webp",
-        price: 8.8,
+        price: 0.0,
       },
       {
         name: "Vila Caipira Salame de Frango Defumado Misto",
         description: "Valor 100g, mais kg consultar no Whatsapp.",
         image:
           "./assets/produtos/VilaCaipira/salame-frango-defumado-misto.webp",
-        price: 8.8,
+        price: 0.0,
       },
     ],
     Queijos: [
@@ -1954,7 +1954,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Fazenda Celeiro do Leite Queijo Celero",
         description: "100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/Celero/queijo-celero.webp",
-        price: 14.0,
+        price: 0.0,
       },
       {
         name: "Fazenda Celeiro do Leite Queijo Candeia Autoral",
@@ -1970,23 +1970,23 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Fazenda Generosa Queijo O enigma",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor das 100g.",
         image: "./assets/produtos/FazendaGenerosa/o-enigma.webp",
-        price: 0.0,
+        price: 13.0,
       },
       {
         name: "Fazenda Generosa Queijo O Lendário da Generosa",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor das 100g.",
         image:
           "./assets/produtos/FazendaGenerosa/queijo-minas-meia-cura-premium.webp",
-        price: 0.0,
+        price: 13.0,
       },
       {
         name: "Fazenda Generosa Queijo Minas Padrão Zé Luiz",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor das 100g.",
         image:
           "./assets/produtos/FazendaGenerosa/queijo-minas-padrao-ze-luiz.webp",
-        price: 0.0,
+        price: 11.0,
       },
       {
         name: "Fazenda Generosa Requeijão em Barra",
@@ -2002,9 +2002,9 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Queijo Goa",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor das 100g.",
         image: "./assets/produtos/Goa/queijo-goa.webp",
-        price: 0.0,
+        price: 16.3,
       },
       {
         name: "Goa Queijo Serra da Mantiqueira Goa zero lactose",
@@ -2015,21 +2015,21 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Irmãos Faria Queijo Minas Canastra",
-        description: "Consultar preço no Whatsapp.",
+        description: "Valor das 100g.",
         image: "./assets/produtos/IrmaosFaria/queijo-minas-canastra.webp",
-        price: 0.0,
+        price: 14.9,
       },
       {
         name: "Jeito De Mato Requeijão",
         description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/JeitoDeMato/requeijao.webp",
-        price: 12.5,
+        price: 0.0,
       },
       {
         name: "Jeito De Mato Requeijão com Raspas",
         description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/JeitoDeMato/requeijao.webp",
-        price: 12.5,
+        price: 0.0,
       },
       {
         name: "Ouro Branco Quejo Coalho com Chimichurry",
@@ -2067,7 +2067,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Paladar De Minas Queijo Calambau com Cachaça",
         description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image: "./assets/produtos/PaladarDeMinas/calambau-com-cachaca.webp",
-        price: 14.5,
+        price: 0.0,
       },
       {
         name: "Paladar De Minas Queijo Calamel",
@@ -2087,7 +2087,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Valor 100g, mais kg Consultar preço no Whatsapp.",
         image:
           "./assets/produtos/QueijariaBolderini/malacaxeta-queijo-maturado-30-dias.webp",
-        price: 16.8,
+        price: 0.0,
       },
       {
         name: "Queijaria Bolderini Queijo Santa Graça",
@@ -2166,10 +2166,10 @@ document.addEventListener("DOMContentLoaded", () => {
         price: 39.9,
       },
       {
-        name: "Lima Queijos Queijo Minas Artesanal",
+        name: "Lima Queijo Queijo Minas Artesanal",
         description: "O melhor queijo.",
         image: "./assets/produtos/LimaQueijos/lima-queijo-minas-artesanal.webp",
-        price: 39.9,
+        price: 0.0,
       },
       {
         name: "Lima Queijos Queijo Minas Artesanal",
@@ -2188,7 +2188,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Verificar Disponibilidade.",
         image:
           "./assets/produtos/MicroRegiaoSerro/queijo-minas-quilombo-inteiro.webp",
-        price: 88.0,
+        price: 0.0,
       },
       {
         name: "Micro Região Serro Queijo Minas Quilombo metade",
@@ -2202,7 +2202,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Valor 100g, mais kg Consultar no whatsapp.",
         image:
           "./assets/produtos/MicroRegiaoSerro/queijo-minas-quilombo-saco.webp",
-        price: 15.3,
+        price: 0.0,
       },
       {
         name: "Pomerode Creme Tipo Brie Zero Lactose",
@@ -2232,7 +2232,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Quinta De Sant'Ana queijo Cordilheira",
         description: "Valor 100g, mais kg Consultar no whatsapp.",
         image: "./assets/produtos/QuintaDeSant'Ana/queijo-cordilheira.webp",
-        price: 14.0,
+        price: 0.0,
       },
       {
         name: "Quinta De Sant'Ana queijo Marandu",
@@ -2242,17 +2242,17 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         name: "Rancho Maranata Queijo Mantiqueira Maranata Jovem",
-        description: "Verificar Disponibilidade.",
+        description: "Valor das 100g.",
         image:
           "./assets/produtos/RanchoMaranata/queijo-mantiqueira-maranata-jovem.webp",
-        price: 0.0,
+        price: 12.0,
       },
       {
         name: "Rancho Maranata Queijo Maranata Capa Preta",
-        description: "Verificar Disponibilidade.",
+        description: "Valor das 100g.",
         image:
           "./assets/produtos/RanchoMaranata/queijo-maranata-jovem-capa-preta.webp",
-        price: 0.0,
+        price: 13.8,
       },
       {
         name: "Terra Límpida Queijo Faggeta",
@@ -2264,7 +2264,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Terra Límpida Queijo Primavera",
         description: "Verificar Disponibildade.",
         image: "./assets/produtos/TerraLimpida/queijo-primavera.webp",
-        price: 42.0,
+        price: 0.0,
       },
       {
         name: "Terra Límpida Queijo Querciola 3 Meses",

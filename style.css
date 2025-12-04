@@ -1367,14 +1367,14 @@ body {
 
   .delivery-info h3 {
     font-size: 2rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     color: #e6d7c3;
   }
 
   .delivery-info p {
     font-size: 1rem;
     color: #f0e6d2;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
   }
 
   .delivery-button {
@@ -1384,7 +1384,7 @@ body {
     color: #f0e6d2;
     border: none;
     border-radius: 8px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     transition: all 0.3s ease;
   }
